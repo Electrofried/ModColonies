@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/linking_tool",
+    "subtitle": "This should take the sting out of beekeeping!",
+    "icon": "pedestals:coin/harvesterhives",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },    
+      {
+        "mandatory-building": "beekeeper",
+        "level": 3
+      },
+      {
+        "item": "minecraft:gold_block",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ped_bee_hive_unlock": 1
+      }
+    ]
+  }

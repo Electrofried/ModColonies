@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 5,
+    "parentResearch": "modcolonies:modology/programmer",
+    "subtitle": "It just shoots food directly in your mouth!",
+    "icon": "pneumaticcraft:aerial_interface",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 5
+      },
+      {
+        "mandatory-building": "townhall",
+        "level": 5
+      },
+      {
+        "item": "pneumaticcraft:plastic",
+        "quantity": 64
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/arial_interface_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "graveyard",
+    "inputs": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 3
+      },
+      {
+        "item": "minecraft:stone",
+        "count": 4
+      },
+      {
+        "item": "tconstruct:blood_bucket",
+        "count": 1
+      }
+    ],
+    "result": "bloodmagic:altar",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/blood_altar_unlock",
+    "show-tooltip": true
+  }

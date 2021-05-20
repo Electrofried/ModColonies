@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 4,
+    "parentResearch": "modcolonies:modology/ender_chest",
+    "subtitle": "Ultimate pocket dimension!",
+    "icon": "enderstorage:ender_pouch",
+    "requirements": [
+      {
+        "mandatory-building": "warehouse",
+        "level": 4
+      },
+      {
+        "building": "dyer",
+        "level": 1
+      },
+      {
+        "item": "enderstorage:ender_chest",
+        "quantity": 2
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ender_pouch_unlock": 1
+      }
+    ]
+  }

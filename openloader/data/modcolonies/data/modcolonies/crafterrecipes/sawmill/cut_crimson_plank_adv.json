@@ -1,0 +1,32 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill",
+  "inputs": [
+    {
+      "item": "minecraft:crimson_planks"
+    }
+  ],
+  "alternate-output": [
+
+    {
+      "item": "minecraft:crimson_fence",
+      "count": 2
+    },
+    {
+      "item": "minecraft:crimson_fence_gate",
+      "count": 2
+    },
+    {
+      "item": "minecraft:crimson_pressure_plate",
+      "count": 4
+    },
+    {
+      "item": "minecraft:crimson_sign",
+      "count": 2
+    }
+  ],
+  "result": "minecraft:crimson_trapdoor",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "min-building-level": 3
+}

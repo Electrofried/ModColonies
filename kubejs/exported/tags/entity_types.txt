@@ -1,0 +1,128 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 14, 2021 11:19:56 PM
+
+#forge:slimes
+- tconstruct:sky_slime
+
+#tconstruct:bouncy
+- tconstruct:sky_slime
+
+#per-viam-invenire:replace_vanilla_navigator
+- minecraft:bat
+- minecraft:blaze
+- minecraft:cat
+- minecraft:cave_spider
+- minecraft:chicken
+- minecraft:cow
+- minecraft:creeper
+- minecraft:donkey
+- minecraft:drowned
+- minecraft:ender_dragon
+- minecraft:enderman
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:fox
+- minecraft:ghast
+- minecraft:giant
+- minecraft:hoglin
+- minecraft:horse
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:iron_golem
+- minecraft:llama
+- minecraft:magma_cube
+- minecraft:mule
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:phantom
+- minecraft:pig
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton
+- minecraft:skeleton_horse
+- minecraft:slime
+- minecraft:snow_golem
+- minecraft:spider
+- minecraft:squid
+- minecraft:stray
+- minecraft:trader_llama
+- minecraft:vex
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+- minecraft:wither
+- minecraft:wither_skeleton
+- minecraft:wolf
+- minecraft:zoglin
+- minecraft:zombie
+- minecraft:zombie_horse
+- minecraft:zombie_villager
+- minecraft:zombified_piglin
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- supplementaries:rope_arrow
+- supplementaries:brick_projectile
+- mekanism:flame
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#forge:creepers
+- minecraft:creeper
+- mekanismadditions:baby_creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+
+#forge:endermen
+- minecraft:enderman
+- mekanismadditions:baby_enderman
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- supplementaries:rope_arrow
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#tconstruct:piggybackpack_blacklist
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant

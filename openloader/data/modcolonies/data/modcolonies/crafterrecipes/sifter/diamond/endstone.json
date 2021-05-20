@@ -1,0 +1,32 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_ender_gravel"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      },
+      {
+        "item": "minecraft:chorus_flower"
+      },
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "item": "minecraft:popped_chorus_fruit"
+      },
+      {
+        "item": "minecraft:ender_pearl"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/diamond/endstone",
+    "min-building-level": 5,
+    "intermediate": "minecraft:air"
+  }

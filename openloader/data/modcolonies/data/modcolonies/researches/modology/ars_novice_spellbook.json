@@ -1,0 +1,21 @@
+{
+  "branch": "modcolonies:modology",
+  "researchLevel": 1,
+  "subtitle": "spell slingers unite!",
+  "icon": "ars_nouveau:novice_spell_book",
+  "requirements": [
+    {
+      "building": "enchanter",
+      "level": 2
+    },
+    {
+      "item": "ars_nouveau:magic_clay",
+      "quantity": 8
+    }
+  ],
+  "effects": [
+    {
+      "modcolonies:effects/novice_spellbook_unlock": 1
+    }
+  ]
+}

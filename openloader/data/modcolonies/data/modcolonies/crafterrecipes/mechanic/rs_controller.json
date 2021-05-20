@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "refinedstorage:machine_casing",
+        "count": 1
+      },
+      {
+        "item": "refinedstorage:advanced_processor",
+        "count": 1
+      },
+      {
+        "item": "refinedstorage:quartz_enriched_iron_block",
+        "count": 1
+      }
+    ],
+    "result": "refinedstorage:controller",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "research-id": "modcolonies:effects/rs_controller_unlock",
+    "show-tooltip": true
+  }

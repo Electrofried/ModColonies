@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/advanced_cc",
+    "researchLevel": 3,
+    "icon": "mekanism:elite_control_circuit",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 4
+      },
+      {
+        "mandatory-building": "library",
+        "level": 3
+      },
+      {
+        "item": "mekanism:elite_energy_cube",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/elite_cc_unlock": 1
+      }
+    ]
+  }

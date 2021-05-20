@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "mekanism:elite_control_circuit",
+        "count": 1
+      },
+      {
+        "item": "mekanism:alloy_atomic",
+        "count": 2
+      }
+    ],
+    "result": "mekanism:ultimate_control_circuit",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "research-id": "modcolonies:effects/ultimate_cc_unlock",
+    "show-tooltip": true
+  }

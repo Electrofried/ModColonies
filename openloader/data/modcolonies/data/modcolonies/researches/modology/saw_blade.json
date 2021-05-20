@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 4,
+    "parentResearch": "modcolonies:modology/blast_brick",
+    "subtitle": "Watch your hands!",
+    "icon": "immersiveengineering:sawblade",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 4
+      },
+      {
+        "mandatory-building": "sawmill",
+        "level": 4
+      },
+      {
+        "item": "chiselsandbits:bitsaw_diamond",
+        "quantity": 2
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/saw_blade_unlock": 1
+      }
+    ]
+  }

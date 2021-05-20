@@ -1,0 +1,29 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "I sense the cries of many workers being made redundant!",
+    "icon": "botanypots:botany_pot",
+    "requirements": [
+      {
+        "mandatory-building": "florist",
+        "level": 5
+      },
+      {
+        "mandatory-building": "farmer",
+        "level": 5
+      },
+      {
+        "mandatory-building": "lumberjack",
+        "level": 5
+      },
+      {
+        "item": "minecraft:beacon",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/botany_pot_unlock": 1
+      }
+    ]
+  }

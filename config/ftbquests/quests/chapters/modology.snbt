@@ -1,0 +1,32 @@
+{
+	id: "4F33DC7F95143D16",
+	group: "",
+	order_index: 2,
+	filename: "modology",
+	title: "Modology",
+	icon: "minecolonies:ancienttome",
+	default_quest_shape: "",
+	quests: [{
+		icon: "minecolonies:ancienttome",
+		x: 0.0d,
+		y: 0.0d,
+		description: [
+			"The keys to an expanding world of mods!",
+			"",
+			"This chapter will cover all the modded content you can unlock via research in the university!"
+		],
+		dependencies: ["320513389FA918D1"],
+		id: "5CAE5A029F7A1934",
+		tasks: [{
+			id: "55BD5AE132A42EF1",
+			type: "checkmark",
+			title: "Modology!"
+		}],
+		rewards: [{
+			id: "2BE8CF618BE403F9",
+			type: "item",
+			item: "pamhc2foodcore:cookiesandmilkitem",
+			count: 16
+		}]
+	}]
+}

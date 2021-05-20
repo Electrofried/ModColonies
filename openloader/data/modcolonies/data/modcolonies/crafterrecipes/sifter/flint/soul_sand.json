@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_soul_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_flint"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_flint"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_nylium"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:crimson_nylium"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/flint/soul_sand",
+  "min-building-level": 2,
+  "intermediate": "minecraft:air"
+}

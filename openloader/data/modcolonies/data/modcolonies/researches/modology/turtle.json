@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 4,
+    "parentResearch": "modcolonies:modology/computer",
+    "subtitle": "Good News! We are all being replaced by robots!",
+    "icon": "computercraft:turtle_advanced",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 5
+      },
+      {
+        "mandatory-building": "library",
+        "level": 4
+      },
+      {
+        "item": "colony4cc:colony_wireless_advanced",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/turtle_unlock": 1
+      }
+    ]
+  }

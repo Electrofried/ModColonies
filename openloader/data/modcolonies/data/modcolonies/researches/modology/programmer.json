@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 4,
+    "parentResearch": "modcolonies:modology/assembly_controller",
+    "subtitle": "Get those drones out of my back yard!",
+    "icon": "pneumaticcraft:programmer",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 3
+      },
+      {
+        "mandatory-building": "school",
+        "level": 2
+      },
+      {
+        "item": "pneumaticcraft:advanced_pressure_tube",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/programmer_unlock": 1
+      }
+    ]
+  }

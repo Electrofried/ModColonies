@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "pneumaticcraft:unassembled_pcb",
+        "count": 3
+      },
+      {
+        "item": "pneumaticcraft:ingot_iron_compressed",
+        "count": 3
+      }
+    ],
+    "result": "pneumaticcraft:assembly_controller",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/assembly_controller_unlock",
+    "show-tooltip": true
+  }

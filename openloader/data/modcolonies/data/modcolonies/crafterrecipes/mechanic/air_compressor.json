@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "pneumaticcraft:reinforced_bricks",
+        "count": 6
+      },
+      {
+        "item": "pneumaticcraft:pressure_tube",
+        "count": 1
+      }
+    ],
+    "result": "pneumaticcraft:air_compressor",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "research-id": "modcolonies:effects/air_compressor_unlock",
+    "show-tooltip": true
+  }

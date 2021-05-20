@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item": "pedestals:coin/default",
+        "count": 1
+      },
+      {
+        "item": "minecolonies:blockhutsawmill",
+        "count": 1
+      },
+      {
+        "item": "pedestals:coin/rfimport",
+        "count": 1
+      }
+    ],
+    "result": "pedestals:coin/rfsawmill",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "research-id": "modcolonies:effects/ped_saw_unlock",
+    "show-tooltip": true
+  }

@@ -1,0 +1,44 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_dust"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_iron"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_iron"
+      },
+      {
+        "item": "exnihilosequentia:chunk_silver"
+      },
+      {
+        "item": "exnihilosequentia:chunk_tin"
+      },
+      {
+        "item": "exnihilosequentia:chunk_aluminum"
+      },
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/iron/dust",
+    "min-building-level": 3,
+    "intermediate": "minecraft:air"
+  }

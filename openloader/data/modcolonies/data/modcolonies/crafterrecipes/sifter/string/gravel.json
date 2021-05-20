@@ -1,0 +1,26 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_gravel"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_string"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_string"
+    },
+    {
+      "item": "exnihilosequentia:chunk_iron"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/string/gravel",
+  "min-building-level": 1,
+  "intermediate": "minecraft:air"
+}

@@ -1,0 +1,29 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "The solid core of many machines",
+    "icon": "mekanism:steel_casing",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 3
+      },
+      {
+        "mandatory-building": "blacksmith",
+        "level": 3
+      },
+      {
+        "mandatory-building": "smeltery",
+        "level": 3
+      },
+      {
+        "item": "mekanism:enriched_iron",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/steel_casing_unlock": 1
+      }
+    ]
+  }

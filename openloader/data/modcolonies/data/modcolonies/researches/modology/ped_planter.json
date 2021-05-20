@@ -1,0 +1,30 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/linking_tool",
+    "subtitle": "No hoe required!",
+    "icon": "pedestals:coin/planter",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },
+      {
+        "mandatory-building": "farmer",
+        "level": 3
+      },      
+      {
+        "mandatory-building": "lumberjack",
+        "level": 3
+      },
+      {
+        "item": "minecraft:gold_block",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ped_planter_unlock": 1
+      }
+    ]
+  }

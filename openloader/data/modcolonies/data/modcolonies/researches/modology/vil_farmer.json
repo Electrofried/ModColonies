@@ -1,0 +1,30 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 3,
+    "parentResearch": "modcolonies:modology/iron_farm",
+    "subtitle": "Work my minions! Work!",
+    "icon": "easy_villagers:farmer",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },
+      {
+        "mandatory-building": "farm",
+        "level": 3
+      },
+      {
+        "mandatory-building": "florist",
+        "level": 3
+      },
+      {
+        "item": "minecraft:iron_block",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/vil_farmer_unlock": 1
+      }
+    ]
+  }

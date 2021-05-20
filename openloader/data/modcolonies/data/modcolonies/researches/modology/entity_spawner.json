@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/mob_grinder",
+    "researchLevel": 2,
+    "subtitle": "Mutant jelly baby powered monsters, what could go wrong?",
+    "icon": "mob_grinding_utils:entity_spawner",
+    "requirements": [
+      {
+        "mandatory-building": "blacksmith",
+        "level": 4
+      },
+      {
+        "mandatory-building": "enchanter",
+        "level": 3
+      },
+      {
+        "item": "pamhc2foodcore:baconandeggsitem",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/entity_spawner_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "minecraft:glass",
+        "count": 4
+      },
+      {
+        "item": "immersiveengineering:treated_wood_horizontal",
+        "count": 2
+      },
+      {
+        "item": "immersiveengineering:component_iron",
+        "count": 1
+      },
+      {
+        "item": "immersiveengineering:electron_tube",
+        "count": 1
+      }
+    ],
+    "result": "immersiveengineering:cloche",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/cloche_unlock",
+    "show-tooltip": true
+  }

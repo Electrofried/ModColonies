@@ -1,0 +1,19 @@
+{
+    "type": "recipe",
+    "crafter": "sawmill",
+    "inputs": [
+      {
+        "item": "minecraft:cactus"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "structurize:blockcactusdoor",
+        "count": 1
+      }
+    ],
+    "result": "structurize:blockcactusplank",
+    "count": 6,
+    "intermediate": "minecraft:air",
+    "min-building-level": 2
+  }

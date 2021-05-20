@@ -1,0 +1,36 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/spell_casting"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:getting_started/spell_casting"
+      ],
+      "completedManualQuests": []
+    },
+    "engineerstools:engineerstools_manual": {
+      "viewedEntries": [
+        "engineerstools:consumables/grits"
+      ],
+      "bookmarks": [],
+      "history": [
+        "engineerstools:consumables/grits"
+      ],
+      "completedManualQuests": []
+    },
+    "bloodmagic:guide": {
+      "viewedEntries": [
+        "bloodmagic:altar/blood_altar"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bloodmagic:altar/blood_altar"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

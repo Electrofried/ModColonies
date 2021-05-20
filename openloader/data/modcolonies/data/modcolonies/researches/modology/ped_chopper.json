@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/linking_tool",
+    "subtitle": "No hoe required!",
+    "icon": "pedestals:coin/chopper",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },    
+      {
+        "mandatory-building": "lumberjack",
+        "level": 4
+      },
+      {
+        "item": "minecraft:gold_block",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ped_chopper_unlock": 1
+      }
+    ]
+  }

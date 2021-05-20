@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/vintium",
+    "researchLevel": 3,
+    "subtitle": "It's alive!!!",
+    "icon": "mana-and-artifice:manaweaving_altar",
+    "requirements": [
+      {
+        "mandatory-building": "mysticalsite",
+        "level": 4
+      },
+      {
+        "mandatory-building": "deliveryman",
+        "level": 4
+      },
+      {
+        "item": "mana-and-artifice:purified_vinteum_dust",
+        "quantity": 48
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/mana_weaving_altar_unlock": 1
+      }
+    ]
+  }

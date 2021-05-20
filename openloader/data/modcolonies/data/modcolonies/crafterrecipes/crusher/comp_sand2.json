@@ -1,0 +1,15 @@
+{
+    "type" : "recipe",
+    "crafter": "crusher",
+    "inputs": [
+      {
+          "item" : "excompressum:compressed_gravel",
+          "count": "1"
+      }
+    ],
+    "result": "excompressum:compressed_sand",
+    "count": "1",
+    "intermediate" : "minecraft:air",
+    "research-id" : "minecolonies:technology/gildedhammer",
+    "show-tooltip": true
+  }

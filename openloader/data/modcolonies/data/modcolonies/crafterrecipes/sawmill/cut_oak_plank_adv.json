@@ -1,0 +1,32 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill",
+  "inputs": [
+    {
+      "item": "minecraft:oak_planks"
+    }
+  ],
+  "alternate-output": [
+
+    {
+      "item": "minecraft:oak_fence",
+      "count": 2
+    },
+    {
+      "item": "minecraft:oak_fence_gate",
+      "count": 2
+    },
+    {
+      "item": "minecraft:oak_pressure_plate",
+      "count": 4
+    },
+    {
+      "item": "minecraft:oak_sign",
+      "count": 2
+    }
+  ],
+  "result": "minecraft:oak_trapdoor",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "min-building-level": 3
+}

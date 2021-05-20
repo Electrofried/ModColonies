@@ -1,0 +1,30 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 4,
+    "parentResearch": "modcolonies:modology/blast_brick",
+    "subtitle": "It even works at night! It just never sleeps! It is a machine!",
+    "icon": "immersiveengineering:cloche",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 4
+      },
+      {
+        "mandatory-building": "farmer",
+        "level": 5
+      },
+      {
+        "mandatory-building": "florist",
+        "level": 4
+      },
+      {
+        "item": "immersiveengineering:circuit_board",
+        "quantity": 32
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/cloche_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,32 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill",
+  "inputs": [
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  ],
+  "alternate-output": [
+
+    {
+      "item": "minecraft:acacia_fence",
+      "count": 2
+    },
+    {
+      "item": "minecraft:acacia_fence_gate",
+      "count": 2
+    },
+    {
+      "item": "minecraft:acacia_pressure_plate",
+      "count": 4
+    },
+    {
+      "item": "minecraft:acacia_sign",
+      "count": 2
+    }
+  ],
+  "result": "minecraft:acacia_trapdoor",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "min-building-level": 3
+}

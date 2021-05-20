@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_gravel"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_flint"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_flint"
+    },
+    {
+      "item": "exnihilosequentia:chunk_iron"
+    },
+    {
+      "item": "exnihilosequentia:chunk_copper"
+    },
+    {
+      "item": "exnihilosequentia:chunk_zinc"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/flint/gravel",
+  "min-building-level": 2,
+  "intermediate": "minecraft:air"
+}

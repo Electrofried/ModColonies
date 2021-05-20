@@ -1,0 +1,27 @@
+{
+    "type": "recipe",
+    "crafter": "stonemason",
+    "inputs": [
+      {
+        "item": "minecraft:granite"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:granite_slab",
+        "count": 2
+      },
+      {
+        "item": "minecraft:granite_stairs",
+        "count": 1
+      },
+      {
+        "item": "minecraft:granite_wall",
+        "count": 1
+      }
+    ],
+    "result": "minecraft:polished_granite",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1
+  }

@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Don't push me cause I'm close to the edge!",
+    "icon": "darkutils:blank_plate",
+    "requirements": [
+      {
+        "building": "stonemason",
+        "level": 3
+      },
+      {
+        "building": "enchanter",
+        "level": 2
+      },
+      {
+        "item": "minecraft:sticky_piston",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/blank_plate_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_diamond"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_diamond"
+    },
+    {
+      "item": "exnihilosequentia:chunk_iron"
+    },
+    {
+      "item": "mekanism:salt"
+    },
+    {
+      "item": "mana-and-artifice:vinteum_dust"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "ars_nouveau:mana_gem"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    },
+    { 
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/diamond/sand",
+  "min-building-level": 5,
+  "intermediate": "minecraft:air"
+}

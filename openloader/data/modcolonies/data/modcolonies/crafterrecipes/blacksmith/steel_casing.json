@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "blacksmith",
+    "inputs": [
+      {
+        "item": "mekanism:ingot_osmium",
+        "count": 1
+      },
+      {
+        "item": "immersiveengineering:plate_steel",
+        "count": 8
+      }
+    ],
+    "result": "mekanism:steel_casing",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/steel_casing_unlock",
+    "show-tooltip": true
+  }

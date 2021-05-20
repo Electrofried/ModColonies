@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      {
+        "item": "minecraft:wheat_seeds",
+        "count": 4
+      },
+      {
+        "item": "mob_grinding_utils:solid_xp_block",
+        "count": 1
+      }
+    ],
+    "result": "mob_grinding_utils:gm_chicken_feed_cursed",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/gm_chicken_feed_unlock",
+    "show-tooltip": true
+  }

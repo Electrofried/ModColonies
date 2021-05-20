@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "create:andesite_alloy",
+        "count": 2
+      },
+      {
+        "item": "create:andesite_casing",
+        "count": 1
+      },
+      {
+        "item": "minecraft:iron_bars",
+        "count": 4
+      }
+    ],
+    "result": "create:mechanical_harvester",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/create_harvester_unlock",
+    "show-tooltip": true
+  }

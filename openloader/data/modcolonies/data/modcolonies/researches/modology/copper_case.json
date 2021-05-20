@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/andesite_alloy",
+    "researchLevel": 2,
+    "subtitle": "Don't forget to give it a polish or it will turn green!",
+    "icon": "create:copper_casing",
+    "requirements": [
+      {
+        "building": "mechanic",
+        "level": 2
+      },
+      {
+        "building": "blacksmith",
+        "level": 1
+      },
+      {
+        "item": "create:copper_valve_handle",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/copper_case_unlock": 1
+      }
+    ]
+  }

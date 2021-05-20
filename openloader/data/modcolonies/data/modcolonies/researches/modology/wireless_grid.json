@@ -1,0 +1,30 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 5,
+    "parentResearch": "modcolonies:modology/rs_controller",
+    "subtitle": "I hope this does not run on 5G!",
+    "icon": "refinedstorageaddons:creative_wireless_crafting_grid",
+    "requirements": [
+      {
+        "mandatory-building": "warehouse",
+        "level": 5
+      },
+      {
+        "mandatory-building": "deliveryman",
+        "level": 5
+      },
+      {
+        "mandatory-building": "mysticalsite",
+        "level": 1
+      },
+      {
+        "item": "colony4cc:colony_wireless_normal",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/wireless_grid_unlock": 1
+      }
+    ]
+  }

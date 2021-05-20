@@ -1,0 +1,15 @@
+{
+	id: "6B5550AD03D5E812",
+	order_index: 0,
+	title: "camp_ship",
+	icon: "minecolonies:supplycampdeployer",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecolonies:supplycampdeployer"
+		},
+		{
+			item: "minecolonies:supplychestdeployer"
+		}
+	]
+}

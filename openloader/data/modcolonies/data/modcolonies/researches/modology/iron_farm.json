@@ -1,0 +1,29 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Those golems sure have a magnetic personality.",
+    "icon": "easy_villagers:iron_farm",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },
+      {
+        "mandatory-building": "mine",
+        "level": 3
+      },
+      {
+        "mandatory-building": "blacksmith",
+        "level": 3
+      },
+      {
+        "item": "minecraft:iron_block",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/iron_farm_unlock": 1
+      }
+    ]
+  }

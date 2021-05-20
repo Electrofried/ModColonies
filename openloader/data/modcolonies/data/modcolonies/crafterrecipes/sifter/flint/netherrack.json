@@ -1,0 +1,26 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_nether_gravel"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_flint"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_flint"
+      },
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "exnihilosequentia:chunk_gold"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/flint/netherrack",
+    "min-building-level": 2,
+    "intermediate": "minecraft:air"
+  }

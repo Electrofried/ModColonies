@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/steel_casing",
+    "researchLevel": 2,
+    "icon": "mekanism:advanced_control_circuit",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 3
+      },
+      {
+        "mandatory-building": "glassblower",
+        "level": 3
+      },
+      {
+        "item": "mekanism:advanced_energy_cube",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/advanced_cc_unlock": 1
+      }
+    ]
+  }

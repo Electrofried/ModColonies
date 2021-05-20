@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Time to get creative!",
+    "icon": "create:andesite_alloy",
+    "requirements": [
+      {
+        "building": "mechanic",
+        "level": 2
+      },
+      {
+        "building": "stonemason",
+        "level": 2
+      },
+      {
+        "item": "create:zinc_ingot",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/andesite_alloy_unlock": 1
+      }
+    ]
+  }

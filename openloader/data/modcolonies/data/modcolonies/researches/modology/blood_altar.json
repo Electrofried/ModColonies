@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "I am feeling Hypervolemic!",
+    "icon": "bloodmagic:altar",
+    "requirements": [
+      {
+        "building": "graveyard",
+        "level": 3
+      },
+      {
+        "building": "mysticalsite",
+        "level": 2
+      },
+      {
+        "item": "tconstruct:blood_bucket",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/blood_altar_unlock": 1
+      }
+    ]
+  }

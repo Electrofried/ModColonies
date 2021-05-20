@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_soul_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_iron"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_iron"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/iron/soul_sand",
+  "min-building-level": 3,
+  "intermediate": "minecraft:air"
+}

@@ -1,0 +1,35 @@
+{
+    "type": "recipe",
+    "crafter": "sawmill",
+    "inputs": [
+      {
+        "item": "minecraft:warped_stem"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:warped_door",
+        "count": 1
+      },
+      {
+        "item": "minecraft:stripped_warped_hyphae",
+        "count": 1
+      },
+      {
+        "item": "minecraft:chest",
+        "count": 1
+      },
+      {
+        "item": "minecraft:stripped_warped_stem",
+        "count": 1
+      },
+      {
+        "item": "minecraft:stripped_warped_stem",
+        "count": 1
+      }
+    ],
+    "result": "minecraft:warped_planks",
+    "count": 6,
+    "intermediate": "minecraft:air",
+    "min-building-level": 2
+  }

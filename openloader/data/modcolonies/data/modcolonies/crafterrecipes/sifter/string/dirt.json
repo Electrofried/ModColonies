@@ -1,0 +1,71 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "prefab:block_compressed_dirt"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_string"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_string"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "exnihilosequentia:seed_oak"
+    },
+    {
+      "item": "exnihilosequentia:seed_carrot"
+    },
+    {
+      "item": "exnihilosequentia:seed_fern"
+    },
+    {
+      "item": "exnihilosequentia:seed_acacia"
+    },
+    {
+      "item": "exnihilosequentia:seed_jungle"
+    },
+    {
+      "item": "exnihilosequentia:seed_spruce"
+    },
+    {
+      "item": "exnihilosequentia:seed_potato"
+    },
+    {
+      "item": "exnihilosequentia:seed_bamboo"
+    },
+    {
+      "item": "exnihilosequentia:seed_large_fern"
+    },
+    {
+      "item": "exnihilosequentia:seed_berry"
+    },
+    {
+      "item": "exnihilosequentia:seed_darkoak"
+    },
+    {
+      "item": "exnihilosequentia:grass_seeds"
+    },
+    {
+      "item": "exnihilosequentia:seed_birch"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/string/dirt",
+  "min-building-level": 1,
+  "intermediate": "minecraft:air"
+}

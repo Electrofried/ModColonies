@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "The power of wind is strong!",
+    "icon": "pneumaticcraft:air_compressor",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 2
+      },
+      {
+        "mandatory-building": "glassblower",
+        "level": 2
+      },
+      {
+        "item": "pneumaticcraft:compressed_iron_block",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/air_compressor_unlock": 1
+      }
+    ]
+  }

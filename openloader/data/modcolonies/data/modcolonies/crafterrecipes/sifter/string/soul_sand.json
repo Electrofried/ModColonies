@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_soul_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_string"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_string"
+    },
+    {
+      "item": "minecraft:crimson_roots"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    },
+    {
+      "item": "minecraft:nether_sprouts"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/string/soul_sand",
+  "min-building-level": 1,
+  "intermediate": "minecraft:air"
+}

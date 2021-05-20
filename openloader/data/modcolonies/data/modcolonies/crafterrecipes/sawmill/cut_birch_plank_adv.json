@@ -1,0 +1,32 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill",
+  "inputs": [
+    {
+      "item": "minecraft:birch_planks"
+    }
+  ],
+  "alternate-output": [
+
+    {
+      "item": "minecraft:birch_fence",
+      "count": 2
+    },
+    {
+      "item": "minecraft:birch_fence_gate",
+      "count": 2
+    },
+    {
+      "item": "minecraft:birch_pressure_plate",
+      "count": 4
+    },
+    {
+      "item": "minecraft:birch_sign",
+      "count": 2
+    }
+  ],
+  "result": "minecraft:birch_trapdoor",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "min-building-level": 3
+}

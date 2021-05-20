@@ -1,0 +1,32 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_nether_gravel"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_iron"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_iron"
+      },
+      {
+        "item": "exnihilosequentia:chunk_gold"
+      },
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "create:rose_quartz"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/iron/netherrack",
+    "min-building-level": 3,
+    "intermediate": "minecraft:air"
+  }

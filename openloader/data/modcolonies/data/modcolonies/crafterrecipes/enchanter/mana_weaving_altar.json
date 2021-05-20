@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item": "mana-and-artifice:vinteum_coated_iron",
+        "count": 5
+      },
+      {
+        "item": "mana-and-artifice:vinteum_dust",
+        "count": 4
+      }
+    ],
+    "result": "mana-and-artifice:manaweaving_altar",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "research-id": "modcolonies:effects/mana_weaving_altar_unlock",
+    "show-tooltip": true
+  }

@@ -1,0 +1,8 @@
+name = modcolonies_intro
+loop = false
+fps = 30
+width = 1280
+height = 720
+x = 0
+y = 0
+replayintro = true

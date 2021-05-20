@@ -1,0 +1,27 @@
+{
+    "type": "recipe",
+    "crafter": "stonemason",
+    "inputs": [
+      {
+        "item": "minecraft:andesite"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:andesite_slab",
+        "count": 2
+      },
+      {
+        "item": "minecraft:andesite_stairs",
+        "count": 1
+      },
+      {
+        "item": "minecraft:andesite_wall",
+        "count": 1
+      }
+    ],
+    "result": "minecraft:polished_andesite",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1
+  }

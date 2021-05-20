@@ -1,0 +1,259 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = background
+}
+
+customization {
+  name = modcolonies_intro
+  action = animatebackground
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-right
+  x = -158
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=400298%
+  width = 150
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/single_mouse.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/single.png
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-right
+  x = -158
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/multi_mouse.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/multi.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 15
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/a.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/a.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = sethoverlabel
+  label = Accessibility
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -108
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/options_mouse.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/options.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-right
+  x = -108
+  action = movebutton
+  y = 77
+}
+
+customization {
+  identifier = %id=502382%
+  width = 100
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/quit_mouse.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/quit.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 15
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/l.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/l.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = Language
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-right
+  x = -108
+  action = movebutton
+  y = 49
+}
+
+customization {
+  identifier = %id=400346%
+  width = 100
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/mods_mouse.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/mods.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = bottom-left
+  x = 15
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttontexture
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/q.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/q.png
+}
+
+customization {
+  identifier = %id=376346%
+  action = sethoverlabel
+  label = Quark
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 15
+  width = 20
+  actionid = efa1dbc2-58c9-47ed-afb5-fcae4b836ed31621489779700
+  action = addbutton
+  y = -101
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/discord.png
+  label = 
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/discord.png
+  value = https://discord.gg/fVURWMU
+  height = 20
+}
+

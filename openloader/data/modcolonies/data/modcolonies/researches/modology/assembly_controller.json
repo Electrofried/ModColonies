@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/air_compressor",
+    "subtitle": "Something is probably going to explode soon!",
+    "icon": "pneumaticcraft:assembly_controller",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 3
+      },
+      {
+        "mandatory-building": "builder",
+        "level": 4
+      },
+      {
+        "item": "pneumaticcraft:printed_circuit_board",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/assembly_controller_unlock": 1
+      }
+    ]
+  }

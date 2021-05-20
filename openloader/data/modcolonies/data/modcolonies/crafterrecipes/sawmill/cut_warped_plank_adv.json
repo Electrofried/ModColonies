@@ -1,0 +1,32 @@
+{
+    "type": "recipe",
+    "crafter": "sawmill",
+    "inputs": [
+      {
+        "item": "minecraft:warped_planks"
+      }
+    ],
+    "alternate-output": [
+
+      {
+        "item": "minecraft:warped_fence",
+        "count": 2
+      },
+      {
+        "item": "minecraft:warped_fence_gate",
+        "count": 2
+      },
+      {
+        "item": "minecraft:warped_pressure_plate",
+        "count": 4
+      },
+      {
+        "item": "minecraft:warped_sign",
+        "count": 2
+      }
+    ],
+    "result": "minecraft:warped_trapdoor",
+    "count": 3,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3
+  }

@@ -1,0 +1,23 @@
+{
+    "type": "recipe",
+    "crafter": "stonemason",
+    "inputs": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:cobblestone_wall",
+        "count": 1
+      },
+      {
+        "item": "minecraft:cobblestone_stairs",
+        "count": 1
+      }
+    ],
+    "result": "minecraft:cobblestone_slab",
+    "count": 2,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1
+  }

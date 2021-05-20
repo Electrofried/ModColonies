@@ -1,0 +1,21 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Melt it down and mix it up!",
+    "icon": "tconstruct:seared_heater",
+    "requirements": [
+      {
+        "mandatory-building": "smeltery",
+        "level": 3
+      },
+      {
+        "item": "tconstruct:seared_bricks",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/seared_melter_unlock": 1
+      }
+    ]
+  }

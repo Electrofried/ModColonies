@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item": "minecolonies:blockhutfarmer",
+        "count": 1
+      },
+      {
+        "item": "easy_villagers:trader",
+        "count": 1
+      }
+    ],
+    "result": "easy_villagers:farmer",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "research-id": "modcolonies:effects/vil_farmer_unlock",
+    "show-tooltip": true
+  }

@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Open the pod bay doors HAL!",
+    "icon": "computercraft:computer_command",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 2
+      },
+      {
+        "mandatory-building": "school",
+        "level": 2
+      },
+      {
+        "item": "colony4cc:colony_peripheral",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/computer_unlock": 1
+      }
+    ]
+  }

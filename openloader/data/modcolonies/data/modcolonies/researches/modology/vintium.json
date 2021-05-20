@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Do not sprinkle on your corn flakes!",
+    "icon": "mana-and-artifice:vinteum_dust",
+    "requirements": [
+      {
+        "building": "mysticalsite",
+        "level": 3
+      },
+      {
+        "building": "crusher",
+        "level": 2
+      },
+      {
+        "item": "mana-and-artifice:vinteum_ore",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/vintium_unlock": 1
+      }
+    ]
+  }

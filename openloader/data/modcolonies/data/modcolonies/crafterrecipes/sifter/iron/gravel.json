@@ -1,0 +1,50 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_gravel"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_iron"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_iron"
+    },
+    {
+      "item": "exnihilosequentia:chunk_iron"
+    },
+    {
+      "item": "exnihilosequentia:chunk_copper"
+    },
+    {
+      "item": "exnihilosequentia:chunk_lead"
+    },
+    {
+      "item": "exnihilosequentia:chunk_nickel"
+    },
+    {
+      "item": "exnihilosequentia:chunk_osmium"
+    },
+    {
+      "item": "exnihilosequentia:chunk_gold"
+    },
+    {
+      "item": "exnihilosequentia:chunk_zinc"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/iron/gravel",
+  "min-building-level": 3,
+  "intermediate": "minecraft:air"
+}

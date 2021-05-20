@@ -1,0 +1,411 @@
+{
+    "groupOverrides": {
+      "Vanilla Flowers": {
+        "enabled": true,
+        "payment": {
+            "item": "minecraft:wheat_seeds",
+            "count": 3
+        }
+      },
+      "Vanilla Mushrooms": {
+        "enabled": true,
+        "payment": {
+            "item": "minecraft:wheat_seeds",
+          "count": 3
+         }
+      },
+      "Animal Eggs": {
+        "enabled": true
+
+      }
+    
+    },
+    "customCategories": {
+      "mob_egg": {
+        "name": "Monster Eggs",
+        "icon": {
+          "item": "minecraft:zombie_head"
+        }
+      }
+    },
+    "customEntries": [
+      {
+        "output": {
+          "item": "minecraft:cornflower"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "flowers"
+      },
+      {
+        "output": {
+          "item": "minecraft:villager_spawn_egg"
+        },
+        "payment": {
+          "item": "minecraft:emerald"
+        },
+        "category": "other"
+      },
+      {
+        "output": {
+          "item": "minecraft:zoglin_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:blaze_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:bat_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:pillager_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:piglin_brute_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:piglin_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:phantom_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:ghast_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:hoglin_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:cave_spider_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:evoker_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:endermite_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:enderman_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:mooshroom_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:magma_cube_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:husk_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:drowned_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:creeper_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:ravager_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:silverfish_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:shulker_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:skeleton_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:skeleton_horse_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:slime_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:stray_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:spider_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:strider_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "tconstruct:sky_slime_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:zombified_piglin_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:zombie_villager_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:zombie_horse_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:zombie_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:wither_skeleton_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:witch_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "minecraft:vindicator_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "tconstruct:ender_slime_spawn_egg"
+        },
+        "payment": {
+          "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+          "count": 2
+        },
+        "category": "mob_egg"
+      }
+    ]
+  }

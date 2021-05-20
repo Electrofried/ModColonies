@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "It is all connected man!",
+    "icon": "pedestals:linkingtool",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 1
+      },
+      {
+        "mandatory-building": "stonemason",
+        "level": 2
+      },
+      {
+        "item": "quark:pipe",
+        "quantity": 64
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/linking_tool_unlock": 1
+      }
+    ]
+  }

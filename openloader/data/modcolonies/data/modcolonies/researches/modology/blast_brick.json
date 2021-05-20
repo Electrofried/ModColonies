@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/coke_brick",
+    "subtitle": "Now we are having a blast!",
+    "icon": "immersiveengineering:blastbrick",
+    "requirements": [
+      {
+        "mandatory-building": "concretemixer",
+        "level": 2
+      },
+      {
+        "building": "stonesmeltery",
+        "level": 3
+      },
+      {
+        "item": "immersiveengineering:coke",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/blast_brick_unlock": 1
+      }
+    ]
+  }

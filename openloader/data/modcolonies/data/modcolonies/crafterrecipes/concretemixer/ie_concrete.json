@@ -1,0 +1,23 @@
+{
+    "type": "recipe",
+    "crafter": "concretemixer",
+    "inputs": [
+      {
+        "item": "minecraft:sand",
+        "count": 8
+      },
+      {
+        "item": "minecraft:gravel",
+        "count": 4
+      },
+      {
+        "item": "minecraft:clay",
+        "count": 1
+      }
+    ],
+    "result": "immersiveengineering:concrete",
+    "count": 16,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1,
+    "show-tooltip": true
+  }

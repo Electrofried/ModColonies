@@ -1,0 +1,38 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_nether_gravel"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      },
+      {
+        "item": "exnihilosequentia:chunk_cobalt"
+      },
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "exnihilosequentia:chunk_gold"
+      },
+      {
+        "item": "create:rose_quartz"
+      },
+      {
+        "item": "minecraft:netherite_scrap"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/diamond/netherrack",
+    "min-building-level": 5,
+    "intermediate": "minecraft:air"
+  }

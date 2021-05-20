@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/ars_novice_spellbook",
+    "researchLevel": 1,
+    "subtitle": "Magically infused rocks!",
+    "icon": "ars_nouveau:arcane_stone",
+    "requirements": [
+      {
+        "building": "enchanter",
+        "level": 2
+      }, 
+      {
+        "building": "stonemason",
+        "level": 2
+      },
+      {
+        "item": "ars_nouveau:mana_gem",
+        "quantity": 32
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/arcane_stone_unlock": 1
+      }
+    ]
+  }

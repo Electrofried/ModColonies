@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "librairy",
+    "inputs": [
+      {
+        "item": "tconstruct:crafting_station",
+        "count": 1
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 2
+      },
+      {
+        "item": "cookingforblockheads:recipe_book",
+        "count": 1
+      }
+    ],
+    "result": "cookingforblockheads:crafting_book",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/cooking_for_blockheads_unlock",
+    "show-tooltip": true
+  }

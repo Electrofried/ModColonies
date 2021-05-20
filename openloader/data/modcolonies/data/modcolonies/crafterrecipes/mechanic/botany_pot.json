@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "minecraft:terracotta",
+        "count": 5
+      },
+      {
+        "item": "minecraft:hopper",
+        "count": 1
+      },
+      {
+        "item": "minecraft:flower_pot",
+        "count": 1
+      }
+    ],
+    "result": "botanypots:hopper_botany_pot",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 5,
+    "research-id": "modcolonies:effects/botany_pot_unlock",
+    "show-tooltip": true
+  }

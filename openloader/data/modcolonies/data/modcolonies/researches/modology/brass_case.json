@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/andesite_case",
+    "researchLevel": 3,
+    "subtitle": "Things are starting to spin out of control!",
+    "icon": "create:brass_casing",
+    "requirements": [
+      {
+        "building": "mechanic",
+        "level": 3
+      },
+      {
+        "building": "blacksmith",
+        "level": 3
+      },
+      {
+        "item": "create:brass_hand",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/brass_case_unlock": 1
+      }
+    ]
+  }

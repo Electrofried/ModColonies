@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Like a guard in a box!",
+    "icon": "mob_grinding_utils:saw",
+    "requirements": [
+      {
+        "mandatory-building": "guardtower",
+        "level": 3
+      },
+      {
+        "mandatory-building": "blacksmith",
+        "level": 2
+      },
+      {
+        "item": "minecraft:netherite_sword",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/mob_grinder_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "recipe",
+    "crafter": "blacksmith",
+    "inputs": [
+      {
+        "item": "minecraft:iron_block",
+        "count": 1
+      },
+      {
+        "item": "minecraft:lava_bucket",
+        "count": 1
+      },
+      {
+        "item": "minecraft:glass",
+        "count": 1
+      }
+    ],
+    "result": "easy_villagers:iron_farm",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/iron_farm_unlock",
+    "show-tooltip": true
+  }

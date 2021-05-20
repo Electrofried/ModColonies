@@ -1,0 +1,29 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Refined storage? Pfft, give me a bank of racks any day!",
+    "icon": "refinedstorage:creative_controller",
+    "requirements": [
+      {
+        "mandatory-building": "warehouse",
+        "level": 4
+      },
+      {
+        "mandatory-building": "mechanic",
+        "level": 4
+      },
+      {
+        "mandatory-building": "townhall",
+        "level": 4
+      },
+      {
+        "item": "storage4computercraft:rs_peripheral",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/rs_controller_unlock": 1
+      }
+    ]
+  }

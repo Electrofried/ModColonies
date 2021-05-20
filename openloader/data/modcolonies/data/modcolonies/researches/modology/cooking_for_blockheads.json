@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/blockhead_market",
+    "researchLevel": 2,
+    "subtitle": "If Google and Jamie Oliver had a baby, it would be this book.",
+    "icon": "cookingforblockheads:crafting_book",
+    "requirements": [
+      {
+        "mandatory-building": "cook",
+        "level": 3
+      },
+      {
+        "mandatory-building": "library",
+        "level": 3
+      },
+      {
+        "item": "pamhc2foodextended:delightedmealitem",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/cooking_for_blockheads_unlock": 1
+      }
+    ]
+  }

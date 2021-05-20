@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 3,
+    "parentResearch": "modcolonies:modology/linking_tool",
+    "subtitle": "What? You just drop the pedestal on it to crush things?",
+    "icon": "pedestals:coin/crusher",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },
+      {
+        "mandatory-building": "crusher",
+        "level": 5
+      },
+      {
+        "item": "minecraft:gold_block",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ped_crush_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,29 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Now we are going up in the world!",
+    "icon": "ironjetpacks:wood_jetpack",
+    "requirements": [
+      {
+        "mandatory-building": "blacksmith",
+        "level": 1
+      },
+      {
+        "mandatory-building": "glassblower",
+        "level": 1
+      },
+      {
+        "mandatory-building": "smeltery",
+        "level": 1
+      },
+      {
+        "item": "minecraft:tnt",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/jetpack_unlock": 1
+      }
+    ]
+  }

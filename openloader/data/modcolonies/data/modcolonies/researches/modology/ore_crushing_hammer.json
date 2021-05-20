@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Smash, smash, smash!",
+    "icon": "minecraft:iron",
+    "requirements": [
+      {
+        "mandatory-building": "crusher",
+        "level": 2
+      },
+      {
+        "building": "miner",
+        "level": 2
+      },
+      {
+        "item": "prefab:block_double_compressed_stone",
+        "quantity": 2
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ore_crushing_hammer_unlock": 1
+      }
+    ]
+  }

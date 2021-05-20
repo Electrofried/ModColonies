@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item": "minecraft:book",
+        "count": 1
+      },
+      {
+        "item": "ars_nouveau:magic_clay",
+        "count": 1
+      }
+    ],
+    "result": "ars_nouveau:novice_spell_book",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 2,
+    "research-id": "modcolonies:effects/novice_spellbook_unlock",
+    "show-tooltip": true
+  }

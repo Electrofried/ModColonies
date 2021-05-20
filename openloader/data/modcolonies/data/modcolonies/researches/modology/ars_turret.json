@@ -1,0 +1,30 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/arcane_stone",
+    "researchLevel": 4,
+    "subtitle": "Automagical spell slinging!",
+    "icon": "ars_nouveau:spell_turret",
+    "requirements": [
+      {
+            "mandatory-building": "enchanter",
+            "level": 4
+      },
+      {
+        "building": "mysticalsite",
+        "level": 2
+      },
+      {
+        "item": "ars_nouveau:wand",
+        "quantity": 1
+      },
+      {
+        "item": "ars_nouveau:glyph_blink",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ars_turret_unlock": 1
+      }
+    ]
+  }

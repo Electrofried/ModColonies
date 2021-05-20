@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Insert PG joke about coke here.",
+    "icon": "immersiveengineering:cokebrick",
+    "requirements": [
+      {
+        "mandatory-building": "concretemixer",
+        "level": 1
+      },
+      {
+        "building": "smeltery",
+        "level": 3
+      },
+      {
+        "item": "quark:charcoal_block",
+        "quantity": 8
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/coke_brick_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "type": "recipe",
+    "crafter": "sawmill",
+    "inputs": [
+      {
+        "item": "minecraft:acacia_planks"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:bowl",
+        "count": 3
+      },
+      {
+        "item": "minecraft:stick",
+        "count": 6
+      },
+      {
+        "item": "minecraft:acacia_button",
+        "count": 8
+      },
+      {
+        "item": "minecraft:acacia_stairs",
+        "count": 1
+      }
+    ],
+    "result": "minecraft:acacia_slab",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1
+  }

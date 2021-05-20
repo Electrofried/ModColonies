@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/air_compressor",
+    "subtitle": "Charged up and ready to go!",
+    "icon": "pneumaticcraft:charging_station",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 3
+      },
+      {
+        "mandatory-building": "blacksmith",
+        "level": 4
+      },
+      {
+        "item": "pneumaticcraft:printed_circuit_board",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/charging_station_unlock": 1
+      }
+    ]
+  }

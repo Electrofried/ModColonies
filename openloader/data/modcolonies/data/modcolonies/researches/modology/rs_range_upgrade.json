@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 5,
+    "parentResearch": "modcolonies:modology/rs_controller",
+    "subtitle": "Go go power range!",
+    "icon": "refinedstorage:range_upgrade",
+    "requirements": [
+      {
+        "mandatory-building": "library",
+        "level": 5
+      },
+      {
+        "mandatory-building": "mysticalsite",
+        "level": 1
+      },
+      {
+        "item": "quark:dragon_scale",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/rs_range_upgrade_unlock": 1
+      }
+    ]
+  }

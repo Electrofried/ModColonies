@@ -1,0 +1,21 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/elite_cc",
+    "researchLevel": 4,
+    "icon": "mekanism:ultimate_control_circuit",
+    "requirements": [
+      {
+        "mandatory-building": "mechanic",
+        "level": 5
+      },
+      {
+        "item": "mekanism:ultimate_energy_cube",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ultimate_cc_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,50 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_iron"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_iron"
+    },
+    {
+      "item": "exnihilosequentia:chunk_iron"
+    },
+    {
+      "item": "exnihilosequentia:seed_blue_coral"
+    },
+    {
+      "item": "exnihilosequentia:seed_pink_coral"
+    },
+    {
+      "item": "exnihilosequentia:seed_purple_coral"
+    },
+    {
+      "item": "exnihilosequentia:seed_red_coral"
+    },
+    {
+      "item": "exnihilosequentia:seed_yellow_coral"
+    },
+    {
+      "item": "mekanism:salt"
+    },
+    {
+      "item": "mana-and-artifice:vinteum_dust"
+    },
+    {
+      "item": "ars_nouveau:mana_gem"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/iron/sand",
+  "min-building-level": 3,
+  "intermediate": "minecraft:air"
+}

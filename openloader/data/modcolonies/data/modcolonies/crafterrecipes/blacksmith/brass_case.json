@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "blacksmith",
+    "inputs": [
+      {
+        "item": "create:brass_sheet",
+        "count": 8
+      },
+      {
+        "item": "minecraft:oak_log",
+        "count": 4
+      }
+    ],
+    "result": "create:brass_casing",
+    "count": 4,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:effects/brass_case_unlock",
+    "show-tooltip": true
+  }

@@ -1,0 +1,23 @@
+{
+    "type": "recipe",
+    "crafter": "stonemason",
+    "inputs": [
+      {
+        "item": "minecraft:stone"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:stone_slab",
+        "count": 2
+      },
+      {
+        "item": "minecraft:stone_button",
+        "count": 8
+      }
+    ],
+    "result": "minecraft:stone_stairs",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1
+  }

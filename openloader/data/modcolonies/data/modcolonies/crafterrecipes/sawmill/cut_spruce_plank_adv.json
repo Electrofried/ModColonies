@@ -1,0 +1,32 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill",
+  "inputs": [
+    {
+      "item": "minecraft:spruce_planks"
+    }
+  ],
+  "alternate-output": [
+
+    {
+      "item": "minecraft:spruce_fence",
+      "count": 2
+    },
+    {
+      "item": "minecraft:spruce_fence_gate",
+      "count": 2
+    },
+    {
+      "item": "minecraft:spruce_pressure_plate",
+      "count": 4
+    },
+    {
+      "item": "minecraft:spruce_sign",
+      "count": 2
+    }
+  ],
+  "result": "minecraft:spruce_trapdoor",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "min-building-level": 3
+}

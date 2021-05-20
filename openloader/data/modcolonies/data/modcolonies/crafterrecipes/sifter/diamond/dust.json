@@ -1,0 +1,44 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_dust"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_diamond"
+      },
+      {
+        "item": "exnihilosequentia:chunk_silver"
+      },
+      {
+        "item": "exnihilosequentia:chunk_tin"
+      },
+      {
+        "item": "exnihilosequentia:chunk_aluminum"
+      },
+      {
+        "item": "exnihilosequentia:chunk_uranium"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:blaze_powder"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/diamond/dust",
+    "min-building-level": 5,
+    "intermediate": "minecraft:air"
+  }

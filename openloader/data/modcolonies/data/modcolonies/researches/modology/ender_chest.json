@@ -1,0 +1,25 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "It's bigger on the inside!",
+    "icon": "enderstorage:ender_chest",
+    "requirements": [
+      {
+        "mandatory-building": "warehouse",
+        "level": 3
+      },
+      {
+        "mandatory-building": "enchanter",
+        "level": 3
+      },
+      {
+        "item": "minecraft:ender_chest",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ender_chest_unlock": 1
+      }
+    ]
+  }

@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/linking_tool",
+    "subtitle": "The carpenters are going to be really cut up about this one!",
+    "icon": "pedestals:coin/sawmill",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 2
+      },
+      {
+        "mandatory-building": "sawmill",
+        "level": 3
+      },
+      {
+        "item": "minecraft:gold_block",
+        "quantity": 4
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/ped_saw_unlock": 1
+      }
+    ]
+  }

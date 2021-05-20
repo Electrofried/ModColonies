@@ -1,0 +1,32 @@
+{
+  "type": "recipe",
+  "crafter": "sifter",
+  "inputs": [
+    {
+      "item": "excompressum:compressed_sand"
+    },
+    {
+      "item": "minecolonies:sifter_mesh_flint"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:sifter_mesh_flint"
+    },
+    {
+      "item": "exnihilosequentia:chunk_iron"
+    },
+    {
+      "item": "mekanism:salt"
+    },
+    {
+      "item": "mana-and-artifice:vinteum_dust"
+    },
+    {
+      "item": "ars_nouveau:mana_gem"
+    }
+  ],
+  "loot-table": "minecolonies:recipes/flint/sand",
+  "min-building-level": 2,
+  "intermediate": "minecraft:air"
+}

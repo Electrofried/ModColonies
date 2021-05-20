@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:modology",
+    "parentResearch": "modcolonies:modology/andesite_alloy",
+    "researchLevel": 2,
+    "subtitle": "All this spinning is making me go cuckoo!",
+    "icon": "create:andesite_casing",
+    "requirements": [
+      {
+        "building": "mechanic",
+        "level": 2
+      },
+      {
+        "building": "smeltery",
+        "level": 2
+      },
+      {
+        "item": "create:cuckoo_clock",
+        "quantity": 16
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/andesite_case_unlock": 1
+      }
+    ]
+  }

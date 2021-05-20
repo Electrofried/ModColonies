@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "crafter": "stonemason",
+  "inputs": [
+    {
+      "item": "minecraft:red_sandstone"
+    }
+  ],
+  "alternate-output": [
+    {
+      "item": "minecraft:chiseled_red_sandstone",
+      "count": 2
+    },
+    {
+      "item": "minecraft:cut_red_sandstone_slab",
+      "count": 2
+    },
+    {
+      "item": "minecraft:red_sandstone_wall",
+      "count": 1
+    },
+    {
+      "item": "minecraft:red_sandstone_slab",
+      "count": 2
+    },
+    {
+      "item": "minecraft:red_sandstone_stairs",
+      "count": 1
+    }
+  ],
+  "result": "minecraft:cut_red_sandstone",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "min-building-level": 1
+}

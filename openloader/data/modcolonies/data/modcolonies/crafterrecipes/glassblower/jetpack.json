@@ -1,0 +1,28 @@
+{
+    "type": "recipe",
+    "crafter": "glassblower",
+    "inputs": [
+      {
+        "item": "minecraft:tnt",
+        "count": 1
+      },
+      {
+        "item": "ironjetpacks:strap",
+        "count": 1
+      },
+      {
+        "item": "ironjetpacks:wood_capacitor",
+        "count": 1
+      },
+      {
+        "item": "ironjetpacks:wood_thruster",
+        "count": 2
+      }
+    ],
+    "result": "ironjetpacks:wood_jetpack",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 1,
+    "research-id": "modcolonies:effects/jetpack_unlock",
+    "show-tooltip": true
+  }

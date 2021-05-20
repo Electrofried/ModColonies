@@ -1,0 +1,29 @@
+{
+    "type": "recipe",
+    "crafter": "sifter",
+    "inputs": [
+      {
+        "item": "excompressum:compressed_dust"
+      },
+      {
+        "item": "minecolonies:sifter_mesh_flint"
+      }
+    ],
+    "additional-output": [
+      {
+        "item": "minecolonies:sifter_mesh_flint"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      },
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:redstone"
+      }
+    ],
+    "loot-table": "minecolonies:recipes/flint/dust",
+    "min-building-level": 2,
+    "intermediate": "minecraft:air"
+  }

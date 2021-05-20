@@ -1,0 +1,29 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Hope your remembered your emeralds!",
+    "icon": "farmingforblockheads:market",
+    "requirements": [
+      {
+        "mandatory-building": "farmer",
+        "level": 1
+      },
+      {
+        "mandatory-building": "lumberjack",
+        "level": 1
+      },
+      {
+        "mandatory-building": "florist",
+        "level": 1
+      },
+      {
+        "item": "prefab:item_villager_houses",
+        "quantity": 1
+      }
+    ],
+    "effects": [
+      {
+        "modcolonies:effects/blockhead_market_unlock": 1
+      }
+    ]
+  }
