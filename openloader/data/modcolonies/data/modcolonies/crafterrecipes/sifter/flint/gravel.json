@@ -29,7 +29,7 @@
       "item": "minecraft:lapis_lazuli"
     }
   ],
-  "loot-table": "minecolonies:recipes/flint/gravel",
+  "loot-table": "modcolonies:recipes/flint/gravel",
   "min-building-level": 2,
   "intermediate": "minecraft:air"
 }

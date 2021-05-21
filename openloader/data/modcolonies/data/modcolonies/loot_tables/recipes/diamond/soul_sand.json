@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 7,
+        "max": 9
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:glowstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "name": "minecraft:quartz"
+        }
+      ]
+    }
+  ]
+}

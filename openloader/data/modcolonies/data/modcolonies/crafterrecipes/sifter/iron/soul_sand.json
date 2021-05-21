@@ -29,7 +29,7 @@
       "item": "minecraft:blaze_powder"
     }
   ],
-  "loot-table": "minecolonies:recipes/iron/soul_sand",
+  "loot-table": "modcolonies:recipes/iron/soul_sand",
   "min-building-level": 3,
   "intermediate": "minecraft:air"
 }

@@ -23,7 +23,7 @@
         "item": "minecraft:redstone"
       }
     ],
-    "loot-table": "minecolonies:recipes/flint/dust",
+    "loot-table": "modcolonies:recipes/flint/dust",
     "min-building-level": 2,
     "intermediate": "minecraft:air"
   }

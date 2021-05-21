@@ -47,7 +47,7 @@
       "item": "minecraft:lapis_lazuli"
     }
   ],
-  "loot-table": "minecolonies:recipes/diamond/gravel",
+  "loot-table": "modcolonies:recipes/diamond/gravel",
   "min-building-level": 5,
   "intermediate": "minecraft:air"
 }

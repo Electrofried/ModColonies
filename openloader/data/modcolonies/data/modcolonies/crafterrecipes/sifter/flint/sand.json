@@ -26,7 +26,7 @@
       "item": "ars_nouveau:mana_gem"
     }
   ],
-  "loot-table": "minecolonies:recipes/flint/sand",
+  "loot-table": "modcolonies:recipes/flint/sand",
   "min-building-level": 2,
   "intermediate": "minecraft:air"
 }

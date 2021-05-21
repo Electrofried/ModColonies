@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 7,
+          "max": 9
+        },
+        "bonus_rolls": {
+          "min": 0,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:blaze_powder"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:rose_quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "exnihilosequentia:chunk_gold"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:quartz"
+          }
+        ]
+      }
+    ]
+  }

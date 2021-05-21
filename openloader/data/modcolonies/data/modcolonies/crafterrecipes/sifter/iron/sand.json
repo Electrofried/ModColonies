@@ -44,7 +44,7 @@
       "item": "mekanism:fluorite_gem"
     }
   ],
-  "loot-table": "minecolonies:recipes/iron/sand",
+  "loot-table": "modcolonies:recipes/iron/sand",
   "min-building-level": 3,
   "intermediate": "minecraft:air"
 }

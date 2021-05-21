@@ -26,7 +26,7 @@
         "item": "minecraft:blaze_powder"
       }
     ],
-    "loot-table": "minecolonies:recipes/iron/netherrack",
+    "loot-table": "modcolonies:recipes/iron/netherrack",
     "min-building-level": 3,
     "intermediate": "minecraft:air"
   }

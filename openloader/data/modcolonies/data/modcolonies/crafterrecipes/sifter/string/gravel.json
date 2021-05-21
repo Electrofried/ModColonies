@@ -20,7 +20,7 @@
       "item": "minecraft:coal"
     }
   ],
-  "loot-table": "minecolonies:recipes/string/gravel",
+  "loot-table": "modcolonies:recipes/string/gravel",
   "min-building-level": 1,
   "intermediate": "minecraft:air"
 }

@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 7,
+        "max": 9
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_birch"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:grass_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_darkoak"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_berry"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_large_fern"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "exnihilosequentia:seed_potato"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_spruce"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_jungle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_acacia"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "exnihilosequentia:seed_fern"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "exnihilosequentia:seed_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "exnihilosequentia:seed_oak"
+        }
+      ]
+    }
+  ]
+}

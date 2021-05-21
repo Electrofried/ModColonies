@@ -65,7 +65,7 @@
       "item": "exnihilosequentia:seed_birch"
     }
   ],
-  "loot-table": "minecolonies:recipes/string/dirt",
+  "loot-table": "modcolonies:recipes/string/dirt",
   "min-building-level": 1,
   "intermediate": "minecraft:air"
 }

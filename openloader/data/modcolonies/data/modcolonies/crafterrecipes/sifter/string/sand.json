@@ -32,7 +32,7 @@
       "item": "minecraft:cocoa_beans"
     }
   ],
-  "loot-table": "minecolonies:recipes/string/sand",
+  "loot-table": "modcolonies:recipes/string/sand",
   "min-building-level": 1,
   "intermediate": "minecraft:air"
 }

@@ -23,7 +23,7 @@
         "item": "minecraft:gunpowder"
       }
     ],
-    "loot-table": "minecolonies:recipes/string/dust",
+    "loot-table": "modcolonies:recipes/string/dust",
     "min-building-level": 1,
     "intermediate": "minecraft:air"
   }

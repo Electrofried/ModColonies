@@ -29,7 +29,7 @@
       "item": "minecraft:weeping_vines"
     }
   ],
-  "loot-table": "minecolonies:recipes/string/soul_sand",
+  "loot-table": "modcolonies:recipes/string/soul_sand",
   "min-building-level": 1,
   "intermediate": "minecraft:air"
 }

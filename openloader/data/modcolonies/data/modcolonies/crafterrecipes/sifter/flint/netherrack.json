@@ -20,7 +20,7 @@
         "item": "exnihilosequentia:chunk_gold"
       }
     ],
-    "loot-table": "minecolonies:recipes/flint/netherrack",
+    "loot-table": "modcolonies:recipes/flint/netherrack",
     "min-building-level": 2,
     "intermediate": "minecraft:air"
   }

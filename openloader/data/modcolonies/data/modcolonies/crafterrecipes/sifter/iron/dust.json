@@ -38,7 +38,7 @@
         "item": "minecraft:blaze_powder"
       }
     ],
-    "loot-table": "minecolonies:recipes/iron/dust",
+    "loot-table": "modcolonies:recipes/iron/dust",
     "min-building-level": 3,
     "intermediate": "minecraft:air"
   }

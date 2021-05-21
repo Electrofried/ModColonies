@@ -35,7 +35,7 @@
       "item": "minecraft:prismarine_shard"
     }
   ],
-  "loot-table": "minecolonies:recipes/diamond/sand",
+  "loot-table": "modcolonies:recipes/diamond/sand",
   "min-building-level": 5,
   "intermediate": "minecraft:air"
 }

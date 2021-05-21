@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 7,
+        "max": 9
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:cocoa_beans"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "exnihilosequentia:seed_sugarcane"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "exnihilosequentia:seed_cactus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:ancient_spores"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "exnihilosequentia:seed_kelp"
+        }
+      ]
+    }
+  ]
+}

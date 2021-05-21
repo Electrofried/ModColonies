@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 7,
+          "max": 9
+        },
+        "bonus_rolls": {
+          "min": 0,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "exnihilosequentia:chunk_tin"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "exnihilosequentia:chunk_aluminum"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "exnihilosequentia:chunk_silver"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:glowstone_dust"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:blaze_powder"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:gunpowder"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:redstone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:bone_meal"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 7,
+        "max": 9
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_blue_coral"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_red_coral"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_purple_coral"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_pink_coral"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "exnihilosequentia:seed_yellow_coral"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mekanism:fluorite_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "mana-and-artifice:vinteum_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "ars_nouveau:mana_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "exnihilosequentia:chunk_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mekanism:salt"
+        }
+      ]
+    }
+  ]
+}

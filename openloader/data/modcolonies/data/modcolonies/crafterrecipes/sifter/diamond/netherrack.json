@@ -32,7 +32,7 @@
         "item": "minecraft:blaze_powder"
       }
     ],
-    "loot-table": "minecolonies:recipes/diamond/netherrack",
+    "loot-table": "modcolonies:recipes/diamond/netherrack",
     "min-building-level": 5,
     "intermediate": "minecraft:air"
   }
