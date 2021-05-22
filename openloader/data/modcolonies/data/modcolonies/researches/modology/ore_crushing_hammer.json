@@ -6,7 +6,7 @@
     "requirements": [
       {
         "mandatory-building": "crusher",
-        "level": 2
+        "level": 1
       },
       {
         "building": "miner",

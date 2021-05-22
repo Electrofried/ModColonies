@@ -11,11 +11,7 @@
       },
       {
         "mandatory-building": "farm",
-        "level": 3
-      },
-      {
-        "mandatory-building": "florist",
-        "level": 3
+        "level": 2
       },
       {
         "item": "minecraft:iron_block",

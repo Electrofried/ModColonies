@@ -14,10 +14,6 @@
         "level": 3
       },
       {
-        "mandatory-building": "lumberjack",
-        "level": 3
-      },
-      {
         "item": "create:rotation_speed_controller",
         "quantity": 4
       }

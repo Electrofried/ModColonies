@@ -6,6 +6,18 @@
 	title: "Challenge Accepted!",
 	icon: "pneumaticcraft:creative_upgrade",
 	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "modcolonies:textures/logo.png",
+		hover: [ ],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [{
 		x: 0.0d,
 		y: 0.0d,

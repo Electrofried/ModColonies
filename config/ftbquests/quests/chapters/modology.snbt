@@ -6,27 +6,938 @@
 	title: "Modology",
 	icon: "minecolonies:ancienttome",
 	default_quest_shape: "",
-	quests: [{
-		icon: "minecolonies:ancienttome",
-		x: 0.0d,
-		y: 0.0d,
-		description: [
-			"The keys to an expanding world of mods!",
-			"",
-			"This chapter will cover all the modded content you can unlock via research in the university!"
-		],
-		dependencies: ["320513389FA918D1"],
-		id: "5CAE5A029F7A1934",
-		tasks: [{
-			id: "55BD5AE132A42EF1",
-			type: "checkmark",
-			title: "Modology!"
-		}],
-		rewards: [{
-			id: "2BE8CF618BE403F9",
-			type: "item",
-			item: "pamhc2foodcore:cookiesandmilkitem",
-			count: 16
-		}]
-	}]
+	images: [{
+		x: -3.0d,
+		y: 3.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "modcolonies:textures/logo.png",
+		hover: [ ],
+		click: "",
+		dev: false,
+		corner: false
+	}],
+	quests: [
+		{
+			icon: "minecolonies:ancienttome",
+			x: 0.0d,
+			y: 0.0d,
+			description: [
+				"The keys to an expanding world of mods!",
+				"",
+				"This chapter will cover all the modded content you can unlock via research in the university!",
+				"",
+				"A quick reminder, to request unlocked items you can use either the postbox to request one or more items be crafted. Or, you can use the 'keep stocked' feature of the warehouse to keep a stack or more available."
+			],
+			dependencies: ["320513389FA918D1"],
+			id: "5CAE5A029F7A1934",
+			tasks: [{
+				id: "55BD5AE132A42EF1",
+				type: "checkmark",
+				title: "Modology!"
+			}],
+			rewards: [{
+				id: "2BE8CF618BE403F9",
+				type: "item",
+				item: "pamhc2foodcore:cookiesandmilkitem",
+				count: 16
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Mechanic 3, Glassblower 3",
+			dependencies: ["3CE96F91751A7379"],
+			id: "1F78396385AEE520",
+			tasks: [{
+				id: "773EA98D13D29C74",
+				type: "item",
+				item: "mekanism:advanced_control_circuit"
+			}],
+			rewards: [{
+				id: "6AA3FB6326B04639",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Enchanter 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "188E117E43C961B6",
+			tasks: [{
+				id: "79C94AFC1034C303",
+				type: "item",
+				item: "ars_nouveau:novice_spell_book"
+			}],
+			rewards: [{
+				id: "4D69C7057722103C",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Mechanic 2, Glassblower 2",
+			description: [""],
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "0D3F070201AA3D92",
+			tasks: [{
+				id: "7E2AF959610F6BF5",
+				type: "item",
+				item: "pneumaticcraft:air_compressor"
+			}],
+			rewards: [{
+				id: "041B7EDFA3B499A1",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Mechanic 2, Stonemason 2",
+			description: [""],
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "78D397168BD9EC15",
+			tasks: [{
+				id: "70220E2D1C24A445",
+				type: "item",
+				item: "create:andesite_alloy"
+			}],
+			rewards: [{
+				id: "1CDE7E65730C01B4",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Mechanic 2, Smeltery 2",
+			dependencies: ["78D397168BD9EC15"],
+			id: "1C499C42E2601134",
+			tasks: [{
+				id: "7A8B69BD8AEA9EED",
+				type: "item",
+				item: "create:andesite_casing"
+			}],
+			rewards: [{
+				id: "3E4CAE41F593DDC1",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Enchanter 2, Stonemason 2",
+			dependencies: ["188E117E43C961B6"],
+			id: "3FDD62F4EAF47BAF",
+			tasks: [{
+				id: "7B5CD40839318697",
+				type: "item",
+				item: "ars_nouveau:arcane_stone"
+			}],
+			rewards: [{
+				id: "365C12EA050D6306",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.0d,
+			subtitle: "Required buildings: Mechanic 5, Townhall 5",
+			dependencies: ["0E5D215DE288796D"],
+			id: "6696EE037B7CE8E0",
+			tasks: [{
+				id: "0480901949DD4BF0",
+				type: "item",
+				item: "pneumaticcraft:aerial_interface"
+			}],
+			rewards: [{
+				id: "718E4C565ECA2D42",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Enchanter 4",
+			dependencies: ["3FDD62F4EAF47BAF"],
+			id: "702DFE0096C1C1C6",
+			tasks: [{
+				id: "5A9BA8E10AAB7E8F",
+				type: "item",
+				item: "ars_nouveau:spell_turret"
+			}],
+			rewards: [{
+				id: "04556D1B64D48B79",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Mechanic 3, Builder 4",
+			dependencies: ["464D1355633A09CE"],
+			id: "776EFB3A2E69AB7B",
+			tasks: [{
+				id: "1504130CAAD1CCB1",
+				type: "item",
+				item: "pneumaticcraft:assembly_controller"
+			}],
+			rewards: [{
+				id: "3B91B03850A12DAA",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			subtitle: "Required buildings: Stonemason 3, Enchanter 2",
+			description: [""],
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "4E98D1A173CE23BC",
+			tasks: [{
+				id: "34CDCBADA531FB23",
+				type: "item",
+				item: "darkutils:blank_plate"
+			}],
+			rewards: [{
+				id: "0EC795D1B45D837B",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Concrete Mixer 2, Stonesmeltery 3",
+			dependencies: ["6D28BEAFAAAA4201"],
+			id: "1AF585462236A358",
+			tasks: [{
+				id: "2149A57F453EBA98",
+				type: "item",
+				item: "immersiveengineering:blastbrick"
+			}],
+			rewards: [{
+				id: "36B0D17E0DF45BA6",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Farmer 1, Lumberjack 1, Florist 1",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "78B5A5D45B06A3A1",
+			tasks: [{
+				id: "3D8A2BAACAB88927",
+				type: "item",
+				item: "farmingforblockheads:market"
+			}],
+			rewards: [{
+				id: "41A002ED24BEE5A2",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Graveyard 3, Mystical site 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "4FDFB4F354174934",
+			tasks: [{
+				id: "3787ED1F692BD813",
+				type: "item",
+				item: "bloodmagic:altar"
+			}],
+			rewards: [{
+				id: "2F0C855DC85273C2",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Required buildings: Flower shop 5, Farmer 5, Lumberjack 5",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "74108E16D5EC3B3A",
+			tasks: [{
+				id: "7B5115D0E5F40BBA",
+				type: "item",
+				item: "botanypots:hopper_botany_pot"
+			}],
+			rewards: [{
+				id: "56FEED5D1A981659",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			subtitle: "Required buildings: Mechanic 3, Blacksmith 3",
+			dependencies: ["1C499C42E2601134"],
+			id: "4B505C6D8C7B4F17",
+			tasks: [{
+				id: "33EDE12133AF11BB",
+				type: "item",
+				item: "create:brass_casing"
+			}],
+			rewards: [{
+				id: "117116D631D06793",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Mechanic 3, Blacksmith 4",
+			dependencies: ["0D3F070201AA3D92"],
+			id: "464D1355633A09CE",
+			tasks: [{
+				id: "6DC46CADB9A05FD3",
+				type: "item",
+				item: "pneumaticcraft:charging_station"
+			}],
+			rewards: [{
+				id: "2C7DC327AE553043",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Mechanic 4, Farmer 5, Flower shop 4",
+			dependencies: ["6D28BEAFAAAA4201"],
+			id: "2EDF7A0E5E3753A3",
+			tasks: [{
+				id: "215A790994056892",
+				type: "item",
+				item: "immersiveengineering:cloche"
+			}],
+			rewards: [{
+				id: "6C92923AE8D44535",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Concrete mixer 1, Smeltery 3",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "6D28BEAFAAAA4201",
+			tasks: [{
+				id: "0F5BA270DA4E5E4A",
+				type: "item",
+				item: "immersiveengineering:cokebrick"
+			}],
+			rewards: [{
+				id: "585582D099426060",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Mechanic 2, School 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "4601C45E64891B9E",
+			tasks: [{
+				id: "00C5DC4A1957610D",
+				type: "item",
+				item: "computercraft:computer_normal"
+			}],
+			rewards: [{
+				id: "188310402E6A24B5",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Restaurant 3, Library 3",
+			dependencies: ["78B5A5D45B06A3A1"],
+			id: "14AB5F44CDB60524",
+			tasks: [{
+				id: "3E8D7C56FE076B0A",
+				type: "item",
+				item: "cookingforblockheads:crafting_book"
+			}],
+			rewards: [{
+				id: "5AC8A7B50A8FD4C9",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Mechanic 2, Blacksmith 1",
+			dependencies: ["78D397168BD9EC15"],
+			id: "438BFC9C7E20B272",
+			tasks: [{
+				id: "09A769E9B7747759",
+				type: "item",
+				item: "create:copper_casing"
+			}],
+			rewards: [{
+				id: "257E415247839C11",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.0d,
+			subtitle: "Required buildings: Mechanic 3, Farmer 3",
+			dependencies: ["4B505C6D8C7B4F17"],
+			id: "3834B4013CDC27B5",
+			tasks: [{
+				id: "7595B0BB52BA5152",
+				type: "item",
+				item: "create:mechanical_harvester"
+			}],
+			rewards: [{
+				id: "6E8074BF2A652AEB",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Mechanic 4, Library 3",
+			dependencies: ["1F78396385AEE520"],
+			id: "2C5E113C46FD1AAD",
+			tasks: [{
+				id: "36A4E89470D440C7",
+				type: "item",
+				item: "mekanism:elite_control_circuit"
+			}],
+			rewards: [{
+				id: "47FA3509A882F52B",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Warehouse 3, Enchanter 3",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "6D046085C398BC62",
+			tasks: [
+				{
+					id: "1CF7144260B441FB",
+					type: "item",
+					item: "enderstorage:ender_chest"
+				},
+				{
+					id: "5E601063E1FE8E82",
+					type: "item",
+					item: "enderstorage:ender_tank"
+				}
+			],
+			rewards: [{
+				id: "29FF393F70D586D9",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Warehouse 4, Dyer 1",
+			dependencies: ["6D046085C398BC62"],
+			id: "7C07082F23ECE989",
+			tasks: [{
+				id: "166D9EE52DF1CBF8",
+				type: "item",
+				item: "enderstorage:ender_pouch"
+			}],
+			rewards: [{
+				id: "5E64218C1E49E4A3",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Blacksmith 4, Enchanter 3",
+			dependencies: ["5E44037E27B0DC32"],
+			id: "1992977074814383",
+			tasks: [{
+				id: "1E3AEA6C9D505047",
+				type: "item",
+				item: "mob_grinding_utils:entity_spawner"
+			}],
+			rewards: [{
+				id: "6979F18C84E06D95",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Chicken farmer 4, Enchanter 3",
+			dependencies: ["5E44037E27B0DC32"],
+			id: "3CA3A94FA19CDF0B",
+			tasks: [{
+				id: "5BECA84692438723",
+				type: "item",
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+			}],
+			rewards: [{
+				id: "73DEE90836AE4D08",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Enchanter 2, Mine 3",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "4621D2B5B96DF2DA",
+			tasks: [{
+				id: "397704687F0C0AF5",
+				type: "item",
+				item: "easy_villagers:iron_farm"
+			}],
+			rewards: [{
+				id: "0179802F6FE88B7D",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			subtitle: "Required buildings: Blacksmith 1, Glassblower 1, Smeltery 1",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "56653948939CC489",
+			tasks: [{
+				id: "387D1857730BE96B",
+				type: "item",
+				item: {
+					id: "ironjetpacks:wood_jetpack",
+					Count: 1b,
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}],
+			rewards: [{
+				id: "342A31B710057D47",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Enchanter 1, Stonemason 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "7536C84BF6357D3C",
+			tasks: [{
+				id: "6A156568AE473D55",
+				type: "item",
+				item: "pedestals:linkingtool"
+			}],
+			rewards: [{
+				id: "3B61B40665E68395",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Mystical site 3, Courier's Hut 4",
+			dependencies: ["04DCACBDCA5AD16D"],
+			id: "51C8F12E8D15DED0",
+			tasks: [{
+				id: "76ADEB1817F34EBE",
+				type: "item",
+				item: "mana-and-artifice:manaweaving_altar"
+			}],
+			rewards: [{
+				id: "6DC2F494477C701B",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Guard tower 3, Blacksmith 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "5E44037E27B0DC32",
+			tasks: [{
+				id: "055E0D10A578AAD4",
+				type: "item",
+				item: "mob_grinding_utils:saw"
+			}],
+			rewards: [{
+				id: "3C9ED8650C828C00",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			subtitle: "Required buildings: Crusher 1, Mine 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "7947D2CA3BCEF9A8",
+			tasks: [{
+				id: "6709CB48F5C0FAE2",
+				type: "item",
+				item: {
+					id: "engineerstools:crushing_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "5A78A87907FEE47A",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Enchanter 2, Bee keeper 3",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "48070167A1D8A4BE",
+			tasks: [{
+				id: "0654A062829175A4",
+				type: "item",
+				item: "pedestals:coin/harvesterhives"
+			}],
+			rewards: [{
+				id: "0DE8D9437B327192",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Enchanter 2, Lumberjack 4",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "0C733BD5889B0FB4",
+			tasks: [{
+				id: "234A80DF878BE601",
+				type: "item",
+				item: "pedestals:coin/chopper"
+			}],
+			rewards: [{
+				id: "3B4B5961A1EF79C1",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 3.0d,
+			subtitle: "Required buildings: Enchanter 2, Crusher 4",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "15FD286390ACD14E",
+			tasks: [{
+				id: "5A8EEE81CA774B3A",
+				type: "item",
+				item: "pedestals:coin/crusher"
+			}],
+			rewards: [{
+				id: "1D2230B7C379ED2E",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			subtitle: "Required buildings: Enchanter 2, Farm 4",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "6542161CF5349F25",
+			tasks: [{
+				id: "3B8462C6560AE921",
+				type: "item",
+				item: "pedestals:coin/harvester"
+			}],
+			rewards: [{
+				id: "61EED771E3C6766A",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 5.0d,
+			subtitle: "Required buildings: Enchanter 2, Farm 3, Lumberjack 3",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "0ECEDCCF6E95092A",
+			tasks: [{
+				id: "5875455A8DAB1DE7",
+				type: "item",
+				item: "pedestals:coin/planter"
+			}],
+			rewards: [{
+				id: "2A77833438119520",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 6.0d,
+			subtitle: "Required buildings: Enchanter 2, Sawmill 3",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "7FD0A0D283D156C9",
+			tasks: [{
+				id: "3531B2D646D66EB7",
+				type: "item",
+				item: "pedestals:coin/sawmill"
+			}],
+			rewards: [{
+				id: "28334C2216BE6958",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 7.0d,
+			subtitle: "Required buildings: Enchanter 2, Shepard 4",
+			dependencies: ["7536C84BF6357D3C"],
+			id: "4C2BE9A80417F7ED",
+			tasks: [{
+				id: "623100D91CBD9BA6",
+				type: "item",
+				item: "pedestals:coin/shearer"
+			}],
+			rewards: [{
+				id: "0ABD3376E705D8E7",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			subtitle: "Required buildings: Mechanic 3, School 2",
+			dependencies: ["776EFB3A2E69AB7B"],
+			id: "0E5D215DE288796D",
+			tasks: [{
+				id: "0788A6E1F25CC317",
+				type: "item",
+				item: "pneumaticcraft:programmer"
+			}],
+			rewards: [{
+				id: "53162192F714BB89",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			subtitle: "Required buildings: Smeltery 3",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "2BB1BA708E5AEE34",
+			tasks: [{
+				id: "00BCC013C10736E4",
+				type: "item",
+				item: "tconstruct:melter"
+			}],
+			rewards: [{
+				id: "4918E9632793ACD3",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Mechanic 3, Blacksmith 3, Smeltery 3",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "3CE96F91751A7379",
+			tasks: [{
+				id: "437AA41201F41708",
+				type: "item",
+				item: "mekanism:steel_casing"
+			}],
+			rewards: [{
+				id: "66BE3C2435FBD2DF",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Mechanic 5, Library 4",
+			dependencies: ["4601C45E64891B9E"],
+			id: "7BFC80648E6D8AE8",
+			tasks: [{
+				id: "4123E2FB62F84A13",
+				type: "item",
+				item: "computercraft:turtle_normal"
+			}],
+			rewards: [{
+				id: "40FCC932DFFEE5AB",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.0d,
+			subtitle: "Required buildings: Mechanic 5",
+			dependencies: ["2C5E113C46FD1AAD"],
+			id: "22B296B5E350D91A",
+			tasks: [{
+				id: "44B88EF2D13F35F6",
+				type: "item",
+				item: "mekanism:ultimate_control_circuit"
+			}],
+			rewards: [{
+				id: "59FDCD4B057CF35E",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Enchanter 2, Farm 2",
+			dependencies: ["4621D2B5B96DF2DA"],
+			id: "3C91034B2D7597BF",
+			tasks: [{
+				id: "3967678F1C4A37FE",
+				type: "item",
+				item: "easy_villagers:farmer"
+			}],
+			rewards: [{
+				id: "047DD13D7D3C5A23",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 0.0d,
+			subtitle: "Required buildings: Mystic site 1, Crusher 2",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "04DCACBDCA5AD16D",
+			tasks: [{
+				id: "4378275CD0594B11",
+				type: "item",
+				item: "mana-and-artifice:vinteum_dust"
+			}],
+			rewards: [{
+				id: "1E8D3ED4351CF0D0",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.0d,
+			subtitle: "Required buildings: Sawmill 3, Mechanic 4",
+			dependencies: ["6D28BEAFAAAA4201"],
+			id: "1512E6AB11D6F594",
+			tasks: [{
+				id: "4EFFCD479DFFF9FB",
+				type: "item",
+				item: {
+					id: "immersiveengineering:sawblade",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0772A6F9B5342783",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			subtitle: "Required buildings: Warehouse 4, Mechanic 4, Townhall 4",
+			dependencies: ["5CAE5A029F7A1934"],
+			id: "5076CEF448FC410E",
+			tasks: [{
+				id: "0BA6918D86F49D2E",
+				type: "item",
+				item: "refinedstorage:controller"
+			}],
+			rewards: [{
+				id: "73D262ADC83E9AB6",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			subtitle: "Required buildings: Library 5, Mystic site 1",
+			dependencies: ["1CF7E2485BFD188D"],
+			id: "1B3A88A24991081D",
+			tasks: [{
+				id: "0E1E2404C51F1918",
+				type: "item",
+				item: "refinedstorage:range_upgrade"
+			}],
+			rewards: [{
+				id: "7FC3EB83D51F7FF7",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			subtitle: "Required buildings: Warehouse 5, Courier's Hut 5, Mystic site 1",
+			dependencies: ["5076CEF448FC410E"],
+			id: "1CF7E2485BFD188D",
+			tasks: [{
+				id: "64E516A68893726B",
+				type: "item",
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}],
+			rewards: [{
+				id: "0B344AD64927C5BA",
+				type: "loot",
+				table_id: 2734346777462371767L
+			}]
+		}
+	]
 }

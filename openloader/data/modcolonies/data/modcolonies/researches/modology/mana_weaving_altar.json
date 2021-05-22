@@ -7,7 +7,7 @@
     "requirements": [
       {
         "mandatory-building": "mysticalsite",
-        "level": 4
+        "level": 3
       },
       {
         "mandatory-building": "deliveryman",

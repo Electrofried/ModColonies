@@ -1,6 +1,6 @@
 {
     "type": "recipe",
-    "crafter": "librairy",
+    "crafter": "enchanter",
     "inputs": [
       {
         "item": "tconstruct:crafting_station",

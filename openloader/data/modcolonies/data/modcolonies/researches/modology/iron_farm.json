@@ -13,10 +13,6 @@
         "level": 3
       },
       {
-        "mandatory-building": "blacksmith",
-        "level": 3
-      },
-      {
         "item": "minecraft:iron_block",
         "quantity": 8
       }

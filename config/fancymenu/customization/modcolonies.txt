@@ -34,8 +34,8 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/single_mouse.png
-  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/single.png
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/single.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/single_mouse.png
 }
 
 customization {
@@ -62,8 +62,8 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/multi_mouse.png
-  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/multi.png
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/multi.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/multi_mouse.png
 }
 
 customization {
@@ -123,8 +123,8 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/options_mouse.png
-  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/options.png
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/options.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/options_mouse.png
 }
 
 customization {
@@ -151,8 +151,8 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/quit_mouse.png
-  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/quit.png
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/quit.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/quit_mouse.png
 }
 
 customization {
@@ -206,8 +206,8 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/mods_mouse.png
-  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/mods.png
+  backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/mods.png
+  backgroundnormal = openloader/resources/modcolonies/assets/modcolonies/image/mods_mouse.png
 }
 
 customization {
@@ -247,7 +247,7 @@ customization {
   buttonaction = openlink
   x = 15
   width = 20
-  actionid = efa1dbc2-58c9-47ed-afb5-fcae4b836ed31621489779700
+  actionid = 5bea22b4-9aa3-4cb8-a54a-eb338365bd431621665552822
   action = addbutton
   y = -101
   backgroundhovered = openloader/resources/modcolonies/assets/modcolonies/image/discord.png

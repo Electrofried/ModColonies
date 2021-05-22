@@ -6,6 +6,18 @@
 	title: "MineMinions!",
 	icon: "structurize:sceptergold",
 	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: -2.0d,
+		width: 4.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "modcolonies:textures/logo.png",
+		hover: [ ],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
 			x: 0.0d,
@@ -221,7 +233,7 @@
 		},
 		{
 			x: 3.5d,
-			y: -1.5d,
+			y: -1.0d,
 			description: [
 				"The stonemason acts much like the vanilla stonecutter, shaping stone and related products to meet the demands of your builders saving you much of the work!",
 				"",
@@ -243,8 +255,8 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -0.5d,
+			x: 4.0d,
+			y: 0.0d,
 			description: [
 				"The sawmill handles much the same duties as the stonemason, but for wood. ",
 				"",
@@ -579,7 +591,7 @@
 		},
 		{
 			x: 2.5d,
-			y: 1.0d,
+			y: 1.5d,
 			description: [
 				"The Mystical site is a great way to boost the happiness of your colonists and the stats of your new colonists.",
 				"The undertaker will also visit here when not working to boost their mana level, increasing their chance to resurect someone."
@@ -599,7 +611,7 @@
 		},
 		{
 			x: 3.5d,
-			y: 0.5d,
+			y: 1.0d,
 			description: [
 				"Not so spooky! The graveyary will hold the graves of your departed colonists. The Undertaker has a chance to resurect dead colonists but if they fail a grave will be created that decays over time holding all the items the colonist had upon death.",
 				"",

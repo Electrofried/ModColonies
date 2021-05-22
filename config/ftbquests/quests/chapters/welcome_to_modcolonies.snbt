@@ -15,10 +15,22 @@
 				-144909293
 			],
 			isActive: 0b,
-			guardtowerpositions: []
+			guardtowerpositions: [ ]
 		}
 	},
 	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: -2.5d,
+		width: 8.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "modcolonies:textures/title.png",
+		hover: [ ],
+		click: "",
+		dev: false,
+		corner: false
+	}],
 	quests: [
 		{
 			x: 0.0d,
@@ -47,7 +59,7 @@
 							1098213344
 						],
 						isActive: 0b,
-						guardtowerpositions: []
+						guardtowerpositions: [ ]
 					}
 				}
 			}],
@@ -187,33 +199,33 @@
 						Count: 1b,
 						tag: {
 							Inventory: [
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{},
-								{}
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ },
+								{ }
 							]
 						}
 					}
