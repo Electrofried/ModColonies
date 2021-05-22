@@ -14,7 +14,7 @@
 [recipes]
 	#
 	#When true, allows the Mechanical Press to process entire stacks at a time.
-	bulkPressing = false
+	bulkPressing = true
 	#
 	#When true, allows any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
 	allowShapelessInMixer = true

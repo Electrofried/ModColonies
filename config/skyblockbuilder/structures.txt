@@ -17,6 +17,13 @@ minecraft:village
 minecraft:nether_fossil
 minecraft:bastion_remnant
 supplementaries:way_sign
+dungeons_plus:tower
+dungeons_plus:bigger_dungeon
+dungeons_plus:leviathan
+dungeons_plus:snowy_temple
+dungeons_plus:end_ruins
+dungeons_plus:warped_garden
+dungeons_plus:soul_prison
 betterstrongholds:stronghold
 bettermineshafts:mineshaft
 tconstruct:earth_slime_island

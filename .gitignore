@@ -14,10 +14,11 @@ backups/
 .mixin.out/
 .vscode/
 backups/
-minecolonies/
 resourcepacks/
 schematics/
 skyblock_exports/
-structurize/
 emojiful/
-
+knownkeys.txt
+TrashSlotSaveState.json
+usercache.json
+usernamecache.json
