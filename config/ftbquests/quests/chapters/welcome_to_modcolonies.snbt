@@ -1,374 +1,374 @@
 {
-	id: "15470FAFD2C414C0",
-	group: "",
-	order_index: 0,
-	filename: "welcome_to_modcolonies",
-	title: "Welcome to ModColonies",
+	id: "15470FAFD2C414C0"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_modcolonies"
+	title: "Welcome to ModColonies"
 	icon: {
-		id: "minecolonies:banner_rally_guards",
-		Count: 1b,
+		id: "minecolonies:banner_rally_guards"
+		Count: 1b
 		tag: {
 			id: [I;
-				-329824995,
-				945242871,
-				-1715184945,
+				-329824995
+				945242871
+				-1715184945
 				-144909293
-			],
-			isActive: 0b,
+			]
+			isActive: 0b
 			guardtowerpositions: [ ]
 		}
-	},
-	default_quest_shape: "",
+	}
+	default_quest_shape: ""
 	images: [{
-		x: 0.0d,
-		y: -2.5d,
-		width: 8.0d,
-		height: 2.0d,
-		rotation: 0.0d,
-		image: "modcolonies:textures/title.png",
-		hover: [ ],
-		click: "",
-		dev: false,
+		x: 0.0d
+		y: -2.5d
+		width: 8.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "modcolonies:textures/title.png"
+		hover: [ ]
+		click: ""
+		dev: false
 		corner: false
-	}],
+	}]
 	quests: [
 		{
-			x: 0.0d,
-			y: -1.5d,
+			x: 0.0d
+			y: -1.5d
 			description: [
-				"Welcome to ModColonies! This pack aims to integrate Modded minecraft to MineColonies progression in order to provide a rich experience. There are a few things you should know however to get started.",
-				"",
-				"PLEASE read the quests with care as the information is important.",
-				"",
-				"Also, yes, Ultimine (Vein miner) is available, however the capacity has been reduced so consider investing in better tools.",
+				"Welcome to ModColonies! This pack aims to integrate Modded minecraft to MineColonies progression in order to provide a rich experience. There are a few things you should know however to get started."
+				""
+				"PLEASE read the quests with care as the information is important."
+				""
+				"Also, yes, Ultimine (Vein miner) is available, however the capacity has been reduced so consider investing in better tools."
 				"Sneaking will also speed up the growth of trees around you."
-			],
-			id: "7C87D160D5F7F9AF",
+			]
+			id: "7C87D160D5F7F9AF"
 			tasks: [{
-				id: "0911DFCFBEF9C1D6",
-				type: "checkmark",
-				title: "A few notes to get started",
+				id: "0911DFCFBEF9C1D6"
+				type: "checkmark"
+				title: "A few notes to get started"
 				icon: {
-					id: "minecolonies:banner_rally_guards",
-					Count: 1b,
+					id: "minecolonies:banner_rally_guards"
+					Count: 1b
 					tag: {
 						id: [I;
-							-171139623,
-							-634106588,
-							-1886806892,
+							-171139623
+							-634106588
+							-1886806892
 							1098213344
-						],
-						isActive: 0b,
+						]
+						isActive: 0b
 						guardtowerpositions: [ ]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "6E2C46F97C4DAF76",
-				type: "choice",
-				icon: "minecolonies:supplycampdeployer",
+				id: "6E2C46F97C4DAF76"
+				type: "choice"
+				icon: "minecolonies:supplycampdeployer"
 				table_id: 7734176639102609426L
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -1.0d,
+			x: 1.0d
+			y: -1.0d
 			description: [
-				"Mining is usually a large part of the minecraft experience unless you live in the sky, ",
-				"however your ability to see stone containing ore has been disabled and as such you will need to rely on your colonists to do the mining for you! ",
-				"",
-				"Construct a MineColonies mine in order to obtain ores from the ground.",
+				"Mining is usually a large part of the minecraft experience unless you live in the sky, "
+				"however your ability to see stone containing ore has been disabled and as such you will need to rely on your colonists to do the mining for you! "
+				""
+				"Construct a MineColonies mine in order to obtain ores from the ground."
 				"Eventually you should move on to the sifter for more sustainable generation of resources."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["7C87D160D5F7F9AF"],
-			dependency_requirement: "one_started",
-			id: "1D9E2FEB2365BDF7",
+			]
+			hide_dependency_lines: true
+			dependencies: ["7C87D160D5F7F9AF"]
+			dependency_requirement: "one_started"
+			id: "1D9E2FEB2365BDF7"
 			tasks: [{
-				id: "53E51488B74F64D2",
-				type: "checkmark",
-				title: "Minecraft without mining?!",
+				id: "53E51488B74F64D2"
+				type: "checkmark"
+				title: "Minecraft without mining?!"
 				icon: "minecolonies:blockhutminer"
-			}],
+			}]
 			rewards: [{
-				id: "056DB7652B67BDD7",
-				type: "loot",
+				id: "056DB7652B67BDD7"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -1.0d,
+			x: -1.0d
+			y: -1.0d
 			description: [
-				"You may have noticed some of your favorite mods are available, but before you go off and construct an epic smelting machine, become an all powerful wizard or fly like a god you will need to undertake some study at the University. ",
-				"",
-				"Study takes time and resources, but after completion your colonists will be there to help you out crafting what you need. ",
-				"",
+				"You may have noticed some of your favorite mods are available, but before you go off and construct an epic smelting machine, become an all powerful wizard or fly like a god you will need to undertake some study at the University. "
+				""
+				"Study takes time and resources, but after completion your colonists will be there to help you out crafting what you need. "
+				""
 				"In order for your colonists to actually make items you will need to place a request via a post box and provide the required materials in the warehouse. Recipes can be viewed in the respective huts."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["7C87D160D5F7F9AF"],
-			id: "6A53F449DE13708A",
+			]
+			hide_dependency_lines: true
+			dependencies: ["7C87D160D5F7F9AF"]
+			id: "6A53F449DE13708A"
 			tasks: [{
-				id: "0D00E2C4ABBBDA94",
-				type: "checkmark",
-				title: "Research and Requests!",
+				id: "0D00E2C4ABBBDA94"
+				type: "checkmark"
+				title: "Research and Requests!"
 				icon: "minecolonies:blockhutuniversity"
-			}],
+			}]
 			rewards: [{
-				id: "1D3D7D1B0EC055D3",
-				type: "random",
-				icon: "mob_grinding_utils:saw_upgrade_looting",
+				id: "1D3D7D1B0EC055D3"
+				type: "random"
+				icon: "mob_grinding_utils:saw_upgrade_looting"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			icon: "minecolonies:blockhuttownhall",
-			x: 0.0d,
-			y: 0.0d,
+			icon: "minecolonies:blockhuttownhall"
+			x: 0.0d
+			y: 0.0d
 			description: [
-				"That about covers the basics! Check out the other quest lines on the left for a more detailed guide on mine colonies and some of the special changes in this pack along with a few end game challenges! (WIP).",
-				"",
-				"A note about styles, MineColonies offers many building styles, some more challenging than others. While you are free to use what ever style pleases you, you may find some options simpler (like caves) or much more difficult (such as warped/nether).",
-				"",
-				"Picking a supply ship/wagon that matches your intended style may offer you a bit of a head start as you can dismantle it for extra goodies.",
-				"",
+				"That about covers the basics! Check out the other quest lines on the left for a more detailed guide on mine colonies and some of the special changes in this pack along with a few end game challenges! (WIP)."
+				""
+				"A note about styles, MineColonies offers many building styles, some more challenging than others. While you are free to use what ever style pleases you, you may find some options simpler (like caves) or much more difficult (such as warped/nether)."
+				""
+				"Picking a supply ship/wagon that matches your intended style may offer you a bit of a head start as you can dismantle it for extra goodies."
+				""
 				"One more thing before you head out, you probably want some supplies to kick things off! Take these with you and I hope you enjoy ModColonies!"
-			],
+			]
 			dependencies: [
-				"6A53F449DE13708A",
-				"77A11FBB7F16DD04",
-				"1D9E2FEB2365BDF7",
-				"7C87D160D5F7F9AF",
-				"1D74354A3308FDBC",
-				"544CA9551384B0E2",
+				"6A53F449DE13708A"
+				"77A11FBB7F16DD04"
+				"1D9E2FEB2365BDF7"
+				"7C87D160D5F7F9AF"
+				"1D74354A3308FDBC"
+				"544CA9551384B0E2"
 				"3EEBA4BF85D92571"
-			],
-			id: "24F521B13194AD8A",
+			]
+			id: "24F521B13194AD8A"
 			tasks: [{
-				id: "3AA64E490B86607E",
-				type: "checkmark",
+				id: "3AA64E490B86607E"
+				type: "checkmark"
 				title: "Time to punch wood, break cobble and found an empire!"
-			}],
+			}]
 			rewards: [
 				{
-					id: "1471B92B9DBF688C",
-					type: "item",
+					id: "1471B92B9DBF688C"
+					type: "item"
 					item: {
-						id: "ceramics:cracked_clay_bucket",
-						Count: 1b,
+						id: "ceramics:cracked_clay_bucket"
+						Count: 1b
 						tag: {
 							fluid: "minecraft:lava"
 						}
-					},
+					}
 					count: 2
-				},
+				}
 				{
-					id: "11EAD6192AEC4C29",
-					type: "item",
+					id: "11EAD6192AEC4C29"
+					type: "item"
 					item: {
-						id: "ceramics:clay_bucket",
-						Count: 1b,
+						id: "ceramics:clay_bucket"
+						Count: 1b
 						tag: {
 							fluid: "minecraft:water"
 						}
-					},
+					}
 					count: 2
-				},
+				}
 				{
-					id: "6DDB50AFE8E22B8D",
-					type: "item",
+					id: "6DDB50AFE8E22B8D"
+					type: "item"
 					item: {
-						id: "excompressum:compressed_crook",
-						Count: 1b,
+						id: "excompressum:compressed_crook"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
 				{
-					id: "4C1BC3EA0DBA48A8",
-					type: "item",
+					id: "4C1BC3EA0DBA48A8"
+					type: "item"
 					item: "metalbarrels:copper_barrel"
-				},
+				}
 				{
-					id: "719BBA70DB3BF1F7",
-					type: "item",
+					id: "719BBA70DB3BF1F7"
+					type: "item"
 					item: {
-						id: "quark:backpack",
-						Count: 1b,
+						id: "quark:backpack"
+						Count: 1b
 						tag: {
 							Inventory: [
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
-								{ },
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
 								{ }
 							]
 						}
 					}
-				},
+				}
 				{
-					id: "0B1D3B126FEE61F1",
-					type: "item",
-					item: "minecraft:oak_sapling",
+					id: "0B1D3B126FEE61F1"
+					type: "item"
+					item: "minecraft:oak_sapling"
 					count: 16
 				}
 			]
-		},
+		}
 		{
-			icon: "prefab:item_moderate_house",
-			x: -1.0d,
-			y: 1.5d,
+			icon: "prefab:item_moderate_house"
+			x: -1.0d
+			y: 1.5d
 			description: [
-				"Prefabricated buildings are available for your convenience.",
-				"",
-				"While you can take the time to build things your self, some people enjoy just getting on with it and these prefabricated buildings provide a nice compliment to the colonist structures for your own use.",
-				"",
+				"Prefabricated buildings are available for your convenience."
+				""
+				"While you can take the time to build things your self, some people enjoy just getting on with it and these prefabricated buildings provide a nice compliment to the colonist structures for your own use."
+				""
 				"Some building offer special features! The end and nether portal structures both enable traveling to these dimensions, and the monster masher building includes some fantastic spawners that might be handy if you enjoy some zombie friends. "
-			],
-			hide_dependency_lines: true,
-			dependencies: ["7C87D160D5F7F9AF"],
-			id: "77A11FBB7F16DD04",
+			]
+			hide_dependency_lines: true
+			dependencies: ["7C87D160D5F7F9AF"]
+			id: "77A11FBB7F16DD04"
 			tasks: [{
-				id: "07FDB96B36A93816",
-				type: "checkmark",
-				title: "More than a house in a box!",
+				id: "07FDB96B36A93816"
+				type: "checkmark"
+				title: "More than a house in a box!"
 				icon: "prefab:item_moderate_house"
-			}],
+			}]
 			rewards: [{
-				id: "3B6A29DB48E64934",
-				type: "item",
+				id: "3B6A29DB48E64934"
+				type: "item"
 				item: "prefab:item_fish_pond"
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 0.0d,
+			x: 1.5d
+			y: 0.0d
 			description: [
-				"Finding saplings and such can be difficult at times.",
-				"",
-				"Perhaps consider making a water strainer to obtain some tree seeds along with other debris that might help kickstart your colony!",
-				"",
+				"Finding saplings and such can be difficult at times."
+				""
+				"Perhaps consider making a water strainer to obtain some tree seeds along with other debris that might help kickstart your colony!"
+				""
 				"You also have a small chance of getting some nuggets of iron and gold should you really require them for other buildings, but your first stop should be the mine/sifter huts."
-			],
-			hide_dependency_lines: true,
-			dependencies: ["7C87D160D5F7F9AF"],
-			id: "1D74354A3308FDBC",
+			]
+			hide_dependency_lines: true
+			dependencies: ["7C87D160D5F7F9AF"]
+			id: "1D74354A3308FDBC"
 			tasks: [{
-				id: "13045DAF49706FBB",
-				type: "checkmark",
-				title: "Getting started can be a strain.",
+				id: "13045DAF49706FBB"
+				type: "checkmark"
+				title: "Getting started can be a strain."
 				icon: {
-					id: "waterstrainer:strainer_survivalist",
-					Count: 1b,
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [
 				{
-					id: "7DADF0EA9700E568",
-					type: "item",
+					id: "7DADF0EA9700E568"
+					type: "item"
 					item: "waterstrainer:strainer_base"
-				},
+				}
 				{
-					id: "24BD5042CE19CFEA",
-					type: "item",
+					id: "24BD5042CE19CFEA"
+					type: "item"
 					item: {
-						id: "waterstrainer:strainer_survivalist",
-						Count: 1b,
+						id: "waterstrainer:strainer_survivalist"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
 			]
-		},
+		}
 		{
-			title: "Barrels, Cruicables and Cobblegens.",
+			title: "Barrels, Cruicables and Cobblegens."
 			icon: {
-				id: "exnihilosequentia:crook_wood",
-				Count: 1b,
+				id: "exnihilosequentia:crook_wood"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
-			x: -1.5d,
-			y: 0.0d,
+			}
+			x: -1.5d
+			y: 0.0d
 			description: [
-				"This pack includes Ex Nihilo, for those unaware this offers many options for playing this pack as a skyblock. (Playing on skyblock mode is unsupported for now)",
-				"",
-				"However many of those options can be handy even on the ground, barrels can transform fluids, trees can be crooked for silkworms and transformed to make string, crucibles can melt stone to lava and you can even summon certain monsters with porcelain dolls.",
-				"",
-				"You can not however manually sieve for things, you will need colonists to do that for you.",
-				"",
+				"This pack includes Ex Nihilo, for those unaware this offers many options for playing this pack as a skyblock. (Playing on skyblock mode is unsupported for now)"
+				""
+				"However many of those options can be handy even on the ground, barrels can transform fluids, trees can be crooked for silkworms and transformed to make string, crucibles can melt stone to lava and you can even summon certain monsters with porcelain dolls."
+				""
+				"You can not however manually sieve for things, you will need colonists to do that for you."
+				""
 				"Finally if you are short on some types of stone like granite or andesite then you should look in to creating a cobble generator with lava and water as this can make more than just stone!"
-			],
-			hide_dependency_lines: true,
-			dependencies: ["7C87D160D5F7F9AF"],
-			id: "544CA9551384B0E2",
+			]
+			hide_dependency_lines: true
+			dependencies: ["7C87D160D5F7F9AF"]
+			id: "544CA9551384B0E2"
 			tasks: [{
-				id: "679FD949E354C70C",
+				id: "679FD949E354C70C"
 				type: "checkmark"
-			}],
+			}]
 			rewards: [{
-				id: "45AE363DE9C94C8C",
-				type: "item",
+				id: "45AE363DE9C94C8C"
+				type: "item"
 				item: {
-					id: "exnihilosequentia:hammer_netherite",
-					Count: 1b,
+					id: "exnihilosequentia:hammer_netherite"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 1.5d,
-			description: ["The stonecutter has been given an expansion that allows it to work with wood! This will greatly speed up your early building endevors!"],
-			hide_dependency_lines: true,
-			dependencies: ["7C87D160D5F7F9AF"],
-			id: "3EEBA4BF85D92571",
+			x: 1.0d
+			y: 1.5d
+			description: ["The stonecutter has been given an expansion that allows it to work with wood! This will greatly speed up your early building endevors!"]
+			hide_dependency_lines: true
+			dependencies: ["7C87D160D5F7F9AF"]
+			id: "3EEBA4BF85D92571"
 			tasks: [{
-				id: "3B1A2DAF8703C19C",
-				type: "checkmark",
-				title: "It slices! It dices!",
+				id: "3B1A2DAF8703C19C"
+				type: "checkmark"
+				title: "It slices! It dices!"
 				icon: "minecraft:stonecutter"
-			}],
+			}]
 			rewards: [
 				{
-					id: "619D4F6A17B8D279",
-					type: "item",
+					id: "619D4F6A17B8D279"
+					type: "item"
 					item: "minecraft:stonecutter"
-				},
+				}
 				{
-					id: "794CA8A79C6EFA76",
-					type: "item",
+					id: "794CA8A79C6EFA76"
+					type: "item"
 					item: "prefab:block_triple_compressed_stone"
 				}
 			]

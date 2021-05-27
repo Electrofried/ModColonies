@@ -1,0 +1,464 @@
+{
+	id: "7DF07F8006502E98"
+	group: ""
+	order_index: 2
+	filename: "hints_tips_and_handy_things"
+	title: "Hints, Tips and handy things"
+	icon: "ftbquests:missing_item"
+	default_quest_shape: ""
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"The REDIA tool is very handy early once and you should consider making one once you have a mine for iron and diamonds."
+				""
+				"Not only is it a multi-tool like a paxel, but it also allows you to hold sneak and chop down entire trees like a lumber axe!"
+				""
+				"You can also 'over-repair' it with more diamonds to gain fortune, useful for processing some of your early ores."
+			]
+			id: "45EE9E501610DA7E"
+			tasks: [{
+				id: "2BAA725CAA58B52F"
+				type: "item"
+				item: {
+					id: "engineerstools:redia_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A2F9606DB87E6BE"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Better than leather!"
+			x: 1.5d
+			y: -2.0d
+			description: [
+				"Those darned guards always complaining about armour!"
+				""
+				"Lapis is fairly common when you have a mine, and lapis armour works with even the lowest tier guard house while providing decent protection. Consider making some sets for your guards!"
+			]
+			id: "1BE419E4A6186F3F"
+			tasks: [
+				{
+					id: "56646E6D598EACA4"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EE15FAEF38A8CA3"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C6921B468804C79"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02F2FD675372D86A"
+					type: "item"
+					item: {
+						id: "mekanismtools:lapis_lazuli_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7C5833BFD4CDA7C3"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Cobble for days!"
+			x: -1.5d
+			y: -2.0d
+			description: [
+				"Rather than running down and vein mining chunks of the ground, consider making a basic cobble generator with lava and water."
+				""
+				"You could also make a block version of the cobble generator, however that does not provide extra things like granite, andesite or diorite."
+			]
+			id: "1435E41961C7D49B"
+			tasks: [
+				{
+					id: "7B30FD07A8BACAA7"
+					type: "item"
+					item: "engineersdecor:small_block_breaker"
+				}
+				{
+					id: "1034FE3DC110D0B7"
+					type: "item"
+					item: "engineersdecor:small_solar_panel"
+				}
+			]
+			rewards: [
+				{
+					id: "67AACCE7638FF374"
+					type: "item"
+					item: "cobblefordays:tier_2"
+				}
+				{
+					id: "35B1CF364F94D491"
+					type: "loot"
+					table_id: 2734346777462371767L
+				}
+			]
+		}
+		{
+			title: "Baited!"
+			x: -2.0d
+			y: -1.0d
+			description: [
+				"BBQ in a ball! "
+				""
+				"Sometimes animals can be a pain to find or lure back, especially if you do not have an ender-farmer lead yet."
+				""
+				"You can make animal bait and place it down to lure some animals in for your farms."
+			]
+			id: "1A1079E394C6DD0B"
+			tasks: [
+				{
+					id: "5EE455DCCDFA0B3D"
+					type: "item"
+					item: "excompressum:cow_bait"
+				}
+				{
+					id: "323BEE99DD812055"
+					type: "item"
+					item: "excompressum:pig_bait"
+				}
+				{
+					id: "26800D1758B2347E"
+					type: "item"
+					item: "excompressum:sheep_bait"
+				}
+				{
+					id: "47174205532BC2AD"
+					type: "item"
+					item: "excompressum:chicken_bait"
+				}
+			]
+			rewards: [{
+				id: "658F902F22E437B1"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Roads and paths!"
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"Colonists walk faster on paths, they will also prefer to follow them helping you assist them with their pathfinding."
+				""
+				"There are many options for path blocks, they are tagged with the #minecolonies:pathblocks tags (f3+h to toggle advanced tooltips)"
+				""
+				"some notable ones include Bridges from Macaw's mods, Asphalt and even plastic roads. Some of these blocks even give more of a speed boost!"
+			]
+			id: "2885AF0A4046DA5A"
+			tasks: [{
+				id: "53119CE462933501"
+				type: "item"
+				item: "minecraft:white_concrete"
+				count: 16L
+			}]
+			rewards: [{
+				id: "39B2F60F97E8BC3E"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "The end of it all!"
+			x: -2.0d
+			y: 0.5d
+			description: [
+				"Finding a stronghold can be a pain, and then it might be thousands of blocks from your home! "
+				""
+				"Why not make your own with this handy dandy prefab?"
+			]
+			id: "51E73737C512A029"
+			tasks: [{
+				id: "2079DC0088060C15"
+				type: "item"
+				item: "prefab:item_ender_gateway"
+			}]
+			rewards: [{
+				id: "21A33AF3A1CB6CA9"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Mob-B-Gone"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"Mega torches stop monsters spawning within a 64 block radius around them. This can be a great way of stopping monsters coming in and annoying your colonists."
+				""
+				"Other options include powered lanterns from Immersive Engineering, or spamming torches everywhere like a mad man."
+			]
+			id: "3A1011E87A49061D"
+			tasks: [{
+				id: "542A828DF8EA8020"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "1625E1BA229CACAB"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Flowers for a friend!"
+			x: 2.0d
+			y: 0.5d
+			description: [
+				"Finding flowers can be a pain. And some biomes do not even spawn them when you bonemeal the ground."
+				""
+				"Instead craft seeds and a flower pot together to make a flower."
+				""
+				"You can then craft those two flowers together to cycle through the list, on and on, till you get to sunflowers."
+				""
+				"Once you get to sunflowers you will need to use a vanilla crafting table to get past the sunflower seeds and get flowers instead."
+			]
+			id: "770F68F1D8E0D2D2"
+			tasks: [
+				{
+					id: "4D7C2536AF2B866E"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 16L
+				}
+				{
+					id: "6C7319713C1DB6D0"
+					type: "item"
+					item: "minecraft:flower_pot"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "34F21A9765E1E3B7"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Who needs sheep?"
+			x: 0.5d
+			y: -1.5d
+			description: [
+				"Some buildings need a large amount of wool."
+				""
+				"Instead of murdering hundreds of furry friends, you can use a crook on leaves to get silk worms."
+				""
+				"then use the silkworm on leaves and they will spread infesting the whole tree! Then you can break the leaves for lots of string! "
+				"Wool for days!"
+			]
+			id: "30F2368913067FF4"
+			tasks: [
+				{
+					id: "75A2376C250003A5"
+					type: "item"
+					item: "exnihilosequentia:silkworm"
+				}
+				{
+					id: "139EF4C6CAE663CF"
+					type: "item"
+					item: "minecraft:string"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "54198DDF914A0577"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Hard and strong!"
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Obsidian can be made in a barrel by bucketing in lava with water on top."
+				""
+				"This can be handy for getting to the nether before you have diamonds!"
+			]
+			id: "09FB75844C1EC225"
+			tasks: [
+				{
+					id: "2DDD31705CE3CD9B"
+					type: "item"
+					item: "exnihilosequentia:barrel_stone"
+				}
+				{
+					id: "7A2F0317A819D5FB"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+			]
+			rewards: [{
+				id: "7155311564D81C21"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Where are my fluid pipes?!"
+			x: -0.5d
+			y: -1.5d
+			description: [
+				"Liquid hoppers can be great for automating small tasks, like pumping lava out of the side of a crucible in to a tank until you unlock better pipe options."
+				""
+				"Compressed iron can be made by exploding iron ingots or blocks with tnt, just make sure you are far enough away from your base otherwise this may not work."
+				"Fluid tanks can also be used as giant buckets by holding shift and scrolling with your mouse to put them in bucket mode."
+			]
+			id: "454C440B7CAB5B66"
+			tasks: [
+				{
+					id: "3C77D8B083CA46C9"
+					type: "item"
+					item: "pneumaticcraft:liquid_hopper"
+				}
+				{
+					id: "496319A951BC6FA9"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+			rewards: [{
+				id: "5DDACF47A33341C4"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Green with Envy!"
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"Villagers can provide some handy trades and are even required for certain mods to progress."
+				""
+				"You can shift right click on a villager in world to turn them in to an 'item', then pop them in to one of these to have them trade or breed for you!"
+				""
+				"When trading, remember you also need to supply their 'job' block, such as a lectern for enchanters, in order for them to trade. Simply right click the block on the trader to put it inside."
+			]
+			id: "08ADEB76637ABD21"
+			tasks: [
+				{
+					id: "68DDC92697478F18"
+					type: "item"
+					item: "easy_villagers:breeder"
+				}
+				{
+					id: "1D64CF81F8FB8A06"
+					type: "item"
+					item: "easy_villagers:trader"
+				}
+				{
+					id: "795007910C899DA9"
+					type: "item"
+					item: "easy_villagers:incubator"
+				}
+			]
+			rewards: [{
+				id: "5041340F55393067"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			title: "Help! My builder needs a thing!"
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"Rather than exploring for hours on end trying to locate a certain biome most of the unique things such as coco beans, ferns, and bamboo can be obtained via sifting in a minecolonies sifter. "
+				""
+				"It may take a bit of work to get set up, but really it is fantastic for generating things your builders may need. See the minecolonies quests for more info."
+			]
+			id: "46E523A4567BDF89"
+			tasks: [{
+				id: "1A376BAFDB4A0924"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "31E0C553852D5BD9"
+				type: "item"
+				item: {
+					id: "minecolonies:sifter_mesh_string"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Weeeeeee!"
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"While using /RTP can get you away from world spawn, it has a large cooldown."
+				""
+				"Instead you could make a slime sling and boots to bounce around quickly and find the perfect location to build your colony! Keep an eye out for green slime islands on the ground or skyslime islands up in the air!"
+				""
+			]
+			id: "1B127536BF6CBE7E"
+			tasks: [
+				{
+					id: "7A30CBD3F1FBAF4D"
+					type: "item"
+					item: {
+						id: "tconstruct:earth_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1870DD7763A1D6DE"
+					type: "item"
+					item: "tconstruct:earth_slime_boots"
+				}
+			]
+			rewards: [{
+				id: "4839B9175C8EE49C"
+				type: "random"
+				table_id: 2734346777462371767L
+			}]
+		}
+	]
+}

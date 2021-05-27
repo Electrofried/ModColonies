@@ -30,7 +30,7 @@
 	citizenrespawninterval = 60
 	#Max citizens in one colony. [Default: 150, min: 4, max: 500]
 	#Range: 4 ~ 500
-	maxcitizenpercolony = 200
+	maxcitizenpercolony = 250
 	#Should the Builder and Miner build without resources? (This also turns off what the Miner produces.) [Default: false]
 	builderinfiniteresources = false
 	#Should there be a max of 1 warehouse per colony? [Default: true]
@@ -139,10 +139,10 @@
 	maxColonySize = 40
 	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
-	minColonyDistance = 100
+	minColonyDistance = 50
 	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 15]
 	#Range: 1 ~ 15
-	initialColonySize = 4
+	initialColonySize = 6
 	#Should the min/max distance from spawn also affect colony placement? [Default: false]
 	restrictcolonyplacement = false
 	#Max distance (in blocks) from world spawn for a colony. [Default: 8000, min: 1000, max: 100000]

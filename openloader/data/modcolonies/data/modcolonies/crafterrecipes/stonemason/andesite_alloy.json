@@ -7,8 +7,8 @@
         "count": 16
       },
       {
-        "item": "create:zinc_nugget",
-        "count": 16
+        "item": "exnihilosequentia:ingot_zinc",
+        "count": 2
       }
     ],
     "result": "create:andesite_alloy",

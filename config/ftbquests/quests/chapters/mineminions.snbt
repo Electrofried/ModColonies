@@ -1,632 +1,632 @@
 {
-	id: "3DDDFA46CFB520BF",
-	group: "",
-	order_index: 1,
-	filename: "mineminions",
-	title: "MineMinions!",
-	icon: "structurize:sceptergold",
-	default_quest_shape: "",
+	id: "3DDDFA46CFB520BF"
+	group: ""
+	order_index: 1
+	filename: "mineminions"
+	title: "MineMinions!"
+	icon: "structurize:sceptergold"
+	default_quest_shape: ""
 	images: [{
-		x: 4.5d,
-		y: -2.0d,
-		width: 4.0d,
-		height: 4.0d,
-		rotation: 0.0d,
-		image: "modcolonies:textures/logo.png",
-		hover: [ ],
-		click: "",
-		dev: false,
+		x: 4.5d
+		y: -2.0d
+		width: 4.0d
+		height: 4.0d
+		rotation: 0.0d
+		image: "modcolonies:textures/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
 		corner: false
-	}],
+	}]
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
+			x: 0.0d
+			y: 0.0d
 			description: [
-				"The beating heart of your colony, from here you can manage your settings, permissions, and citizens.",
-				"",
-				"Place it down and select your style  of building. You can use the structure tool to move and rotate it before selecting to build it. ",
-				"",
-				"What follows is by no means a complete guide of all buildings and features of minecolonies. Mostly I will focus on things that have been changed specificly for the ModColonies modpack.",
+				"The beating heart of your colony, from here you can manage your settings, permissions, and citizens."
+				""
+				"Place it down and select your style  of building. You can use the structure tool to move and rotate it before selecting to build it. "
+				""
+				"What follows is by no means a complete guide of all buildings and features of minecolonies. Mostly I will focus on things that have been changed specificly for the ModColonies modpack."
 				"For more information please visit the wiki: https://wiki.minecolonies.ldtteam.com/"
-			],
-			dependencies: ["24F521B13194AD8A"],
-			id: "740C2D517CC69DCF",
+			]
+			dependencies: ["24F521B13194AD8A"]
+			id: "740C2D517CC69DCF"
 			tasks: [{
-				id: "52D7166F7BE274AF",
-				type: "item",
+				id: "52D7166F7BE274AF"
+				type: "item"
 				item: "minecolonies:blockhuttownhall"
-			}],
+			}]
 			rewards: [{
-				id: "6716FA7AF118AB5C",
-				type: "loot",
+				id: "6716FA7AF118AB5C"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -1.5d,
+			x: 0.0d
+			y: -1.5d
 			description: [
-				"The warehouse is the storage of your colony.",
-				"",
-				"It should be in a very central location as almost everything will go to and from here.",
-				"",
-				"You can only have one warehouse however it can be upgraded for more storage, and at level 5 the storage can be expanded further.",
-				"",
+				"The warehouse is the storage of your colony."
+				""
+				"It should be in a very central location as almost everything will go to and from here."
+				""
+				"You can only have one warehouse however it can be upgraded for more storage, and at level 5 the storage can be expanded further."
+				""
 				"You can also 'sort' the warehouse automatically on the second page of the interface."
-			],
-			dependencies: ["740C2D517CC69DCF"],
-			id: "4DEEE161D7260EF6",
+			]
+			dependencies: ["740C2D517CC69DCF"]
+			id: "4DEEE161D7260EF6"
 			tasks: [{
-				id: "0A875CDF88EDDFF2",
-				type: "item",
+				id: "0A875CDF88EDDFF2"
+				type: "item"
 				item: "minecolonies:blockhutwarehouse"
-			}],
+			}]
 			rewards: [{
-				id: "09E3F4DFBB51197D",
-				type: "loot",
+				id: "09E3F4DFBB51197D"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -1.5d,
+			x: -1.5d
+			y: -1.5d
 			description: [
-				"This is your first step to getting some ores out of the ground. While you are unable to see them, the miner will be able to collect ores in the course of mining. ",
-				"",
-				"Iron, gold, lapis, diamond, emeralds and even modded ore such as copper and tin will be dug up and placed in the inventory of the miner.",
-				"",
-				"Keep an eye out though, as the miner may get stuck digging tunnels or stumble in to a pit of lava. Perhaps there is a better option available?",
-				"",
+				"This is your first step to getting some ores out of the ground. While you are unable to see them, the miner will be able to collect ores in the course of mining. "
+				""
+				"Iron, gold, lapis, diamond, emeralds and even modded ore such as copper and tin will be dug up and placed in the inventory of the miner."
+				""
+				"Keep an eye out though, as the miner may get stuck digging tunnels or stumble in to a pit of lava. Perhaps there is a better option available?"
+				""
 				"You can select the Y level they mine at on the second page of the mine interface however this will have no effect on the ores found (in this pack)."
-			],
-			dependencies: ["740C2D517CC69DCF"],
-			id: "5DCE6A23088CF792",
+			]
+			dependencies: ["740C2D517CC69DCF"]
+			id: "5DCE6A23088CF792"
 			tasks: [{
-				id: "04FE1FB01F72CC0A",
-				type: "item",
+				id: "04FE1FB01F72CC0A"
+				type: "item"
 				item: "minecolonies:blockhutminer"
-			}],
+			}]
 			rewards: [{
-				id: "66398321B923D671",
-				type: "loot",
+				id: "66398321B923D671"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -1.5d,
+			x: -3.0d
+			y: -1.5d
 			description: [
-				"The sifter does what is says on the box, it sifts. There are a number of items it can sift to obtain resources.",
-				"",
-				'You can click the "view recipes" button to get a full list of sifting options.',
-				"",
-				"Sifting uncompressed dirt/gravel/sand can be underwhelming, however the compressed variants offer much more!",
-				"",
-				"You can create a request on the second page of the interface to keep a number of what you would like sifted stocked, along with the desired mesh to enable it to be crafted provided you have the required building (mouse over the mesh in jei for more info).",
-				"",
-				"",
+				"The sifter does what is says on the box, it sifts. There are a number of items it can sift to obtain resources."
+				""
+				"You can click the \"view recipes\" button to get a full list of sifting options."
+				""
+				"Sifting uncompressed dirt/gravel/sand can be underwhelming, however the compressed variants offer much more!"
+				""
+				"You can create a request on the second page of the interface to keep a number of what you would like sifted stocked, along with the desired mesh to enable it to be crafted provided you have the required building (mouse over the mesh in jei for more info)."
+				""
+				""
 				"Speaking of meshes, as you level up the building, you will automatically unlock new mesh types that will provide entirely new resources and sieving options!"
-			],
-			dependencies: ["5DCE6A23088CF792"],
-			id: "6BA56ECB062F0AD9",
+			]
+			dependencies: ["5DCE6A23088CF792"]
+			id: "6BA56ECB062F0AD9"
 			tasks: [{
-				id: "56ED3FAC7358F2D9",
-				type: "item",
+				id: "56ED3FAC7358F2D9"
+				type: "item"
 				item: "minecolonies:blockhutsifter"
-			}],
+			}]
 			rewards: [{
-				id: "313288CCF7CA0D13",
-				type: "loot",
+				id: "313288CCF7CA0D13"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 3.0d,
+			x: -3.0d
+			y: 3.0d
 			description: [
-				"More than fishy foods from the deep! The fisher will fish up raw fish along with many other goodies for you! ",
-				"",
+				"More than fishy foods from the deep! The fisher will fish up raw fish along with many other goodies for you! "
+				""
 				"Of special note is that when the building reaches level 3, the fisher has a chance of obtaining prismarine from fishing. As this is required for many tier 4 buildings it is handy that they will fish that up for your without having to deal with angry fish gods."
-			],
-			dependencies: ["5835B6D0312D5853"],
-			id: "3C8EA17AB83AEAB5",
+			]
+			dependencies: ["5835B6D0312D5853"]
+			id: "3C8EA17AB83AEAB5"
 			tasks: [{
-				id: "72E729E8B998F3E7",
-				type: "item",
+				id: "72E729E8B998F3E7"
+				type: "item"
 				item: "minecolonies:blockhutfisherman"
-			}],
+			}]
 			rewards: [{
-				id: "61254D5E76034456",
-				type: "loot",
+				id: "61254D5E76034456"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -3.0d,
+			x: -3.0d
+			y: -3.0d
 			description: [
-				"The crusher does a crush.",
-				"",
-				"Not only can it crush sand in to clay, but it can also feed your sifters demands crushing compressed cobble in to gravel, sand and dust.",
-				"",
-				"Along with this it can crush compressed end stone and netherrack as well as unlocking more options as it levels.",
-				"",
+				"The crusher does a crush."
+				""
+				"Not only can it crush sand in to clay, but it can also feed your sifters demands crushing compressed cobble in to gravel, sand and dust."
+				""
+				"Along with this it can crush compressed end stone and netherrack as well as unlocking more options as it levels."
+				""
 				"Completing the gilded hammer research in the university will double the output of the building."
-			],
-			dependencies: ["6BA56ECB062F0AD9"],
-			id: "65F3A2EEC25FDFDA",
+			]
+			dependencies: ["6BA56ECB062F0AD9"]
+			id: "65F3A2EEC25FDFDA"
 			tasks: [{
-				id: "41A28F79C50DA7FB",
-				type: "item",
+				id: "41A28F79C50DA7FB"
+				type: "item"
 				item: "minecolonies:blockhutcrusher"
-			}],
+			}]
 			rewards: [{
-				id: "49A410A003125A5E",
-				type: "loot",
+				id: "49A410A003125A5E"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 1.5d,
+			x: 1.5d
+			y: 1.5d
 			description: [
-				"Better call steve, his cart is out of business!",
-				"",
+				"Better call steve, his cart is out of business!"
+				""
 				"In the interface you can enable/disable saplings along with restricting the zone they work, however take care with the zone requirement as it can be, finicky (or broken)."
-			],
-			dependencies: ["740C2D517CC69DCF"],
-			id: "627BA58B1B124D19",
+			]
+			dependencies: ["740C2D517CC69DCF"]
+			id: "627BA58B1B124D19"
 			tasks: [{
-				id: "5041BEE51E29221A",
-				type: "item",
+				id: "5041BEE51E29221A"
+				type: "item"
 				item: "minecolonies:blockhutlumberjack"
-			}],
+			}]
 			rewards: [{
-				id: "407022425DE0A0F1",
-				type: "loot",
+				id: "407022425DE0A0F1"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 0.0d,
+			x: 1.5d
+			y: 0.0d
 			description: [
-				"The university is your key to unlocking more buildings along with abilities and buffs for your colony.",
-				"",
-				'For example the tier 2 Research "Rails" found after unlocking the librairy in "Keen" will enable you to create a rail network that your colonists will zip around on!',
-				"",
-				'However in this pack you will also find the "Modology" tree, where you will be able to unlock recipes in specific buildings for more advanced content outside MineColonies.',
-				"Additional tiers of this building will allow you to hire more researchers as well as queue more things to be unlocked. ",
-				"",
-				'A quick note on the "time" required for unlocking things, while early tiers only require half an hour "real world" time, higher levels will need longer. This should progress when you are offline up to a point. The amount of offline progress you can \'store\' is dependant on your workers mana level.'
-			],
-			dependencies: ["740C2D517CC69DCF"],
-			id: "320513389FA918D1",
+				"The university is your key to unlocking more buildings along with abilities and buffs for your colony."
+				""
+				"For example the tier 2 Research \"Rails\" found after unlocking the librairy in \"Keen\" will enable you to create a rail network that your colonists will zip around on!"
+				""
+				"However in this pack you will also find the \"Modology\" tree, where you will be able to unlock recipes in specific buildings for more advanced content outside MineColonies."
+				"Additional tiers of this building will allow you to hire more researchers as well as queue more things to be unlocked. "
+				""
+				"A quick note on the \"time\" required for unlocking things, while early tiers only require half an hour \"real world\" time, higher levels will need longer. This should progress when you are offline up to a point. The amount of offline progress you can store is dependant on your workers mana level."
+			]
+			dependencies: ["740C2D517CC69DCF"]
+			id: "320513389FA918D1"
 			tasks: [{
-				id: "4F47D3BDD7932F14",
-				type: "item",
+				id: "4F47D3BDD7932F14"
+				type: "item"
 				item: "minecolonies:blockhutuniversity"
-			}],
+			}]
 			rewards: [{
-				id: "69CCF36DDD0137E7",
-				type: "loot",
+				id: "69CCF36DDD0137E7"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -1.5d,
-			description: ["The smeltery will smelt ores for you. At higher levels the building has a chance to double or even triple the output of your smelting! Tier 3 for example gives you 100% chance to double your ores!"],
-			dependencies: ["320513389FA918D1"],
-			id: "61483CAB9C4F256F",
+			x: 1.5d
+			y: -1.5d
+			description: ["The smeltery will smelt ores for you. At higher levels the building has a chance to double or even triple the output of your smelting! Tier 3 for example gives you 100% chance to double your ores!"]
+			dependencies: ["320513389FA918D1"]
+			id: "61483CAB9C4F256F"
 			tasks: [{
-				id: "670CB471BC811026",
-				type: "item",
+				id: "670CB471BC811026"
+				type: "item"
 				item: "minecolonies:blockhutsmeltery"
-			}],
+			}]
 			rewards: [{
-				id: "6677FE92A28BFE52",
-				type: "loot",
+				id: "6677FE92A28BFE52"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: -1.0d,
+			x: 3.5d
+			y: -1.0d
 			description: [
-				"The stonemason acts much like the vanilla stonecutter, shaping stone and related products to meet the demands of your builders saving you much of the work!",
-				"",
-				"In this pack the stone mason has been pre-taught many key recipes, and will unlock more as they get higher levels.",
-				"",
+				"The stonemason acts much like the vanilla stonecutter, shaping stone and related products to meet the demands of your builders saving you much of the work!"
+				""
+				"In this pack the stone mason has been pre-taught many key recipes, and will unlock more as they get higher levels."
+				""
 				"They also can increase in efficiency over time as they do work, such as with their crafting of stone bricks."
-			],
-			dependencies: ["320513389FA918D1"],
-			id: "45F0727894781A63",
+			]
+			dependencies: ["320513389FA918D1"]
+			id: "45F0727894781A63"
 			tasks: [{
-				id: "426C42511CB7B371",
-				type: "item",
+				id: "426C42511CB7B371"
+				type: "item"
 				item: "minecolonies:blockhutstonemason"
-			}],
+			}]
 			rewards: [{
-				id: "36B5FD88E5E95577",
-				type: "loot",
+				id: "36B5FD88E5E95577"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 4.0d,
-			y: 0.0d,
+			x: 4.0d
+			y: 0.0d
 			description: [
-				"The sawmill handles much the same duties as the stonemason, but for wood. ",
-				"",
-				"In this pack they have been pre-taught many recipes however you will still need to teach them some of the basics your self. ",
-				"Of special note is this buildings ability to craft variations of blocks. ",
-				"",
-				"Take the spruce paper wall, it has many different styles, once you teach the building how to make one, it will learn how to make all the variations at the same time!",
+				"The sawmill handles much the same duties as the stonemason, but for wood. "
+				""
+				"In this pack they have been pre-taught many recipes however you will still need to teach them some of the basics your self. "
+				"Of special note is this buildings ability to craft variations of blocks. "
+				""
+				"Take the spruce paper wall, it has many different styles, once you teach the building how to make one, it will learn how to make all the variations at the same time!"
 				"This should make building higher level buildings a breeze!"
-			],
-			dependencies: ["320513389FA918D1"],
-			id: "0FF2F33C40086220",
+			]
+			dependencies: ["320513389FA918D1"]
+			id: "0FF2F33C40086220"
 			tasks: [{
-				id: "0B68BFFD49AB779D",
-				type: "item",
+				id: "0B68BFFD49AB779D"
+				type: "item"
 				item: "minecolonies:blockhutsawmill"
-			}],
+			}]
 			rewards: [{
-				id: "5A12A4FD32709629",
-				type: "loot",
+				id: "5A12A4FD32709629"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -3.0d,
+			x: 1.5d
+			y: -3.0d
 			description: [
-				"Much like the smeltery the stone smelter will smelt cobble and other 'stone' related products such as clay to bricks. It will even smelt logs in to charcoal for fuel! ",
-				"",
-				"Unlike the smeltery the stone smelter will only work when given an active request form another building and has been taught the required recipe via the gui.",
-				"",
+				"Much like the smeltery the stone smelter will smelt cobble and other 'stone' related products such as clay to bricks. It will even smelt logs in to charcoal for fuel! "
+				""
+				"Unlike the smeltery the stone smelter will only work when given an active request form another building and has been taught the required recipe via the gui."
+				""
 				"Higher tiers have more furnaces and smelt faster!"
-			],
-			dependencies: ["61483CAB9C4F256F"],
-			id: "5CADDBDF720E8F0F",
+			]
+			dependencies: ["61483CAB9C4F256F"]
+			id: "5CADDBDF720E8F0F"
 			tasks: [{
-				id: "5FE44C3CC05C8B62",
-				type: "item",
+				id: "5FE44C3CC05C8B62"
+				type: "item"
 				item: "minecolonies:blockhutstonesmeltery"
-			}],
+			}]
 			rewards: [{
-				id: "7111ED0090895987",
-				type: "loot",
+				id: "7111ED0090895987"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 0.0d,
+			x: -1.5d
+			y: 0.0d
 			description: [
-				"While not required, it is probably one of your best 'early' housing options.",
-				"",
-				'The tavern will give you four beds for your colonists to sleep in, meaning your initial four will all be housed by simply building this one "house"',
-				"",
-				"It will also attract skilled workers from outside that can be hired for a cost provided you have room enabled.",
-				'Hand out birth control to your villagers in the town hall by disabling new babies being born in order to "save" space for a hired visitor as colonists breed quickly.'
-			],
-			dependencies: ["740C2D517CC69DCF"],
-			id: "5ECF581BFD799BC5",
+				"While not required, it is probably one of your best 'early' housing options."
+				""
+				"The tavern will give you four beds for your colonists to sleep in, meaning your initial four will all be housed by simply building this one \"house\""
+				""
+				"It will also attract skilled workers from outside that can be hired for a cost provided you have room enabled."
+				"Hand out birth control to your villagers in the town hall by disabling new babies being born in order to \"save\" space for a hired visitor as colonists breed quickly."
+			]
+			dependencies: ["740C2D517CC69DCF"]
+			id: "5ECF581BFD799BC5"
 			tasks: [{
-				id: "525838D24678D384",
-				type: "item",
+				id: "525838D24678D384"
+				type: "item"
 				item: "minecolonies:blockhuttavern"
-			}],
+			}]
 			rewards: [{
-				id: "66E93520412FBE95",
-				type: "loot",
+				id: "66E93520412FBE95"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 0.0d,
+			x: -3.0d
+			y: 0.0d
 			description: [
-				"Houses, everyone wants one. ",
-				"",
-				"Houses give your colonists somewhere to sleep at night. Speaking of sleeping, you should wait till they are all in bed before sleeping your self or they may get angry.",
-				"",
+				"Houses, everyone wants one. "
+				""
+				"Houses give your colonists somewhere to sleep at night. Speaking of sleeping, you should wait till they are all in bed before sleeping your self or they may get angry."
+				""
 				"Each level of house provides an extra bed for your colonists, however the level of house a colonist has also determines their maximum 'job' level. Better houses mean more people AND better workers!"
-			],
-			dependencies: ["5ECF581BFD799BC5"],
-			id: "0260D73FBBF67A77",
+			]
+			dependencies: ["5ECF581BFD799BC5"]
+			id: "0260D73FBBF67A77"
 			tasks: [{
-				id: "366CAAD162A09406",
-				type: "item",
+				id: "366CAAD162A09406"
+				type: "item"
 				item: "minecolonies:blockhutcitizen"
-			}],
+			}]
 			rewards: [{
-				id: "7144723007FCE84F",
-				type: "loot",
+				id: "7144723007FCE84F"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 1.5d,
+			x: -3.0d
+			y: 1.5d
 			description: [
-				"The Restaurant will provide food to all those hungry mouths so you do not have to! Even when no one is there! That is right, provided you have one and fill it full of food, colonists will simply go and use the self serve checkout!",
-				"",
+				"The Restaurant will provide food to all those hungry mouths so you do not have to! Even when no one is there! That is right, provided you have one and fill it full of food, colonists will simply go and use the self serve checkout!"
+				""
 				"However employing someone will automatically cook up food for your colonists. At higher levels an 'assistant' cook will be hired enabling you to teach them how to make more advanced custom recipes."
-			],
-			dependencies: ["5ECF581BFD799BC5"],
-			id: "5835B6D0312D5853",
+			]
+			dependencies: ["5ECF581BFD799BC5"]
+			id: "5835B6D0312D5853"
 			tasks: [{
-				id: "057C402B88088BF0",
-				type: "item",
+				id: "057C402B88088BF0"
+				type: "item"
 				item: "minecolonies:blockhutcook"
-			}],
+			}]
 			rewards: [{
-				id: "211DF7B0FEFCA836",
-				type: "loot",
+				id: "211DF7B0FEFCA836"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 1.5d,
+			x: -1.5d
+			y: 1.5d
 			description: [
-				"Farms crops, place fields around the building and adjust the 'range' of the field up to 5 blocks in each direction. Select the type of crop by placing a 'seed' in the field interface.",
-				"",
-				"The farmer will then grow the crops, harvest, and replant. ",
+				"Farms crops, place fields around the building and adjust the 'range' of the field up to 5 blocks in each direction. Select the type of crop by placing a 'seed' in the field interface."
+				""
+				"The farmer will then grow the crops, harvest, and replant. "
 				"Each level of farm supports an extra field. "
-			],
-			dependencies: ["5835B6D0312D5853"],
-			id: "1B5DA7B0E568B435",
+			]
+			dependencies: ["5835B6D0312D5853"]
+			id: "1B5DA7B0E568B435"
 			tasks: [{
-				id: "231EF16B0F47F15E",
-				type: "item",
+				id: "231EF16B0F47F15E"
+				type: "item"
 				item: "minecolonies:blockhutfarmer"
-			}],
+			}]
 			rewards: [{
-				id: "42387968BEB85FB6",
-				type: "loot",
+				id: "42387968BEB85FB6"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: 1.0d,
-			description: ["Seeds go in, chickens come out. Meat, eggs and feathers, what more could you ask for."],
-			dependencies: ["1B5DA7B0E568B435"],
-			id: "013B4FE35376FA5A",
+			x: -0.5d
+			y: 1.0d
+			description: ["Seeds go in, chickens come out. Meat, eggs and feathers, what more could you ask for."]
+			dependencies: ["1B5DA7B0E568B435"]
+			id: "013B4FE35376FA5A"
 			tasks: [{
-				id: "0346225BEDAC8A94",
-				type: "item",
+				id: "0346225BEDAC8A94"
+				type: "item"
 				item: "minecolonies:blockhutchickenherder"
-			}],
+			}]
 			rewards: [{
-				id: "67F27F7F32579972",
-				type: "loot",
+				id: "67F27F7F32579972"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.0d,
+			x: 0.0d
+			y: 2.0d
 			description: [
-				"Tasty sheep skin rugs! This will give you meat along with wool should you have shearing enabled. Important to note is that the worker can randomly dye the sheep for you should you enable the option on the second page. This can be a handy way of getting dyed wool and carpets early on.",
-				"",
+				"Tasty sheep skin rugs! This will give you meat along with wool should you have shearing enabled. Important to note is that the worker can randomly dye the sheep for you should you enable the option on the second page. This can be a handy way of getting dyed wool and carpets early on."
+				""
 				"Each tier of building increases the number of adult sheep the shepard keeps alive, enabling more wool output. "
-			],
-			dependencies: ["1B5DA7B0E568B435"],
-			id: "7B63F00E0B0FF255",
+			]
+			dependencies: ["1B5DA7B0E568B435"]
+			id: "7B63F00E0B0FF255"
 			tasks: [{
-				id: "0E1B3A2F7C470DDE",
-				type: "item",
+				id: "0E1B3A2F7C470DDE"
+				type: "item"
 				item: "minecolonies:blockhutshepherd"
-			}],
+			}]
 			rewards: [{
-				id: "6895E6AD6B541CB1",
-				type: "loot",
+				id: "6895E6AD6B541CB1"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 2.5d,
-			description: ["Moo! This building will meet all your cow skin needs while also providing a lot of pre-hamburgers for your colonists to enjoy. "],
-			dependencies: ["1B5DA7B0E568B435"],
-			id: "2E2AF2602B2925FC",
+			x: -2.0d
+			y: 2.5d
+			description: ["Moo! This building will meet all your cow skin needs while also providing a lot of pre-hamburgers for your colonists to enjoy. "]
+			dependencies: ["1B5DA7B0E568B435"]
+			id: "2E2AF2602B2925FC"
 			tasks: [{
-				id: "0403E6C0293A170F",
-				type: "item",
+				id: "0403E6C0293A170F"
+				type: "item"
 				item: "minecolonies:blockhutcowboy"
-			}],
+			}]
 			rewards: [{
-				id: "161F55F81F5AD450",
-				type: "loot",
+				id: "161F55F81F5AD450"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 2.5d,
-			description: ["Bacon for days! It does not get more complex than that, supply the bacon farmer with pig food and you will get pork."],
-			dependencies: ["1B5DA7B0E568B435"],
-			id: "16D967760D32A3D9",
+			x: -1.0d
+			y: 2.5d
+			description: ["Bacon for days! It does not get more complex than that, supply the bacon farmer with pig food and you will get pork."]
+			dependencies: ["1B5DA7B0E568B435"]
+			id: "16D967760D32A3D9"
 			tasks: [{
-				id: "70D97F5C2CBCE0C4",
-				type: "item",
+				id: "70D97F5C2CBCE0C4"
+				type: "item"
 				item: "minecolonies:blockhutswineherder"
-			}],
+			}]
 			rewards: [{
-				id: "638920955356F77E",
-				type: "loot",
+				id: "638920955356F77E"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: -1.5d,
+			x: 2.5d
+			y: -1.5d
 			description: [
-				"The Blacksmith will meet all your tool and weapon demands! You can teach them to craft 'metal' related recipes on demand. ",
-				"",
-				"This can be handy for things like iron bars or other materials regularly requested by your builder in order to construct buildings! ",
-				"",
+				"The Blacksmith will meet all your tool and weapon demands! You can teach them to craft 'metal' related recipes on demand. "
+				""
+				"This can be handy for things like iron bars or other materials regularly requested by your builder in order to construct buildings! "
+				""
 				"Higher tiers enable more recipes to be learnt!"
-			],
-			dependencies: ["320513389FA918D1"],
-			id: "6486B859994C6114",
+			]
+			dependencies: ["320513389FA918D1"]
+			id: "6486B859994C6114"
 			tasks: [{
-				id: "1F25E78184D5CEA4",
-				type: "item",
+				id: "1F25E78184D5CEA4"
+				type: "item"
 				item: "minecolonies:blockhutblacksmith"
-			}],
+			}]
 			rewards: [{
-				id: "138BC478293C0F30",
-				type: "loot",
+				id: "138BC478293C0F30"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -3.0d,
+			x: -1.5d
+			y: -3.0d
 			description: [
-				"The postbox and stash are very important items!",
-				"",
-				"The stash is fairly simple, dump anything in there and a Courier will come along to collect and return them to the warehouse. Great for filling requests from your home without ever having to run around finding the worker.",
-				"",
-				"The postbox however is important in that it will request any item from the warehouse, not only that but if one of your crafters knows how to make something then this will create a crafting request for that item.",
-				"",
+				"The postbox and stash are very important items!"
+				""
+				"The stash is fairly simple, dump anything in there and a Courier will come along to collect and return them to the warehouse. Great for filling requests from your home without ever having to run around finding the worker."
+				""
+				"The postbox however is important in that it will request any item from the warehouse, not only that but if one of your crafters knows how to make something then this will create a crafting request for that item."
+				""
 				"This is how you request modded items you have unlocked via research. eg. if you have unlocked the Seared Heater from tinkers via reaserch in the university, you can place a request in the post box to have one delivered and it will be crafted at the appropriate building then delivered to the postbox for you."
-			],
-			dependencies: ["7C9F58FB4C59AF56"],
-			id: "67F69DCC024D9B34",
+			]
+			dependencies: ["7C9F58FB4C59AF56"]
+			id: "67F69DCC024D9B34"
 			tasks: [
 				{
-					id: "5E80C55BFB5322D3",
-					type: "item",
+					id: "5E80C55BFB5322D3"
+					type: "item"
 					item: "minecolonies:blockpostbox"
-				},
+				}
 				{
-					id: "2E17D038316988D0",
-					type: "item",
+					id: "2E17D038316988D0"
+					type: "item"
 					item: "minecolonies:blockstash"
 				}
-			],
+			]
 			rewards: [{
-				id: "6196846AB410E303",
-				type: "loot",
+				id: "6196846AB410E303"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -3.0d,
+			x: 0.0d
+			y: -3.0d
 			description: [
-				"Couriers are the worker bees of your colony. They will run from task to task, collecting the output of buildings like your farm and mines.",
-				"",
-				"They will then return any collected items to the warehouse. On top of collection they also deliver to buildings that request items.",
-				"",
-				"For example, if your builder needs oak stairs for a building and they are in the warehouse the Courier will collect them and drop them off to the builder.",
-				"",
-				"The same is true if another building knows how to craft an item. The Courier will deliver the required goods, wait till they are crafted, then return them to the destination. ",
+				"Couriers are the worker bees of your colony. They will run from task to task, collecting the output of buildings like your farm and mines."
+				""
+				"They will then return any collected items to the warehouse. On top of collection they also deliver to buildings that request items."
+				""
+				"For example, if your builder needs oak stairs for a building and they are in the warehouse the Courier will collect them and drop them off to the builder."
+				""
+				"The same is true if another building knows how to craft an item. The Courier will deliver the required goods, wait till they are crafted, then return them to the destination. "
 				"You will probably need a few of these as your colony expands."
-			],
-			dependencies: ["4DEEE161D7260EF6"],
-			id: "7C9F58FB4C59AF56",
+			]
+			dependencies: ["4DEEE161D7260EF6"]
+			id: "7C9F58FB4C59AF56"
 			tasks: [{
-				id: "144DF55FA1D1414C",
-				type: "item",
+				id: "144DF55FA1D1414C"
+				type: "item"
 				item: "minecolonies:blockhutdeliveryman"
-			}],
+			}]
 			rewards: [{
-				id: "3463BA9750D89D93",
-				type: "loot",
+				id: "3463BA9750D89D93"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: -3.0d,
+			x: 2.5d
+			y: -3.0d
 			description: [
-				"The mechanic hut is one of the more advanced crafters. They can be taught to make a wide range of things including but not limited to redstone related things like pistons, tripwire hooks, blocks of metal, lanterns and much more.",
-				"",
-				"They also craft many of the special 'modded' recipes unlocked in the Modology research tree. ",
-				"",
+				"The mechanic hut is one of the more advanced crafters. They can be taught to make a wide range of things including but not limited to redstone related things like pistons, tripwire hooks, blocks of metal, lanterns and much more."
+				""
+				"They also craft many of the special 'modded' recipes unlocked in the Modology research tree. "
+				""
 				"Remember that these buildings will only craft when requested by something outside. So make sure to request items you might need your self at the post-box, or request a stack be held at the warehouse at all times."
-			],
-			dependencies: ["6486B859994C6114"],
-			id: "048EA4A225A789CB",
+			]
+			dependencies: ["6486B859994C6114"]
+			id: "048EA4A225A789CB"
 			tasks: [{
-				id: "30CDEE19E94AB318",
-				type: "item",
+				id: "30CDEE19E94AB318"
+				type: "item"
 				item: "minecolonies:blockhutmechanic"
-			}],
+			}]
 			rewards: [{
-				id: "32CEDCDE28C87895",
-				type: "loot",
+				id: "32CEDCDE28C87895"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: 2.5d,
+			x: 1.0d
+			y: 2.5d
 			description: [
-				"Auto-Enchanting! The enchanter will collect XP from your colonists and create enchanted books for you when supplied with ancient tomes, they can also craft some useful scrolls once Research is done at the university.",
-				"",
+				"Auto-Enchanting! The enchanter will collect XP from your colonists and create enchanted books for you when supplied with ancient tomes, they can also craft some useful scrolls once Research is done at the university."
+				""
 				"The enchanters will also handle crafting of many of the more advanced magical mods in the pack once you research those. "
-			],
-			dependencies: ["740C2D517CC69DCF"],
-			id: "5CFC61AB781342FF",
+			]
+			dependencies: ["740C2D517CC69DCF"]
+			id: "5CFC61AB781342FF"
 			tasks: [{
-				id: "7E5C325C5D4ABA78",
-				type: "item",
+				id: "7E5C325C5D4ABA78"
+				type: "item"
 				item: "minecolonies:blockhutenchanter"
-			}],
+			}]
 			rewards: [{
-				id: "342F145F4CE56D42",
-				type: "loot",
+				id: "342F145F4CE56D42"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: 1.5d,
+			x: 2.5d
+			y: 1.5d
 			description: [
-				"The Mystical site is a great way to boost the happiness of your colonists and the stats of your new colonists.",
+				"The Mystical site is a great way to boost the happiness of your colonists and the stats of your new colonists."
 				"The undertaker will also visit here when not working to boost their mana level, increasing their chance to resurect someone."
-			],
-			dependencies: ["320513389FA918D1"],
-			id: "723C2C26F52BE4E2",
+			]
+			dependencies: ["320513389FA918D1"]
+			id: "723C2C26F52BE4E2"
 			tasks: [{
-				id: "6EB50C16DC1B4E65",
-				type: "item",
+				id: "6EB50C16DC1B4E65"
+				type: "item"
 				item: "minecolonies:blockhutmysticalsite"
-			}],
+			}]
 			rewards: [{
-				id: "10CDAEB955B9CEED",
-				type: "loot",
+				id: "10CDAEB955B9CEED"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 1.0d,
+			x: 3.5d
+			y: 1.0d
 			description: [
-				"Not so spooky! The graveyary will hold the graves of your departed colonists. The Undertaker has a chance to resurect dead colonists but if they fail a grave will be created that decays over time holding all the items the colonist had upon death.",
-				"",
+				"Not so spooky! The graveyary will hold the graves of your departed colonists. The Undertaker has a chance to resurect dead colonists but if they fail a grave will be created that decays over time holding all the items the colonist had upon death."
+				""
 				"The graveyard is also your key to  unlocking some of the more viseral aspects of magic in the university under the Modology tree"
-			],
-			dependencies: ["320513389FA918D1"],
-			id: "411E2811B030E08C",
+			]
+			dependencies: ["320513389FA918D1"]
+			id: "411E2811B030E08C"
 			tasks: [{
-				id: "533AEB3FDC2EED2E",
-				type: "item",
+				id: "533AEB3FDC2EED2E"
+				type: "item"
 				item: "minecolonies:blockhutgraveyard"
-			}],
+			}]
 			rewards: [{
-				id: "39A34C923837E812",
-				type: "loot",
+				id: "39A34C923837E812"
+				type: "loot"
 				table_id: 2734346777462371767L
 			}]
 		}

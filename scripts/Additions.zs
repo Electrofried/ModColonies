@@ -32,4 +32,4 @@ craftingTable.addShapeless("gold_to_ore", <item:minecraft:gold_ore>, [<item:exni
 
 furnace.addRecipe("cook_compressed_stone", <item:prefab:block_compressed_stone>, <item:excompressum:compressed_cobblestone>, 1.0, 200);
 
-furnace.addRecipe("cook_compressed_stone", <item:minecraft:diamond_block>, <item:minecraft:coal_block>, 100.0, 0);
+furnace.addRecipe("cook_diamonds", <item:minecraft:diamond_block>, <item:minecraft:coal_block>, 100.0, 0);

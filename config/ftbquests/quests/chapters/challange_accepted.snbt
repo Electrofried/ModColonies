@@ -1,36 +1,36 @@
 {
-	id: "2EDFF701709A36FA",
-	group: "",
-	order_index: 3,
-	filename: "challange_accepted",
-	title: "Challenge Accepted!",
-	icon: "pneumaticcraft:creative_upgrade",
-	default_quest_shape: "",
+	id: "2EDFF701709A36FA"
+	group: ""
+	order_index: 4
+	filename: "challange_accepted"
+	title: "Challenge Accepted!"
+	icon: "pneumaticcraft:creative_upgrade"
+	default_quest_shape: ""
 	images: [{
-		x: 0.0d,
-		y: 0.0d,
-		width: 4.0d,
-		height: 4.0d,
-		rotation: 0.0d,
-		image: "modcolonies:textures/logo.png",
-		hover: [ ],
-		click: "",
-		dev: false,
+		x: 0.0d
+		y: 0.0d
+		width: 4.0d
+		height: 4.0d
+		rotation: 0.0d
+		image: "modcolonies:textures/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
 		corner: false
-	}],
+	}]
 	quests: [{
-		x: 0.0d,
-		y: 0.0d,
+		x: 0.0d
+		y: 0.0d
 		description: [
-			"Some of those more advanced Research topics are going to take some time! So why not put your hand to some of these end game challenges while you wait to test your mettle and see what you can accomplish!",
-			"",
+			"Some of those more advanced Research topics are going to take some time! So why not put your hand to some of these end game challenges while you wait to test your mettle and see what you can accomplish!"
+			""
 			"(WIP)"
-		],
-		id: "4417E4A2ADC4DF48",
+		]
+		id: "4417E4A2ADC4DF48"
 		tasks: [{
-			id: "6C26AC2F3495AEC6",
-			type: "checkmark",
-			title: "Challenges!",
+			id: "6C26AC2F3495AEC6"
+			type: "checkmark"
+			title: "Challenges!"
 			icon: "minecolonies:firearrow"
 		}]
 	}]

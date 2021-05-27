@@ -9,7 +9,7 @@
         "level": 2
       },
       {
-        "mandatory-building": "mine",
+        "mandatory-building": "miner",
         "level": 3
       },
       {

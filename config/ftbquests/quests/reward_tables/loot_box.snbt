@@ -1,140 +1,140 @@
 {
-	id: "25F259E82B60F5B7",
-	order_index: 1,
-	title: "Luck token!",
-	icon: "mob_grinding_utils:saw_upgrade_looting",
-	loot_size: 1,
-	hide_tooltip: true,
-	use_title: true,
+	id: "25F259E82B60F5B7"
+	order_index: 1
+	title: "Luck token!"
+	icon: "mob_grinding_utils:saw_upgrade_looting"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
 	rewards: [
 		{
 			item: {
-				id: "quark:pickarang",
-				Count: 1b,
+				id: "quark:pickarang"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
-			},
+			}
 			weight: 5
-		},
-		{ item: "minecraft:enchanting_table", weight: 5 },
-		{ item: "apotheosis:hellshelf", count: 2, random_bonus: 3, weight: 11 },
-		{ item: "apotheosis:endshelf", random_bonus: 3, weight: 11 },
+		}
+		{ item: "minecraft:enchanting_table", weight: 5 }
+		{ item: "apotheosis:hellshelf", count: 2, random_bonus: 3, weight: 11 }
+		{ item: "apotheosis:endshelf", random_bonus: 3, weight: 11 }
 		{
 			item: {
-				id: "apotheosis:farmers_leash",
-				Count: 1b,
+				id: "apotheosis:farmers_leash"
+				Count: 1b
 				tag: {
-					Damage: 0,
+					Damage: 0
 					entity_data: { }
 				}
-			},
-			random_bonus: 1,
+			}
+			random_bonus: 1
 			weight: 21
-		},
-		{ item: "apotheosis:beeshelf", count: 3, random_bonus: 3, weight: 21 },
-		{ item: "apotheosis:melonshelf", count: 3, random_bonus: 3, weight: 21 },
-		{ item: "apotheosis:mythic_tome", weight: 2 },
-		{ item: "apotheosis:ancient_tome", weight: 5 },
+		}
+		{ item: "apotheosis:beeshelf", count: 3, random_bonus: 3, weight: 21 }
+		{ item: "apotheosis:melonshelf", count: 3, random_bonus: 3, weight: 21 }
+		{ item: "apotheosis:mythic_tome", weight: 2 }
+		{ item: "apotheosis:ancient_tome", weight: 5 }
 		{
 			item: {
-				id: "apotheosis:potion_charm",
-				Count: 1b,
+				id: "apotheosis:potion_charm"
+				Count: 1b
 				tag: {
-					RepairCost: 1,
-					Damage: 0,
-					Potion: "minecraft:strong_swiftness",
+					RepairCost: 1
+					Damage: 0
+					Potion: "minecraft:strong_swiftness"
 					Enchantments: [{
-						lvl: 8s,
+						lvl: 8s
 						id: "minecraft:unbreaking"
 					}]
 				}
-			},
+			}
 			weight: 11
-		},
-		{ item: "apotheosis:prismatic_web", random_bonus: 3, weight: 11 },
-		{ item: "torchmaster:megatorch", weight: 21 },
-		{ item: "minecraft:enchanted_golden_apple", weight: 11 },
-		{ item: "minecraft:blue_ice", count: 8, weight: 11 },
-		{ item: "minecraft:ancient_debris", count: 2, random_bonus: 2, weight: 11 },
-		{ item: "exnihilosequentia:doll_blaze", random_bonus: 3, weight: 11 },
-		{ item: "exnihilosequentia:doll_guardian", random_bonus: 3, weight: 11 },
-		{ item: "exnihilosequentia:doll_enderman", random_bonus: 3, weight: 11 },
-		{ item: "exnihilosequentia:doll_shulker", random_bonus: 3, weight: 11 },
-		{ item: "minecraft:ender_pearl", count: 8, weight: 11 },
-		{ item: "travel_anchors:travel_anchor", count: 2, random_bonus: 2, weight: 14 },
-		{ item: "mekanismadditions:black_plastic_road", count: 64, weight: 10 },
-		{ item: "mekanismadditions:pink_plastic_road", count: 64, weight: 5 },
-		{ item: "immersivepetroleum:asphalt", count: 64, weight: 25 },
-		{ item: "engineersdecor:small_solar_panel", weight: 15 },
-		{ item: "storagedrawers:controller", weight: 2 },
-		{ item: "storagedrawers:compacting_drawers_3", weight: 11 },
-		{ item: "metalbarrels:diamond_barrel", weight: 21 },
-		{ item: "metalbarrels:netherite_barrel", weight: 5 },
+		}
+		{ item: "apotheosis:prismatic_web", random_bonus: 3, weight: 11 }
+		{ item: "torchmaster:megatorch", weight: 21 }
+		{ item: "minecraft:enchanted_golden_apple", weight: 11 }
+		{ item: "minecraft:blue_ice", count: 8, weight: 11 }
+		{ item: "minecraft:ancient_debris", count: 2, random_bonus: 2, weight: 11 }
+		{ item: "exnihilosequentia:doll_blaze", random_bonus: 3, weight: 11 }
+		{ item: "exnihilosequentia:doll_guardian", random_bonus: 3, weight: 11 }
+		{ item: "exnihilosequentia:doll_enderman", random_bonus: 3, weight: 11 }
+		{ item: "exnihilosequentia:doll_shulker", random_bonus: 3, weight: 11 }
+		{ item: "minecraft:ender_pearl", count: 8, weight: 11 }
+		{ item: "travel_anchors:travel_anchor", count: 2, random_bonus: 2, weight: 14 }
+		{ item: "mekanismadditions:black_plastic_road", count: 64, weight: 10 }
+		{ item: "mekanismadditions:pink_plastic_road", count: 64, weight: 5 }
+		{ item: "immersivepetroleum:asphalt", count: 64, weight: 25 }
+		{ item: "engineersdecor:small_solar_panel", weight: 15 }
+		{ item: "storagedrawers:controller", weight: 2 }
+		{ item: "storagedrawers:compacting_drawers_3", weight: 11 }
+		{ item: "metalbarrels:diamond_barrel", weight: 21 }
+		{ item: "metalbarrels:netherite_barrel", weight: 5 }
 		{
 			item: {
-				id: "quark:ancient_tome",
-				Count: 1b,
+				id: "quark:ancient_tome"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 4s,
+						lvl: 4s
 						id: "apotheosis:life_mending"
 					}]
 				}
 			}
-		},
-		{ item: "minecolonies:ancienttome", weight: 11 },
+		}
+		{ item: "minecolonies:ancienttome", weight: 11 }
 		{
 			item: {
-				id: "quark:ancient_tome",
-				Count: 1b,
+				id: "quark:ancient_tome"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s,
+						lvl: 3s
 						id: "apotheosis:scavenger"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "quark:ancient_tome",
-				Count: 1b,
+				id: "quark:ancient_tome"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "apotheosis:capturing"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "quark:ancient_tome",
-				Count: 1b,
+				id: "quark:ancient_tome"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "minecraft:fortune"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "quark:ancient_tome",
-				Count: 1b,
+				id: "quark:ancient_tome"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 9s,
+						lvl: 9s
 						id: "pedestals:upgradearea"
 					}]
 				}
 			}
-		},
-		{ item: "easy_villagers:iron_farm", weight: 3 },
-		{ item: "ironfurnaces:diamond_furnace", weight: 5 },
-		{ item: "ironfurnaces:emerald_furnace", weight: 3 },
+		}
+		{ item: "easy_villagers:iron_farm", weight: 3 }
+		{ item: "ironfurnaces:diamond_furnace", weight: 5 }
+		{ item: "ironfurnaces:emerald_furnace", weight: 3 }
 		{ item: "ironfurnaces:netherite_furnace" }
 	]
 }
