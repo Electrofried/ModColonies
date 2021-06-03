@@ -24,6 +24,12 @@ craftingTable.addShapeless("iron_to_ore", <item:minecraft:iron_ore>, [<item:exni
 
 craftingTable.addShapeless("gold_to_ore", <item:minecraft:gold_ore>, [<item:exnihilosequentia:chunk_gold>, <item:minecraft:stone>]);
 
+
+
+// fixing dyer by removing cactus paste and going straight to midori blocks which is the only use of paste anyway
+craftingTable.addShaped("cactus_to_midori", <item:quark:midori_block> * 4, [<item:minecraft:cactus>, <item:minecraft:cactus>, <null>, <item:minecraft:cactus>, <item:minecraft:cactus>]);
+
+
 //Tags
 
 <tag:items:forge:storage_blocks/compressed_dirt>.add(<item:excompressum:compressed_dirt>);
