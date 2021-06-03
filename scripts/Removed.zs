@@ -194,3 +194,6 @@ craftingTable.removeRecipe(<item:mob_grinding_utils:entity_spawner>);
 
 craftingTable.removeRecipe(<item:darkutils:blank_plate>);
 
+// Quark
+
+furnace.removeRecipe(<item:quark:cactus_paste>);
