@@ -26,12 +26,9 @@ craftingTable.addShapeless("gold_to_ore", <item:minecraft:gold_ore>, [<item:exni
 
 
 
-// fixing dyer by removing cactus paste and going straight to midori blocks which is the only use of paste anyway
-craftingTable.addShaped("cactus_to_midori", <item:quark:midori_block> * 4, [
-	[<item:minecraft:cactus>, <item:minecraft:cactus>],
-	[<item:minecraft:cactus>, <item:minecraft:cactus>]
-]);
-furnace.addRecipe("cactus_to_green", <item:minecraft:green_dye>, <item:minecraft:cactus>, 1.0, 0);
+// fixing cactus for minecolonies dyer
+craftingTable.addShapeless("cactus_to_paste", <item:quark:cactus_paste>, [<item:pamhc2foodcore:grinderitem>, <item:minecraft:cactus>]);
+furnace.addRecipe("cactus_to_green", <item:minecraft:green_dye>, <item:minecraft:cactus>, 1.0, 200);
 
 
 //Tags
