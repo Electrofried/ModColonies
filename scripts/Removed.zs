@@ -196,5 +196,5 @@ craftingTable.removeRecipe(<item:darkutils:blank_plate>);
 
 // Quark
 
-// fixing dyer by removing cactus paste and going straight to midori blocks which is the only use of paste anyway
+// fixing cactus for minecolonies dyer
 furnace.removeRecipe(<item:quark:cactus_paste>);
