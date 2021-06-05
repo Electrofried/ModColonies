@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/angel_ring",
+    "subtitle": "Spin drive online!",
+    "researchLevel": 3,
+    "icon": "create:creative_motor",
+    "requirements": [
+      {
+        "building": "mechanic",
+        "level": 10
+      },
+      {
+        "item": "create:shadow_steel_casing",
+        "quantity": 16
+      },
+      {
+        "item": "create:refined_radiance_casing",
+        "quantity": 16
+      }
+    ]
+
+  }

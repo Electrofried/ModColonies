@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.api.villagers.VillagerTrades;
 
 
@@ -95,7 +97,7 @@ craftingTable.removeRecipe(<item:easy_villagers:iron_farm>);
 
 // Tinkers
 
-craftingTable.removeRecipe(<item:tconstruct:melter>);
+craftingTable.removeRecipe(<item:tconstruct:seared_melter>);
 
 //  PneumaticCraft
 
@@ -194,3 +196,24 @@ craftingTable.removeRecipe(<item:mob_grinding_utils:entity_spawner>);
 
 craftingTable.removeRecipe(<item:darkutils:blank_plate>);
 
+// quark cactus
+
+furnace.removeRecipe(<item:quark:cactus_paste>);
+
+
+//rftools
+craftingTable.removeRecipe(<item:rftoolsstorage:storage_scanner>);
+craftingTable.removeRecipe(<item:rftoolsutility:charged_porter>);
+craftingTable.removeRecipe(<item:rftoolsbase:machine_frame>);
+craftingTable.removeRecipe(<item:rftoolsbase:tablet>);
+craftingTable.removeRecipe(<item:rftoolsbuilder:builder>);
+
+
+// recipe conflicts
+
+craftingTable.removeRecipe(<item:pamhc2foodcore:sunflowerseedsitem>);
+craftingTable.removeRecipe(<item:prefab:block_phasing>);
+craftingTable.removeRecipe(<item:pamhc2foodcore:rolleritem>);
+craftingTable.removeRecipe(<item:excompressum:compressed_dirt>);
+craftingTable.removeByName("pamhc2crops:string_fiber");
+craftingTable.removeByName("quark:building/crafting/compressed/charcoal_block");

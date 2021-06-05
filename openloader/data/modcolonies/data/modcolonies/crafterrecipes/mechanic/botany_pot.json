@@ -19,6 +19,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 5,
-    "research-id": "modcolonies:effects/botany_pot_unlock",
+    "research-id": "modcolonies:modology/botany_pot",
     "show-tooltip": true
   }

@@ -1,0 +1,24 @@
+{
+    "type" : "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item" : "ars_nouveau:potion_flask_extend_time",
+        "count": "1"
+      },
+      {
+        "item" : "ars_nouveau:potion_flask_amplify",
+        "count": "1"
+      },
+      {
+        "item" : "ars_nouveau:glyph_intangible",
+        "count": "8"
+      }
+    ],
+    "result": "ars_nouveau:creative_mana_jar",
+    "count": "1",
+    "intermediate" : "minecraft:air",
+    "min-building-level": 5,
+    "research-id" : "modcolonies:ultimate_understanding/cr_manajar",
+    "show-tooltip": true
+  }

@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/cr_chemtank",
+    "subtitle": "Better than a giant hole in the ground!",
+    "researchLevel": 4,
+    "icon": "mekanism:creative_fluid_tank",
+    "requirements": [
+      {
+        "building": "sifter",
+        "level": 10
+      },
+      {
+        "building": "glassblower",
+        "level": 10
+      },
+      {
+        "item": "mekanism:ultimate_fluid_tank",
+        "quantity": 16
+      },
+      {
+        "item": "pneumaticcraft:huge_tank",
+        "quantity": 8
+      }
+    ]
+
+  }

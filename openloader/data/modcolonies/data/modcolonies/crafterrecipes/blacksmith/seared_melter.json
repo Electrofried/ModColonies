@@ -3,7 +3,7 @@
     "crafter": "blacksmith",
     "inputs": [
       {
-        "item": "tconstruct:seared_tank",
+        "item": "tconstruct:seared_fuel_tank",
         "count": 1
       },
       {
@@ -11,10 +11,10 @@
         "count": 5
       }
     ],
-    "result": "tconstruct:melter",
+    "result": "tconstruct:seared_melter",
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 1,
-    "research-id": "modcolonies:effects/seared_melter_unlock",
+    "research-id": "modcolonies:modology/seared_melter",
     "show-tooltip": true
   }

@@ -14,6 +14,15 @@ craftingTable.addShaped("wooden_waterstrainer", <item:waterstrainer:strainer_bas
 ]);
 
 
+//dragon egg because reasons
+
+craftingTable.addShaped("draggo_eggo", <item:minecraft:dragon_egg>, [
+    [<item:minecraft:air>, <item:quark:dragon_scale>, <item:minecraft:air>],
+    [<item:quark:dragon_scale>, <item:minecraft:enderman_spawn_egg>, <item:quark:dragon_scale>],
+    [<item:minecraft:air>, <item:quark:dragon_scale>, <item:minecraft:air>]
+]);
+
+
 
 //random fixes for missing stuff
 craftingTable.addShapeless("chest_to_vanilla", <item:minecraft:chest>, [<tag:items:forge:chests/wooden>]);
@@ -32,4 +41,34 @@ craftingTable.addShapeless("gold_to_ore", <item:minecraft:gold_ore>, [<item:exni
 
 furnace.addRecipe("cook_compressed_stone", <item:prefab:block_compressed_stone>, <item:excompressum:compressed_cobblestone>, 1.0, 200);
 
-furnace.addRecipe("cook_diamonds", <item:minecraft:diamond_block>, <item:minecraft:coal_block>, 100.0, 0);
+furnace.addRecipe("green_dye", <item:minecraft:green_dye>, <item:minecraft:cactus>, 1.0, 200);
+
+
+// furnace.addRecipe("cook_diamonds", <item:minecraft:diamond_block>, <item:minecraft:coal_block>, 100.0, 0);
+
+// red sand
+
+craftingTable.addShaped("red_sando", <item:minecraft:red_sand> * 8, [
+    [<item:minecraft:sand>, <item:minecraft:sand>, <item:minecraft:sand>],
+    [<item:minecraft:sand>, <item:minecraft:redstone>, <item:minecraft:sand>],
+    [<item:minecraft:sand>, <item:minecraft:sand>, <item:minecraft:sand>]
+]);
+
+// cactuspaste
+
+craftingTable.addShapeless("cactus_paste", <item:quark:cactus_paste>, [<item:pamhc2foodcore:grinderitem>, <item:minecraft:cactus>]);
+
+//conflicts
+
+craftingTable.addShapeless("sunflower_seeds", <item:pamhc2foodcore:sunflowerseedsitem> * 3, [<item:minecraft:sunflower>, <item:minecraft:sunflower>, <item:minecraft:sunflower>]);
+
+craftingTable.addShaped("phasic_block", <item:prefab:block_phasing> * 8, [
+    [<item:minecraft:stone_bricks>, <item:minecraft:stone_bricks>, <item:minecraft:stone_bricks>],
+    [<item:minecraft:stone_bricks>, <item:minecraft:ender_pearl>, <item:minecraft:stone_bricks>],
+    [<item:minecraft:stone_bricks>, <item:minecraft:stone_bricks>, <item:minecraft:stone_bricks>]
+]);
+
+craftingTable.addShapeless("roller", <item:pamhc2foodcore:rolleritem>, [<tag:items:forge:rods/wooden>, <tag:items:minecraft:logs>]);
+craftingTable.addShapeless("fiber_string", <item:minecraft:string> * 3, [<tag:items:forge:fiber>, <tag:items:forge:fiber>, <tag:items:forge:fiber>]);
+
+

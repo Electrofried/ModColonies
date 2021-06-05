@@ -1,0 +1,16 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 1,
+    "subtitle": "Not all tools use RF!",
+    "icon": "rftoolsbase:machine_frame",
+    "requirements": [
+      {
+        "mandatory-building": "blacksmith",
+        "level": 1
+      },
+      {
+        "item": "rftoolsutility:simple_dialer",
+        "quantity": 4
+      }
+    ]
+  }

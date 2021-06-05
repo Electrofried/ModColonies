@@ -1,0 +1,21 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/storage_scanner",
+    "subtitle": "Wireless warehouse!",
+    "icon": "rftoolsbase:tablet",
+    "requirements": [
+      {
+        "mandatory-building": "warehouse",
+        "level": 4
+      },
+      {
+        "mandatory-building": "deliveryman",
+        "level": 3
+      },
+      {
+        "item": "rftoolsutility:screen_controller",
+        "quantity": 8
+      }
+    ]
+  }

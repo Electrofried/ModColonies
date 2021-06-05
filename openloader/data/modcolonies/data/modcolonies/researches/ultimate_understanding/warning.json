@@ -1,0 +1,15 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "subtitle": "These are optional end game research goals, you should probably not attempt these till you have progressed through the other sections first",
+    "researchLevel": 1,
+    "icon": "engineersdecor:sign_caution",
+    "requirements": [
+      {
+        "item": "minecraft:nether_star",
+        "quantity": 1
+      }
+    ],
+
+    "instant" : true
+
+  }

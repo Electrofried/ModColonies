@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "apotheosis:seashelf",
+        "count": 1
+      },
+      {
+        "item": "rftoolsbase:infused_diamond",
+        "count": 1
+      }
+    ],
+    "result": "rftoolsbase:tablet",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 3,
+    "research-id": "modcolonies:modology/tablet",
+    "show-tooltip": true
+  }

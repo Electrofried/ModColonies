@@ -2,9 +2,9 @@
 # Configure the options below to one of the following: disabled, enabled, onShift, onDebug or onShiftAndDebug
 [tooltip_options]
 	# Configure tooltip for burn time.
-	burnTimeTooltipMode = "disabled"
+	burnTimeTooltipMode = "enabled"
 	# Configure tooltip for durability.
-	durabilityTooltipMode = "disabled"
+	durabilityTooltipMode = "enabled"
 	# Configure tooltip for hunger and saturation.
 	foodTooltipMode = "disabled"
 	# Configure tooltip for max stack size.

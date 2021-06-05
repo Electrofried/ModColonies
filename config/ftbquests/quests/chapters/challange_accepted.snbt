@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 4
 	filename: "challange_accepted"
-	title: "Challenge Accepted!"
+	title: "Ultimate Understanding!"
 	icon: "pneumaticcraft:creative_upgrade"
 	default_quest_shape: ""
 	images: [{
@@ -18,20 +18,153 @@
 		dev: false
 		corner: false
 	}]
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		description: [
-			"Some of those more advanced Research topics are going to take some time! So why not put your hand to some of these end game challenges while you wait to test your mettle and see what you can accomplish!"
-			""
-			"(WIP)"
-		]
-		id: "4417E4A2ADC4DF48"
-		tasks: [{
-			id: "6C26AC2F3495AEC6"
-			type: "checkmark"
-			title: "Challenges!"
-			icon: "minecolonies:firearrow"
-		}]
-	}]
+	quests: [
+		{
+			title: "Ultimate Understanding!"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"So, you have a thriving colony and have delved deep in to the university to become a master of understanding!"
+				""
+				"Why not put your hand to some of these end game challenges to test your mettle and see what you can accomplish?"
+				""
+				"*note* you probably should leave most of these to last, they are optional end game goals for overachievers and completionists."
+			]
+			id: "4417E4A2ADC4DF48"
+			tasks: [{
+				id: "6C26AC2F3495AEC6"
+				type: "checkmark"
+				title: "Challenges!"
+				icon: "minecolonies:firearrow"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "3EAD8BACB3918F29"
+			tasks: [{
+				id: "5C9B274608A1F43A"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "2A3EFF4C71FDE7BD"
+			tasks: [{
+				id: "7496CAFDE59B5EB9"
+				type: "item"
+				item: "tconstruct:creative_ability"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "72341AE0630451D7"
+			tasks: [{
+				id: "1A3592717DFBD846"
+				type: "item"
+				item: "tconstruct:creative_upgrade"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "5DFBC0A4B239F635"
+			tasks: [{
+				id: "0E5A39E155294F47"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "313E24C0BC4BA234"
+			tasks: [{
+				id: "389C1699B4EC7E83"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "17E7B95833C74B8E"
+			tasks: [{
+				id: "29E7BD71C1021A8E"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "09529353004B16F0"
+			tasks: [{
+				id: "6EDC5816F1D8556E"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "31AAFC429D9CB6FB"
+			tasks: [{
+				id: "7F8EDDFE263FABB1"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "3AFA3E05FC8A9FAC"
+			tasks: [{
+				id: "1DE0BDA5B73E0A6C"
+				type: "item"
+				item: "ars_nouveau:creative_mana_jar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "3D7E217591E39B80"
+			tasks: [{
+				id: "4B5423124403B2E0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:creative_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",intangible,ignite,flare,underfoot,strength,craft,cold_snap,rune,snare,slowfall,freeze,split,crush,smelt,summon_decoy,summon_steed,accelerate,hex,summon_vex,lightning,grow,dampen,touch,invisibility,extract,delay,light,duration_down,exchange,place_block,summon_wolves,shield,conjure_water,cut,harm,interact,blink,amplify,phantom_block,fell,extend_time,heal,leap,redstone_signal,pierce,harvest,fortune,break,pickup,launch,dispel,haste,ender_inventory,pull,explosion,fangs,aoe,gravity,self,aquatic,projectile,wither,gust"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["4417E4A2ADC4DF48"]
+			id: "72CCBCC35D3677C2"
+			tasks: [{
+				id: "1124CC30DD87951B"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+		}
+	]
 }

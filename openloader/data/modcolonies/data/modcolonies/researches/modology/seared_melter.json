@@ -2,7 +2,7 @@
     "branch": "modcolonies:modology",
     "researchLevel": 1,
     "subtitle": "Melt it down and mix it up!",
-    "icon": "tconstruct:seared_heater",
+    "icon": "tconstruct:seared_melter",
     "requirements": [
       {
         "mandatory-building": "smeltery",

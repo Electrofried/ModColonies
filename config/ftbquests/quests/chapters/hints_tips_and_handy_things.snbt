@@ -8,7 +8,7 @@
 	default_quest_shape: ""
 	quests: [
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -2.5d
 			description: [
 				"The REDIA tool is very handy early once and you should consider making one once you have a mine for iron and diamonds."
@@ -247,9 +247,9 @@
 				""
 				"Instead craft seeds and a flower pot together to make a flower."
 				""
-				"You can then craft those two flowers together to cycle through the list, on and on, till you get to sunflowers."
+				"You can then craft those two flowers together to cycle through the list, on and on!"
 				""
-				"Once you get to sunflowers you will need to use a vanilla crafting table to get past the sunflower seeds and get flowers instead."
+				""
 			]
 			id: "770F68F1D8E0D2D2"
 			tasks: [
@@ -427,8 +427,8 @@
 		}
 		{
 			title: "Weeeeeee!"
-			x: 0.0d
-			y: -0.5d
+			x: 0.5d
+			y: -2.5d
 			description: [
 				"While using /RTP can get you away from world spawn, it has a large cooldown."
 				""

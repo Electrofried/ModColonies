@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/angel_ring",
+    "subtitle": "Ultimate tinker!",
+    "researchLevel": 3,
+    "icon": "tconstruct:creative_upgrade",
+    "requirements": [
+      {
+        "building": "stonesmeltery",
+        "level": 10
+      },
+      {
+        "item": "tconstruct:manyullyn_block",
+        "quantity": 64
+      },
+      {
+        "item": "tconstruct:queens_slime_block",
+        "quantity": 64
+      }
+    ]
+
+  }

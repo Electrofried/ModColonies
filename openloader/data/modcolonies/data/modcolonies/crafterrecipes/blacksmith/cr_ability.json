@@ -1,0 +1,20 @@
+{
+    "type" : "recipe",
+    "crafter": "blacksmith",
+    "inputs": [
+      {
+        "item" : "tconstruct:pig_iron_block",
+        "count": "4"
+      },
+      {
+        "item" : "minecraft:nether_star",
+        "count": "8"
+      }
+    ],
+    "result": "tconstruct:creative_ability",
+    "count": "1",
+    "intermediate" : "minecraft:air",
+    "min-building-level": 5,
+    "research-id" : "modcolonies:ultimate_understanding/cr_ability",
+    "show-tooltip": true
+  }

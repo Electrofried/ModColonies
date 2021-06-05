@@ -15,6 +15,6 @@
     "count": 4,
     "intermediate": "minecraft:air",
     "min-building-level": 3,
-    "research-id": "modcolonies:effects/brass_case_unlock",
+    "research-id": "modcolonies:modology/brass_case",
     "show-tooltip": true
   }

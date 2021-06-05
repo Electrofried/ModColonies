@@ -1,0 +1,24 @@
+{
+    "type" : "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item" : "angelring:itemdiamondring",
+        "count": "1"
+      },
+      {
+        "item" : "ironjetpacks:emerald_jetpack",
+        "count": "1"
+      },
+      {
+        "item" : "mekanism:module_jetpack_unit",
+        "count": "1"
+      }
+    ],
+    "result": "angelring:itemring",
+    "count": "1",
+    "intermediate" : "minecraft:air",
+    "min-building-level": 5,
+    "research-id" : "modcolonies:ultimate_understanding/angel_ring",
+    "show-tooltip": true
+  }

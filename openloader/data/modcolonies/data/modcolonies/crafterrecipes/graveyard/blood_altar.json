@@ -1,14 +1,14 @@
 {
     "type": "recipe",
-    "crafter": "graveyard",
+    "crafter": "enchanter",
     "inputs": [
       {
         "item": "minecraft:gold_ingot",
-        "count": 3
+        "count": 4
       },
       {
         "item": "minecraft:stone",
-        "count": 4
+        "count": 2
       },
       {
         "item": "tconstruct:blood_bucket",
@@ -19,6 +19,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 3,
-    "research-id": "modcolonies:effects/blood_altar_unlock",
+    "research-id": "modcolonies:modology/blood_altar",
     "show-tooltip": true
   }

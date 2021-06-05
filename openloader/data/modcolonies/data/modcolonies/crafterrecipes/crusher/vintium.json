@@ -11,6 +11,6 @@
     "count": 8,
     "intermediate": "minecraft:air",
     "min-building-level": 2,
-    "research-id": "modcolonies:effects/vintium_unlock",
+    "research-id": "modcolonies:modology/vintium",
     "show-tooltip": true
   }

@@ -18,7 +18,7 @@
 			weight: 5
 		}
 		{ item: "minecraft:enchanting_table", weight: 5 }
-		{ item: "apotheosis:hellshelf", count: 2, random_bonus: 3, weight: 11 }
+		{ item: "apotheosis:hellshelf", count: 2, random_bonus: 3, weight: 15 }
 		{ item: "apotheosis:endshelf", random_bonus: 3, weight: 11 }
 		{
 			item: {
@@ -32,8 +32,7 @@
 			random_bonus: 1
 			weight: 21
 		}
-		{ item: "apotheosis:beeshelf", count: 3, random_bonus: 3, weight: 21 }
-		{ item: "apotheosis:melonshelf", count: 3, random_bonus: 3, weight: 21 }
+		{ item: "apotheosis:beeshelf", count: 3, random_bonus: 3, weight: 11 }
 		{ item: "apotheosis:mythic_tome", weight: 2 }
 		{ item: "apotheosis:ancient_tome", weight: 5 }
 		{
@@ -82,6 +81,7 @@
 					}]
 				}
 			}
+			weight: 5
 		}
 		{ item: "minecolonies:ancienttome", weight: 11 }
 		{
@@ -95,6 +95,7 @@
 					}]
 				}
 			}
+			weight: 5
 		}
 		{
 			item: {
@@ -107,6 +108,7 @@
 					}]
 				}
 			}
+			weight: 5
 		}
 		{
 			item: {
@@ -119,6 +121,7 @@
 					}]
 				}
 			}
+			weight: 5
 		}
 		{
 			item: {
@@ -131,10 +134,156 @@
 					}]
 				}
 			}
+			weight: 5
 		}
 		{ item: "easy_villagers:iron_farm", weight: 3 }
 		{ item: "ironfurnaces:diamond_furnace", weight: 5 }
 		{ item: "ironfurnaces:emerald_furnace", weight: 3 }
-		{ item: "ironfurnaces:netherite_furnace" }
+		{ item: "ironfurnaces:netherite_furnace", weight: 2 }
+		{ item: "cobblefordays:tier_4", weight: 3 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+					energy: 500000.0d
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "quark:seed_pouch"
+				Count: 1b
+				tag: {
+					storedItem: {
+						id: "minecraft:cocoa_beans"
+						Count: 1b
+					}
+					Damage: 1
+					itemCount: 640
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "quark:seed_pouch"
+				Count: 1b
+				tag: {
+					storedItem: {
+						id: "minecraft:nether_wart"
+						Count: 1b
+					}
+					Damage: 1
+					itemCount: 640
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "quark:seed_pouch"
+				Count: 1b
+				tag: {
+					storedItem: {
+						id: "minecraft:sugar_cane"
+						Count: 1b
+					}
+					Damage: 1
+					itemCount: 640
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "quark:seed_pouch"
+				Count: 1b
+				tag: {
+					storedItem: {
+						id: "minecraft:bamboo"
+						Count: 1b
+					}
+					Damage: 1
+					itemCount: 640
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "quark:seed_pouch"
+				Count: 1b
+				tag: {
+					storedItem: {
+						id: "minecraft:kelp"
+						Count: 1b
+					}
+					Damage: 1
+					itemCount: 640
+				}
+			}
+			weight: 3
+		}
+		{ item: "apotheosis:null_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:armor_head_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:armor_chest_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:armor_legs_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:armor_feet_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:weapon_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:digger_book", random_bonus: 3, weight: 3 }
+		{ item: "apotheosis:bow_book", random_bonus: 3, weight: 3 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_exchanging"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+					energy: 500000.0d
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "buildinggadgets:gadget_destruction"
+				Count: 1b
+				tag: {
+					overlay: 1b
+					fuzzy: 1b
+					energy: 1000000.0d
+				}
+			}
+			weight: 3
+		}
+		{ item: "prefab:block_double_compressed_obsidian", random_bonus: 2, weight: 4 }
+		{
+			item: {
+				id: "pneumaticcraft:micromissiles"
+				Count: 1b
+				tag: {
+					damage: 0.0f
+					topSpeed: 0.0f
+					Damage: 0
+					turnSpeed: 0.0f
+				}
+			}
+			weight: 4
+		}
+		{ item: "quark:shiba_spawn_egg", random_bonus: 8, weight: 3 }
 	]
 }

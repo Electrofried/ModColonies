@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/angel_ring",
+    "subtitle": "Better than a mana cookie!",
+    "researchLevel": 4,
+    "icon": "ars_nouveau:creative_mana_jar",
+    "requirements": [
+      {
+        "building": "mysticalsite",
+        "level": 20
+      },
+      {
+        "item": "ars_nouveau:summoning_crystal",
+        "quantity": 16
+      },
+      {
+        "item": "ars_nouveau:mana_bloom_crop",
+        "quantity": 32
+      }
+    ]
+
+  }

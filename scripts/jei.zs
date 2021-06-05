@@ -20,3 +20,4 @@ mods.jei.JEI.hideItem(<item:excompressum:auto_heavy_sieve>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_hammer>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_compressed_hammer>);
+

@@ -15,6 +15,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 3,
-    "research-id": "modcolonies:effects/steel_casing_unlock",
+    "research-id": "modcolonies:modology/steel_casing",
     "show-tooltip": true
   }

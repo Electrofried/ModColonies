@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/cr_motor",
+    "subtitle": "Spin drive online!",
+    "researchLevel": 4,
+    "icon": "pneumaticcraft:creative_compressor",
+    "requirements": [
+      {
+        "building": "glassblower",
+        "level": 10
+      },
+      {
+        "item": "pneumaticcraft:electrostatic_compressor",
+        "quantity": 16
+      },
+      {
+        "item": "pneumaticcraft:flux_compressor",
+        "quantity": 16
+      }
+    ]
+
+  }

@@ -1,6 +1,6 @@
 {
     "type": "recipe",
-    "crafter": "concretemixer",
+    "crafter": "crusher",
     "inputs": [
       {
         "item": "minecraft:sandstone",
@@ -15,6 +15,6 @@
     "count": 27,
     "intermediate": "minecraft:air",
     "min-building-level": 2,
-    "research-id": "modcolonies:effects/coke_brick_unlock",
+    "research-id": "modcolonies:modology/coke_brick",
     "show-tooltip": true
   }

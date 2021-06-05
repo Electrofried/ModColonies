@@ -15,6 +15,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 2,
-    "research-id": "modcolonies:effects/novice_spellbook_unlock",
+    "research-id": "modcolonies:modology/ars_novice_spellbook",
     "show-tooltip": true
   }

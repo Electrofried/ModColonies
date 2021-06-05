@@ -19,6 +19,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 3,
-    "research-id": "modcolonies:effects/cooking_for_blockheads_unlock",
+    "research-id": "modcolonies:modology/cooking_for_blockheads",
     "show-tooltip": true
   }

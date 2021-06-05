@@ -19,6 +19,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 4,
-    "research-id": "modcolonies:effects/rs_controller_unlock",
+    "research-id": "modcolonies:modology/rs_controller",
     "show-tooltip": true
   }

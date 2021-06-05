@@ -19,6 +19,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 2,
-    "research-id": "modcolonies:effects/ped_saw_unlock",
+    "research-id": "modcolonies:modology/ped_saw",
     "show-tooltip": true
   }

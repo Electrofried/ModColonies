@@ -772,7 +772,7 @@
 			tasks: [{
 				id: "00BCC013C10736E4"
 				type: "item"
-				item: "tconstruct:melter"
+				item: "tconstruct:seared_melter"
 			}]
 			rewards: [{
 				id: "4918E9632793ACD3"
@@ -935,6 +935,92 @@
 			}]
 			rewards: [{
 				id: "0B344AD64927C5BA"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["5CAE5A029F7A1934"]
+			id: "6F65B1C1B73C430C"
+			tasks: [{
+				id: "69D6B5834F8B9963"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [{
+				id: "1857F8AD0AB9F610"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["6F65B1C1B73C430C"]
+			id: "5BDBBCD6F0119166"
+			tasks: [{
+				id: "785210F659230BAC"
+				type: "item"
+				item: "rftoolsstorage:storage_scanner"
+			}]
+			rewards: [{
+				id: "5F143F638125E39B"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["5BDBBCD6F0119166"]
+			id: "10D43272060DFC7B"
+			tasks: [{
+				id: "63DB374FA5541F4B"
+				type: "item"
+				item: "rftoolsbase:tablet"
+			}]
+			rewards: [{
+				id: "3CC19BFDDA3B51F7"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["6F65B1C1B73C430C"]
+			id: "676A98C542931C4E"
+			tasks: [{
+				id: "11596FCF1EC43673"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+			rewards: [{
+				id: "2DB56C121FC764D8"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["6F65B1C1B73C430C"]
+			id: "3B95AA05DCE9A22A"
+			tasks: [{
+				id: "751211568BE09374"
+				type: "item"
+				item: {
+					id: "rftoolsutility:charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "790907D5D7D2413E"
 				type: "loot"
 				table_id: 2734346777462371767L
 			}]

@@ -15,6 +15,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 3,
-    "research-id": "modcolonies:effects/ender_chest_unlock",
+    "research-id": "modcolonies:modology/ender_chest",
     "show-tooltip": true
   }

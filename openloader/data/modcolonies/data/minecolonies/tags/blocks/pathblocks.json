@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "values": [
       "#minecolonies:concrete",
       "#minecraft:stone_bricks",
@@ -81,7 +81,6 @@
       "bloodmagic:obsidianbrickpath",
       "bloodmagic:obsidiantilepath",
       "immersiveengineering:slab_concrete_leaded",
-      "byg:meadow_grass_path",
       "bloodmagic:woodbrickpath",
       "tconstruct:mud_bricks_slab",
       "tconstruct:mud_bricks",

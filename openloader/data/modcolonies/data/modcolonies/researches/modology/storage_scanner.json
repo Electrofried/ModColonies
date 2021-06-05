@@ -1,0 +1,17 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/machine_frame",
+    "subtitle": "It can see the entire warehouse!",
+    "icon": "rftoolsstorage:storage_scanner",
+    "requirements": [
+      {
+        "mandatory-building": "warehouse",
+        "level": 3
+      },
+      {
+        "item": "rftoolspower:ender_monitor",
+        "quantity": 8
+      }
+    ]
+  }

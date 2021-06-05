@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/cr_manajar",
+    "subtitle": "Harry would be jealous!",
+    "researchLevel": 4,
+    "icon": "ars_nouveau:creative_spell_book",
+    "requirements": [
+      {
+        "building": "enchanter",
+        "level": 10
+      },
+      {
+        "item": "ars_nouveau:spell_turret",
+        "quantity": 16
+      },
+      {
+        "item": "ars_nouveau:creative_mana_jar",
+        "quantity": 16
+      }
+    ]
+
+  }

@@ -1,0 +1,24 @@
+{
+    "type" : "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item" : "create:rotation_speed_controller",
+        "count": "16"
+      },
+      {
+        "item" : "create:flywheel",
+        "count": "8"
+      },
+      {
+        "item" : "mekanismgenerators:turbine_valve",
+        "count": "8"
+      }
+    ],
+    "result": "create:creative_motor",
+    "count": "1",
+    "intermediate" : "minecraft:air",
+    "min-building-level": 5,
+    "research-id" : "modcolonies:ultimate_understanding/cr_motor",
+    "show-tooltip": true
+  }

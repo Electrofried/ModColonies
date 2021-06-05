@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/angel_ring",
+    "subtitle": "No salt required!",
+    "researchLevel": 3,
+    "icon": "mekanism:creative_chemical_tank",
+    "requirements": [
+      {
+        "building": "blacksmith",
+        "level": 10
+      },
+      {
+        "item": "mekanism:crystal_uranium",
+        "quantity": 64
+      },
+      {
+        "item": "mekanism:pellet_plutonium",
+        "quantity": 8
+      }
+    ]
+
+  }

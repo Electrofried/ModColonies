@@ -1,0 +1,17 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/machine_frame",
+    "subtitle": "Level the world!",
+    "icon": "rftoolsbuilder:builder",
+    "requirements": [
+      {
+        "building": "builder",
+        "level": 8
+      },
+      {
+        "item": "minecraft:netherite_shovel",
+        "quantity": 8
+      }
+    ]
+  }

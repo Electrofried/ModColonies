@@ -1,0 +1,28 @@
+{
+    "type" : "recipe",
+    "crafter": "enchanter",
+    "inputs": [
+      {
+        "item" : "mekanism:antiprotonic_nucleosynthesizer",
+        "count": "1"
+      },
+      {
+        "item" : "refinedstorage:range_upgrade",
+        "count": "8"
+      },
+      {
+        "item" : "bloodmagic:bettercapacityrune",
+        "count": "8"
+      },
+      {
+        "item" : "immersivepetroleum:petcoke_block",
+        "count": "32"
+      }
+    ],
+    "result": "storagedrawers:creative_vending_upgrade",
+    "count": "1",
+    "intermediate" : "minecraft:air",
+    "min-building-level": 5,
+    "research-id" : "modcolonies:ultimate_understanding/cr_vending",
+    "show-tooltip": true
+  }

@@ -1,0 +1,34 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/cr_fluidtank",
+    "subtitle": "Congratulations! You win unlimited cookies!",
+    "researchLevel": 4,
+    "icon": "storagedrawers:creative_vending_upgrade",
+    "requirements": [
+      {
+        "building": "builder",
+        "level": 20
+      },
+      {
+        "building": "mysticalsite",
+        "level": 40
+      },
+      {
+        "item": "minecolonies:scroll_highlight",
+        "quantity": 16
+      },
+      {
+        "item": "minecolonies:golden_bread",
+        "quantity": 64
+      },
+      {
+        "item": "minecraft:enchanted_golden_apple",
+        "quantity": 64
+      },
+      {
+        "item": "darkutils:rune_damage_player",
+        "quantity": 33
+      }
+    ]
+
+  }

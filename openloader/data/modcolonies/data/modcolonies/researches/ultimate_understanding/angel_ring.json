@@ -1,0 +1,26 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/warning",
+    "subtitle": "Alright, you have been warned, here is a small taste of what will be required to reach behind the veil and obtain creative abilities!",
+    "researchLevel": 2,
+    "icon": "angelring:itemring",
+    "requirements": [
+      {
+        "building": "builder",
+        "level": 10
+      },
+      {
+        "building": "chickenherder",
+        "level": 15
+      },
+      {
+        "item": "mob_grinding_utils:gm_chicken_feed_cursed",
+        "quantity": 16
+      },
+      {
+        "item": "minecraft:elytra",
+        "quantity": 1
+      }
+    ]
+
+  }

@@ -1,0 +1,22 @@
+{
+    "branch": "modcolonies:ultimate_understanding",
+    "parentResearch": "modcolonies:ultimate_understanding/cr_compressor",
+    "subtitle": "The batteries are included!",
+    "researchLevel": 5,
+    "icon": "pneumaticcraft:creative_compressor",
+    "requirements": [
+      {
+        "building": "builder",
+        "level": 20
+      },
+      {
+        "item": "mekanism:sps_casing",
+        "quantity": 16
+      },
+      {
+        "item": "mekanism:module_solar_recharging_unit",
+        "quantity": 8
+      }
+    ]
+
+  }

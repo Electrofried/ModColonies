@@ -1,0 +1,17 @@
+{
+    "branch": "modcolonies:modology",
+    "researchLevel": 2,
+    "parentResearch": "modcolonies:modology/machine_frame",
+    "subtitle": "Better than a slime sling!",
+    "icon": "rftoolsbuilder:builder",
+    "requirements": [
+      {
+        "mandatory-building": "enchanter",
+        "level": 4
+      },
+      {
+        "item": "rftoolsbase:infused_enderpearl",
+        "quantity": 4
+      }
+    ]
+  }

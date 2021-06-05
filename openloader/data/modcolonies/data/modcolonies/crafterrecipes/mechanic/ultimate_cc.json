@@ -15,6 +15,6 @@
     "count": 1,
     "intermediate": "minecraft:air",
     "min-building-level": 5,
-    "research-id": "modcolonies:effects/ultimate_cc_unlock",
+    "research-id": "modcolonies:modology/ultimate_cc",
     "show-tooltip": true
   }

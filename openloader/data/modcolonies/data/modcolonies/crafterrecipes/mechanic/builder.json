@@ -1,0 +1,20 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic",
+    "inputs": [
+      {
+        "item": "rftoolsbase:machine_frame",
+        "count": 1
+      },
+      {
+        "item": "rftoolsbuilder:shape_card_quarry_fortune",
+        "count": 1
+      }
+    ],
+    "result": "rftoolsbuilder:builder",
+    "count": 1,
+    "intermediate": "minecraft:air",
+    "min-building-level": 4,
+    "research-id": "modcolonies:modology/builder",
+    "show-tooltip": true
+  }
