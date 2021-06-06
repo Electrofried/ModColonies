@@ -17,7 +17,8 @@ mods.jei.JEI.hideItem(<item:excompressum:acacia_heavy_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:dark_oak_heavy_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_heavy_sieve>);
-mods.jei.JEI.hideItem(<item:exnihilosequentia:sieve>);
+// mods.jei.JEI.hideItem(<item:exnihilosequentia:sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_hammer>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_compressed_hammer>);
-
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_emerald>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_netherite>);
