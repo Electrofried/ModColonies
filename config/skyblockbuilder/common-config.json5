@@ -7,7 +7,7 @@
     "End": {
     
       // Should end generate as in default world type? [default: false]
-      "Default": false,
+      "Default": true,
       
       // Should the main island be generated as normal? [default: true]
       "mainIsland": true
@@ -55,7 +55,7 @@
     
     // The radius to find a valid spawn if no given spawn is valid
     // Minimum: 0
-    "radius": 50
+    "radius": 0
   },
   
   // With this you can configure the structures and features which are generated.
@@ -109,7 +109,7 @@
   "Utility": {
   
     // Should players be able to create their own team? [default: false]
-    "createOwnTeam": false,
+    "createOwnTeam": true,
     
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
@@ -158,11 +158,11 @@
     "seaHeight": 63,
     
     // Should a surface be generated in overworld? [default: false]
-    "surface": false,
+    "surface": true,
     
     // The block settings for generating the surface.
     // Same format as flat world generation settings (blocks only)
-    "surfaceSettings": "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block",
+    "surfaceSettings": "minecraft:bedrock,255*minecraft:stone",
     
     "SingleBiome": {
     
@@ -171,7 +171,7 @@
       
       // Should only one biome be generated? [default: false]
       // WARNING: Some structures need a special biome, e.g. Mansion needs Dark Oak Forest! These structures will not be generated if you have only one biome!
-      "enabled": false,
+      "enabled": true,
       
       // The dimension where the single biome should be applied. Use "default" for spawn dimension
       // Allowed values: default, overworld, the_nether, the_end
