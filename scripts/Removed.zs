@@ -34,6 +34,18 @@ craftingTable.removeRecipe(<item:excompressum:auto_sieve>);
 
 craftingTable.removeRecipe(<item:excompressum:auto_heavy_sieve>);
 
+craftingTable.removeRecipe(<item:exnihilosequentia:mesh_string>);
+
+craftingTable.removeRecipe(<item:exnihilosequentia:mesh_flint>);
+
+craftingTable.removeRecipe(<item:exnihilosequentia:mesh_iron>);
+
+craftingTable.removeRecipe(<item:exnihilosequentia:mesh_diamond>);
+
+craftingTable.removeRecipe(<item:exnihilosequentia:mesh_emerald>);
+
+craftingTable.removeRecipe(<item:exnihilosequentia:mesh_netherite>);
+
 
 // ars
 
