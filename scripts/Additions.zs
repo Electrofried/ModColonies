@@ -33,6 +33,10 @@ craftingTable.addShapeless("iron_to_ore", <item:minecraft:iron_ore>, [<item:exni
 
 craftingTable.addShapeless("gold_to_ore", <item:minecraft:gold_ore>, [<item:exnihilosequentia:chunk_gold>, <item:minecraft:stone>]);
 
+craftingTable.addShapeless("vanilla_trapped_chest", <item:minecraft:trapped_chest>, [<item:minecraft:chest>, <item:minecraft:tripwire_hook>]);
+
+craftingTable.addShapeless("cobweb_craft", <item:minecraft:cobweb>, [<item:minecraft:string>, <item:minecraft:string>, <item:minecraft:string>, <tag:items:forge:slimeballs>]);
+
 //Tags
 
 <tag:items:forge:storage_blocks/compressed_dirt>.add(<item:excompressum:compressed_dirt>);

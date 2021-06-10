@@ -406,6 +406,56 @@
           "count": 2
         },
         "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:carbuncle_se"
+        },
+        "payment": {
+          "item": "ars_nouveau:mythical_clay",
+          "count": 4
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:sylph_se"
+        },
+        "payment": {
+          "item": "ars_nouveau:mythical_clay",
+          "count": 4
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:wilden_hunter_se"
+        },
+        "payment": {
+          "item": "ars_nouveau:mythical_clay",
+          "count": 4
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:wilden_guardian_se"
+        },
+        "payment": {
+          "item": "ars_nouveau:mythical_clay",
+          "count": 4
+        },
+        "category": "mob_egg"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:wilden_stalker_se"
+        },
+        "payment": {
+          "item": "ars_nouveau:mythical_clay",
+          "count": 4
+        },
+        "category": "mob_egg"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
     "type": "recipe",
-    "crafter": "glassblower",
+    "crafter": "mechanic",
     "inputs": [
       {
         "item": "minecraft:tnt",

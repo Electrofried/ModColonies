@@ -630,5 +630,30 @@
 				table_id: 2734346777462371767L
 			}]
 		}
+		{
+			icon: {
+				id: "minecolonies:sifter_mesh_flint"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: -1.5d
+			description: [
+				"While looking through recipes in the sifter hut will show you what you can sift there is a more user friendly option."
+				""
+				"Instead you can look up the \"usages\" of the compressed blocks in JEI."
+				""
+				"This will show you the info in Ex Nihilo of what will drop from that block in the sifter hut."
+			]
+			dependencies: ["6BA56ECB062F0AD9"]
+			id: "43977677FA364778"
+			tasks: [{
+				id: "7662D3639EE34EB8"
+				type: "checkmark"
+				title: "Sifting through JEI"
+			}]
+		}
 	]
 }

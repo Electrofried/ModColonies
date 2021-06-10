@@ -460,5 +460,29 @@
 				table_id: 2734346777462371767L
 			}]
 		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"The market really is very handy and you should look at unlocking it early."
+				""
+				"Not only will it provide you with seeds, you can also obtain cheap flowers and even monster spawn eggs! "
+				""
+				"Some of these eggs will be required if you wish to progress with certain aspects of magical mods for example."
+				""
+				"Also remember that you can use spawn eggs on monster spawners to change their type."
+			]
+			id: "341724A28E394FDF"
+			tasks: [{
+				id: "466995F227764AC5"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "6B20EFEB44423395"
+				type: "loot"
+				table_id: 2734346777462371767L
+			}]
+		}
 	]
 }

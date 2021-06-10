@@ -176,17 +176,6 @@
 					count: 2
 				}
 				{
-					id: "6DDB50AFE8E22B8D"
-					type: "item"
-					item: {
-						id: "excompressum:compressed_crook"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "4C1BC3EA0DBA48A8"
 					type: "item"
 					item: "metalbarrels:copper_barrel"
@@ -235,6 +224,17 @@
 					type: "item"
 					item: "minecraft:oak_sapling"
 					count: 16
+				}
+				{
+					id: "0A521467CE5E99CF"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:crook_diamond"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -372,6 +372,48 @@
 					item: "prefab:block_triple_compressed_stone"
 				}
 			]
+		}
+		{
+			title: "Easy Dwarf mode."
+			icon: {
+				id: "buildinggadgets:gadget_destruction"
+				Count: 1b
+				tag: {
+					overlay: 1b
+					fuzzy: 1b
+					energy: 1000000.0d
+				}
+			}
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"It has been pointed out that clearing several chunks out by hand with a stone pick is not what some consider 'fun'."
+				""
+				"If you share this opinion, I provide for you this handy dandy one time offer of a destruction gadget."
+				""
+				"Good for clearing a few chunks of stone, then you will need to find a way to recharge it... perhaps with heat once you build a mine."
+			]
+			dependencies: ["7C87D160D5F7F9AF"]
+			id: "7565A871E726FC26"
+			tasks: [{
+				id: "3D0E3DF6870DE42C"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "048B37A6C7F9A4AC"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+						energy: 1000000.0d
+					}
+				}
+			}]
 		}
 	]
 }

@@ -21,10 +21,6 @@
           "name": "minecraft:coal"
         },
         {
-          "type": "minecraft:empty",
-          "weight": 2
-        },
-        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "exnihilosequentia:chunk_iron"
