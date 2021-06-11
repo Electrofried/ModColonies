@@ -1,6 +1,6 @@
 {
   // Setting this to false will disable the reminder to use the new config
-  "_reminder": true,
+  "_reminder": false,
   
   "Dimensions": {
   
