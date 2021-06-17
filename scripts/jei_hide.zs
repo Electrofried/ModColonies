@@ -27,6 +27,10 @@ mods.jei.JEI.hideItem(<item:exnihilosequentia:crimson_sieve>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:warped_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_hammer>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_compressed_hammer>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_string>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_flint>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_iron>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_diamond>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_emerald>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_netherite>);
 
