@@ -17,11 +17,28 @@ mods.jei.JEI.hideItem(<item:excompressum:acacia_heavy_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:dark_oak_heavy_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_heavy_sieve>);
-// mods.jei.JEI.hideItem(<item:exnihilosequentia:sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:acacia_sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:birch_sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:dark_oak_sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:jungle_sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:spruce_sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:crimson_sieve>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:warped_sieve>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_hammer>);
 mods.jei.JEI.hideItem(<item:excompressum:auto_compressed_hammer>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_string>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_flint>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_iron>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_diamond>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_emerald>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:mesh_netherite>);
+
+// Hide sieve and hammering JEI categories
+mods.jei.JEI.hideCategory("exnihilosequentia:wet_sieve");
+mods.jei.JEI.hideCategory("exnihilosequentia:dry_sieve");
+mods.jei.JEI.hideCategory("excompressum:compressed_hammer");
+mods.jei.JEI.hideCategory("excompressum:heavy_sieve");
 
 // Hide deprecated pedestal upgrades
 mods.jei.JEI.hideItem(<item:pedestals:coin/enderfilteredexactimport>);
